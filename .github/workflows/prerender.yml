@@ -1,0 +1,46 @@
+name: Prerender
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  prerender:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout v-no-script
+        uses: actions/checkout@v2
+        with:
+          repository: akrisrn/v-no-script
+
+      - name: Checkout v-no-doc
+        uses: actions/checkout@v2
+        with:
+          path: v-no-doc
+
+      - name: Clean HTML
+        run: |
+          cd v-no-doc
+          find . -name "*.html" -not -path "./-/index.html" -exec rm {} +
+
+      - name: Build
+        run: |
+          yarn && yarn run build
+          cp v-no-doc/.env.prerender .env
+
+      - name: Start Web Server
+        run: nohup yarn run web-server &
+
+      - name: Prerender
+        run: |
+          yarn run install-browser
+          yarn run prerender-recur
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_CONFIG_NAME: AkrISrn
+          BRANCH: master
+          FOLDER: v-no-doc
