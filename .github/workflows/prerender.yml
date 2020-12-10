@@ -19,11 +19,6 @@ jobs:
         with:
           path: v-no-doc
 
-      - name: Clean HTML
-        run: |
-          cd v-no-doc
-          find . -name "*.html" -not -path "./-/index.html" -exec rm {} +
-
       - name: Build
         run: |
           yarn && yarn run build
@@ -35,6 +30,7 @@ jobs:
       - name: Prerender
         run: |
           yarn run install-browser
+          yarn run clean-html
           yarn run prerender-recur
 
       - name: Deploy
