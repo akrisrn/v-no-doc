@@ -1,9 +1,21 @@
 # SEARCH
 
 @tags: root
+@updated: 2020/12/11
 
-<input id="search-input" placeholder="Something..."/>
+:::
+你可以用下面的输入框搜索你感兴趣的内容。结果的查找范围和[分类页](/categories.md "#")能汇总到的文件范围是一致的。
 
-<ul id="result">Input something, and press Enter.</ul>
+搜索不区分大小写，有两种不同的模式：
+
+- 关键词搜索：首先在文件标题中查找，没有找到才会检索全文。全文检索会截取关键词前后的部分文本，并把关键词高亮。
+- 标签搜索：优先于关键词搜索，只会完全匹配对应的标签。它的写法和标签语法相同，不过你一次只能搜索一个。对于嵌套标签，会分层级、按嵌套顺序对它进行完全匹配（搜索标签 A 相当于同时搜索嵌套在标签 A 下的其它标签）。
+
+搜索结果会在排序后输出。对于这类自动生成的列表项，v-no 有特定的[排序规则](/docs/sort-list.md "#")。
+:::
+
+<input id="search-input" placeholder="这是一个输入框。"/>
+
+<ul id="result">敲点什么，然后按下回车。结果会在这里展示出来。</ul>
 
 : **<span id="search-count">0/0</span> results (<span id="search-time">0</span> seconds)**
