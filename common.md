@@ -1,3 +1,12 @@
 # COMMON
 
 @tags: root
+@updated: 2020/12/11
+
+::: .readonly.danger #### 文档正在初步施工中，部分页面可能并不完整。
+:::
+
+--8<--
+
+![](/uploads/github.png "#16")
+: 这个页面是开源的，[改进它](https://github.com/akrisrn/v-no-doc/edit/master$$ return vno.filePath $$)
