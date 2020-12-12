@@ -32,6 +32,7 @@ jobs:
           yarn run install-browser
           yarn run clean-html
           yarn run prerender-recur
+          yarn run update-cache-key
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
