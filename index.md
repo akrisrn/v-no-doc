@@ -2,7 +2,7 @@
 
 @tags: root
 @cover: ![](/uploads/logo.png)
-@updated: 2020/12/11
+@updated: 2020/12/11，2020/12/12
 
 欢迎来到 [v-no](https://github.com/akrisrn/v-no) 的项目文档。这里由 v-no 自身驱动，源文件部署在 [GitHub Pages](https://github.com/akrisrn/v-no-doc)。
 
@@ -25,9 +25,7 @@
 希望它们找起来不会太麻烦。
 :::
 
-![Prerender](https://github.com/akrisrn/v-no-doc/workflows/Prerender/badge.svg "#.right")
-
-![Release](https://github.com/akrisrn/v-no/workflows/Release/badge.svg "#.right")
+![](https://img.shields.io/github/package-json/v/akrisrn/v-no "#.right") ![Release](https://github.com/akrisrn/v-no/workflows/Release/badge.svg) ![Prerender](https://github.com/akrisrn/v-no-doc/workflows/Prerender/badge.svg) 
 
 
 : 网站使用的 v-no 版本：v$$ return vno.version $$
