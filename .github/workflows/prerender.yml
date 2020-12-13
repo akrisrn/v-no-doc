@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: v-no-doc
+          fetch-depth: 0
 
       - name: Build
         run: |
@@ -31,6 +32,7 @@ jobs:
         run: |
           yarn run install-browser
           yarn run clean-html
+          yarn run update-date
           yarn run prerender-recur
           yarn run update-cache-key
 
@@ -38,6 +40,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_CONFIG_NAME: AkrISrn
+          GIT_CONFIG_NAME: AkrISrn-Bot
           BRANCH: master
           FOLDER: v-no-doc
