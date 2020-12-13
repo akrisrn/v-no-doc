@@ -1,10 +1,10 @@
-# 关于 v-no 的一切
+# 欢迎来到 v-no 的项目文档
 
 @tags: root
 @cover: ![](/uploads/logo.png)
 @updated: 2020/12/11，2020/12/12
 
-欢迎来到 [v-no](https://github.com/akrisrn/v-no) 的项目文档。这里由 v-no 自身驱动，源文件部署在 [GitHub Pages](https://github.com/akrisrn/v-no-doc)。
+这里由 [v-no](https://github.com/akrisrn/v-no) 自身驱动，源文件部署在 [GitHub Pages](https://github.com/akrisrn/v-no-doc)。
 
 - 如果你不清楚 v-no 是什么，可以去 [](/README.md "#") 看看（剧透：它是又一个静态网站生成器）。
 - 要是你想纵览这里都有些什么内容，[归档页](/archives.md "#")和[分类页](/categories.md "#")把它们列了出来。
@@ -28,4 +28,4 @@
 ![](https://img.shields.io/github/package-json/v/akrisrn/v-no "#.right") ![Release](https://github.com/akrisrn/v-no/workflows/Release/badge.svg) ![Prerender](https://github.com/akrisrn/v-no-doc/workflows/Prerender/badge.svg) 
 
 
-: 网站使用的 v-no 版本：v$$ return vno.version $$
+: $$ return `v${vno.version}${vnoConfig.cacheKey ? ` (${vnoConfig.cacheKey})` : ''}` $$
