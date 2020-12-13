@@ -1,7 +1,10 @@
 # 编译 Prism.js
 
 @tags: 开发/编译
-@updated: 2020/12/12
+@updated: 1607752145000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: fa35db8
 
 v-no 使用 [babel-plugin-prismjs](https://github.com/mAAdhaTTah/babel-plugin-prismjs) 对 Prism.js 按需编译。
 

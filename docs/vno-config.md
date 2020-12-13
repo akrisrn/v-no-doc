@@ -1,7 +1,10 @@
 # config.js 文件
 
 @tags: 部署/配置
-@updated: 2020/12/12
+@updated: 1607787901000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 69881c5
 
 ```js
 vnoConfig = {

@@ -1,7 +1,10 @@
 # CATEGORIES
 
 @tags: root
-@updated: 2020/12/11，2020/12/12
+@updated: 1607595626000, 1607782099000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: c671722
 
 :::
 这里按标签自动汇总了所有能被检索到的 `.md` 文件。v-no 会根据[](/docs/sort-list.md "#")对它们进行排序。因为一个文件可以有多个标签，同一个链接也会多次出现在对应的分类下。嵌套标签会利用标题层级排列，从二级开始，最多只能到六级。

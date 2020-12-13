@@ -1,7 +1,10 @@
 # 编译步骤
 
 @tags: 开发/编译
-@updated: 2020/11/19
+@updated: 1607699591000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: e292bce
 
 最通常不过的 Node.js 项目编译：
 

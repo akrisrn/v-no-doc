@@ -1,7 +1,10 @@
 # .env 文件
 
 @tags: 开发/编译
-@updated: 2020/11/19
+@updated: 1607752145000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: f7baf54
 
 ```shell
 VUE_APP_PUBLIC_PATH=/

@@ -2,7 +2,7 @@ vnoConfig = {
   siteName: 'v-no',
   dateFormat: '',
   cdn: '',
-  cacheKey: '',
+  cacheKey: 'v=1607883078656',
   paths: {
     favicon: '/uploads/favicon.png',
     index: '/index.md',

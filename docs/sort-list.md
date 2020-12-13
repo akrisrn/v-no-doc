@@ -1,7 +1,10 @@
 # 列表排序规则
 
 @tags: 开发/设计
-@updated: 2020/12/12
+@updated: 1607757408000, 1607882726000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: a80fab7
 
 对于会在[分类页](/categories.md "#")和[搜索页](/search.md "#")中出现的一类自动生成的列表项，v-no 有几条对它们进行排序的规则。它们之间是层层递进的关系，如果前一条规则无法确定前后，会继续用下一条判断。
 
