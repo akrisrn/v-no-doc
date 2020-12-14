@@ -14,4 +14,6 @@
 ![](/uploads/github.png "#16")
 : 这个页面是开源的，[改进它](https://github.com/akrisrn/v-no-doc/edit/master$$ return vno.filePath $$)
 
+[*](/uploads/common.css)
+
 [$](/uploads/common.js)
