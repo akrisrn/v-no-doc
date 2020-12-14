@@ -30,11 +30,11 @@ jobs:
 
       - name: Prerender
         run: |
-          yarn run install-browser
           yarn run clean-html
           yarn run update-date
-          yarn run prerender-recur
           yarn run update-cache-key
+          yarn run install-browser
+          yarn run prerender-recur
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
