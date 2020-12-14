@@ -13,3 +13,4 @@
 :::
 
 - [](/docs/compile.md "#")
+- [](/docs/config.md "#")
