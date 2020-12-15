@@ -30,9 +30,9 @@ dist
         │   article.[hash].js
         │   article-legacy.[hash].js
         │   chunk-vendors.[hash].js
-        │   chunk-vendors-lagacy.[hash].js
+        │   chunk-vendors-legacy.[hash].js
         │   home.[hash].js
-        │   home-lagacy.[hash].js
+        │   home-legacy.[hash].js
 ```
 
 高亮的行指示的就是传统版本的代码文件。
