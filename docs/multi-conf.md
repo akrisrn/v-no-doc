@@ -1,6 +1,10 @@
 # 多配置
 
 @tags: 部署/配置
+@updated: 1607966207000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: f68c69a
 
 多配置是可以自由切换的、会覆盖到主配置的多组备用配置项。
 

@@ -1,6 +1,10 @@
 # messages 段
 
 @tags: 部署/配置
+@updated: 1607966207000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 5e05cfc
 
 方便进行本地化（l10n）的一些配置项。
 
