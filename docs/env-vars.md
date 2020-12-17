@@ -1,10 +1,10 @@
 # 环境变量
 
 @tags: 开发/编译
-@updated: 1607752145000
+@updated: 1607752145000, 1608215474000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: b7b1416
+@commit: eb456e5
 
 v-no 有几个会影响编译结果的环境变量，它们储存在项目根目录下的 `.env` 文件中。
 
