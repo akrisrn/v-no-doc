@@ -1,7 +1,14 @@
 vnoConfig = {
   siteName: 'v-no',
   dateFormat: '',
-  cdn: '',
+  smartQuotes: '',
+  replacer: [
+    ['“', '『'],
+    ['”', '』'],
+    ['‘', '「'],
+    ['’', '」'],
+  ],
+  cdn: !['127.0.0.1', 'localhost'].includes(location.hostname) ? 'https://cdn.jsdelivr.net/gh/akrisrn/v-no-doc/' : '',
   cacheKey,
   paths: {
     favicon: '/uploads/favicon.png',
