@@ -17,3 +17,5 @@
 [*](/uploads/common.css)
 
 [$](/uploads/common.js)
+[$](https://twemoji.maxcdn.com/v/latest/twemoji.min.js)
+[$](/uploads/parse-emoji.js)
