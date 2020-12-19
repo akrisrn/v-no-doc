@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: a083255
 
-v-no 的配置相当灵活，除了少数几个只能在编译前修改的环境变量，其它配置项都储存在 `assets/config.js` 文件的 `vnoConfig` 对象中。它随页面载入，并且暴露在全局供所有脚本访问。这意味着你只需刷新页面就可以让配置的更新生效（如果你比较在意浏览器缓存，可以先看看[这里](/docs/browser-cache.md "#")）。
+v-no 的配置相当灵活，除了少数几个只能在编译前修改的[](/docs/env-vars.md "#")，其它配置项都储存在 `assets/config.js` 文件的 `vnoConfig` 对象中。它随页面载入，并且暴露在全局供所有脚本访问。这意味着你只需刷新页面就可以让配置的更新生效（如果你比较在意浏览器缓存，可以先看看[这里](/docs/browser-cache.md "#")）。
 
 这是默认的 `assets/config.js` 文件：
 
