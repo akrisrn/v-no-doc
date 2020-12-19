@@ -1,6 +1,6 @@
-# config.js 文件
+# config.js
 
-@tags: 部署/配置
+@tags: 部署/配置，代码片段
 @updated: 1607787901000
 @creator: AkrISrn
 @updater: AkrISrn
