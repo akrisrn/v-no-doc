@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: db79304
 
-::: .readonly.danger #### 文档正在初步施工中，部分页面可能并不完整。
+::: .readonly.danger.bold 文档正在初步施工中，部分页面可能并不完整。
 :::
 
 --8<--
