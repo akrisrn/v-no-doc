@@ -4,7 +4,7 @@ v-no 没有内置任何版本的 Emoji 方案，你只能使用 [Unicode Emoji](
 
 你可以直接输入 Emoji 字符 ❤，也能输入对应的 Unicode 代码 `\u2B50` \u2B50、`U+1F914` U+1F914。
 
-不过 Unicode Emoji 依赖本地实现，它在各个客户端的显示不一定一致。如果你比较在意这个问题，可以考虑引入 [Twemoji](https://github.com/twitter/twemoji) 脚本，使用 Twitter Emoji 替换它。
+不过 Unicode Emoji 依赖本地字体实现（`font-family: Apple Color Emoji, Segoe UI Emoji`），它在各个客户端的显示不一定一致。如果你比较在意这个问题，可以考虑引入 [Twemoji](https://github.com/twitter/twemoji) 脚本，使用 Twitter Emoji 替换它。
 
 为了实现这个转换，你需要将两条[](/docs/custom-script.md "#")加到 [`config.paths.common`](/docs/conf-paths.md "#") 文件：
 
