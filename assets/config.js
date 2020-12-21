@@ -8,7 +8,7 @@ vnoConfig = {
     ['‘', '「'],
     ['’', '」'],
   ],
-  cdn: !['127.0.0.1', 'localhost'].includes(location.hostname) ? 'https://cdn.jsdelivr.net/gh/akrisrn/v-no-doc/' : '',
+  cdn: !['127.0.0.1', 'localhost'].includes(location.hostname) ? 'https://cdn.jsdelivr.net/gh/akrisrn/v-no-doc@master/' : '',
   cacheKey,
   paths: {
     favicon: '/uploads/images/favicon.png',
