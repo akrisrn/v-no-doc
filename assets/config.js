@@ -11,7 +11,7 @@ vnoConfig = {
   cdn: !['127.0.0.1', 'localhost'].includes(location.hostname) ? 'https://cdn.jsdelivr.net/gh/akrisrn/v-no-doc/' : '',
   cacheKey,
   paths: {
-    favicon: '/uploads/favicon.png',
+    favicon: '/uploads/images/favicon.png',
     index: '/index.md',
     readme: '/README.md',
     archive: '/archives.md',

@@ -1,7 +1,7 @@
 # 欢迎来到 v-no 的项目文档
 
 @tags: root
-@cover: ![](/uploads/logo.png)
+@cover: ![](/uploads/images/logo.png)
 @updated: 1607595626000, 1608355145000
 @creator: AkrISrn
 @updater: AkrISrn

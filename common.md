@@ -11,11 +11,11 @@
 
 --8<--
 
-![](/uploads/github.png "#16")
+![](/uploads/images/github.png "#16")
 : 这个页面是开源的，[改进它](https://github.com/akrisrn/v-no-doc/edit/master$$ return vno.filePath $$)
 
-[*](/uploads/common.css)
+[*](/uploads/styles/common.css)
 
-[$](/uploads/common.js)
+[$](/uploads/scripts/common.js)
 [$](https://twemoji.maxcdn.com/v/latest/twemoji.min.js)
-[$](/uploads/parse-emoji.js)
+[$](/uploads/scripts/parse-emoji.js)
