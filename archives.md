@@ -14,3 +14,4 @@
 
 - [](/docs/compile.md "#")
 - [](/docs/config.md "#")
+- [](/docs/deploy.md "#")
