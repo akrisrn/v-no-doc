@@ -1,10 +1,10 @@
 # 现代模式
 
 @tags: 开发/编译
-@updated: 1607752145000, 1608215593000
+@updated: 1607752145000, 1608521418000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 64dceb9
+@commit: b5c8b2f
 
 [现代模式](https://cli.vuejs.org/zh/guide/browser-compatibility.html#%E7%8E%B0%E4%BB%A3%E6%A8%A1%E5%BC%8F)是 Vue CLI 提供的一种构建选择。
 

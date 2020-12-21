@@ -1,5 +1,10 @@
 # Emoji
 
+@updated: 1608363717000, 1608536168000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 223e370
+
 v-no 没有内置任何版本的 Emoji 方案，你只能使用 [Unicode Emoji](https://en.wikipedia.org/wiki/Emoji#Unicode_blocks)。 
 
 你可以直接输入 Emoji 字符 ❤，也能输入对应的 Unicode 代码 `\u2B50` \u2B50、`U+1F914` U+1F914。

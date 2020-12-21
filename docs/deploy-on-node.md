@@ -1,6 +1,10 @@
 # 部署在 Node.js
 
 @tags: 部署
+@updated: 1608394091000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 4c6801d
 
 v-no-script 有个帮助你启动 [Express.js](https://expressjs.com/) 服务的[简单脚本](https://github.com/akrisrn/v-no-script/blob/master/src/web-server.ts)，建议用它在本地部署 v-no。我以后会为它增加无需刷新浏览器的同步渲染（热部署）等功能。
 
