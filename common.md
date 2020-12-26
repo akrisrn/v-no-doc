@@ -19,4 +19,5 @@
 
 [$](/uploads/scripts/common.js)
 [$](/uploads/scripts/parse-emoji.js)
+[$$](/uploads/scripts/provider.js)
 [$$](/uploads/scripts/libs/twemoji.min.js)
