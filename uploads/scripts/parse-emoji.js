@@ -1,17 +1,5 @@
 (() => {
-  const parseEmoji = () => {
-    try {
-      twemoji.parse(document.body);
-    } catch (e) {
-      if (e.name === 'ReferenceError') {
-        console.log('wait for loading twemoji...');
-        setTimeout(() => parseEmoji(), 100);
-      }
-    }
-  };
+  const parseEmoji = () => vno.waitFor(() => twemoji.parse(document.body));
   parseEmoji();
-  document.addEventListener('rendered', parseEmoji);
-  vno.destructors.push(() => {
-    document.removeEventListener('rendered', parseEmoji);
-  });
+  document.addEventListener(vno.enums.EEvent.htmlChanged, parseEmoji);
 })();
