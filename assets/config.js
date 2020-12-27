@@ -1,3 +1,15 @@
+try {
+  cacheKey;
+} catch {
+  cacheKey = '';
+}
+
+try {
+  deployTime;
+} catch {
+  deployTime = '';
+}
+
 vnoConfig = {
   siteName: 'v-no',
   dateFormat: '',
@@ -8,7 +20,8 @@ vnoConfig = {
     ['‘', '「'],
     ['’', '」'],
   ],
-  cdn: !['127.0.0.1', 'localhost'].includes(location.hostname) ? 'https://cdn.jsdelivr.net/gh/akrisrn/v-no-doc@master/' : '',
+  cdn: !['127.0.0.1', 'localhost'].includes(location.hostname)
+      ? 'https://cdn.jsdelivr.net/gh/akrisrn/v-no-doc@master/' : '',
   cacheKey,
   paths: {
     favicon: '/uploads/images/favicon.png',
@@ -32,6 +45,7 @@ vnoConfig = {
     showBacklinks: 'Show backlinks',
     noBacklinks: 'No backlinks.',
     loading: 'Loading...',
+    redirectFrom: 'Redirect from:',
   },
   defaultConf: '',
   multiConf: {},
