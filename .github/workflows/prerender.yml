@@ -21,15 +21,12 @@ jobs:
           fetch-depth: 0
 
       - name: Build
-        run: |
-          yarn && yarn run build
-          cp v-no-doc/.env.prerender .env
-
-      - name: Start Web Server
-        run: nohup yarn run web-server &
+        run: yarn && yarn run build
 
       - name: Prerender
         run: |
+          cp v-no-doc/.env.prerender .env
+          nohup yarn run web-server &
           yarn run clean-html
           yarn run update-date
           yarn run update-cache-key
