@@ -6,6 +6,8 @@
 @updater: AkrISrn
 @commit: 5e05cfc
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
 方便进行本地化（l10n）的一些配置项。
 
 | | |
@@ -22,3 +24,4 @@
 | `showBacklinks` | 页脚上方查看反链的链接文本。 |
 | `noBacklinks` | 没有反链时的文本。 |
 | `loading` | 正在加载反链时的文本。 |
+| `redirectFrom` | 重定向链接前的文本。 |
