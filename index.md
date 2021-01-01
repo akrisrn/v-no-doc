@@ -7,6 +7,8 @@
 @updater: AkrISrn
 @commit: 83babe4
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
 这里由 [v-no](https://github.com/akrisrn/v-no) 自身驱动，源文件部署在 [GitHub Pages](https://github.com/akrisrn/v-no-doc)。
 
 - 如果你不清楚 v-no 是什么，可以去 [](/README.md "#") 看看（剧透：它是又一个静态网站生成器）。
@@ -19,16 +21,18 @@
 
 你在这里看到的页面都是一个个片段文件，它们之间会互相引用、嵌入，纵向组织成分层级的树状结构（构成一篇文章），也会自然形成以反向链接为基础的根茎状网图结构。在这之上，可嵌套的标签系统又从另一个维度将它们分类汇总，最终将整个文档以立体的形式呈现给你。
 
-这是我比较喜欢的文档组织方式，也是我想展示的 v-no 的用法之一。
+这是我比较喜欢的文档组织方式，也是我想展示给你的 v-no 用法之一。
 
-我在这个项目中考虑过的想法都会用这种方式记录下来。这其中可能有很多你并不关心的东西、一些无聊的废话，说不定还有过时的消息。
+我会尝试将我在这个项目中考虑过的想法都用这种方式记录下来。这其中就可能会有很多你并不关心的东西、一些无聊的废话，说不定还有过时的消息。
 
 不过既然你能来到这里，那么我想在这堆杂七杂八的内容中，多少会有那么几处对你有所帮助。
 
 希望它们找起来不会太麻烦。
+
+祝愉快。
 :::
 
 ![](https://img.shields.io/github/package-json/v/akrisrn/v-no "#.right") ![Release](https://github.com/akrisrn/v-no/workflows/Release/badge.svg) ![Prerender](https://github.com/akrisrn/v-no-doc/workflows/Prerender/badge.svg) 
 
 
-: $$ return `v${vno.version}` $$
+: $$ return `v${vno.version}${deployTime ? `（最后部署：${vno.formatDate(deployTime)}）` : ''}` $$
