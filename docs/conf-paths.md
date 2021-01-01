@@ -6,6 +6,8 @@
 @updater: AkrISrn
 @commit: b726c5d
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
 这里列出的配置项需要填入以 `assets/` 所在目录为根目录的文件的绝对路径。
 
 请保证它们以 `/` 开头、`favicon` 以外的文件路径以 `.md` 结尾，以及路径指向的文件都是存在的。只有 `favicon` 和 `common` 可以为空。

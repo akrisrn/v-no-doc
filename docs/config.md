@@ -6,11 +6,13 @@
 @updater: AkrISrn
 @commit: 0742b6a
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
 v-no 的配置相当灵活，除了少数几个只能在编译前修改的[](/docs/env-vars.md "#")，其它配置项都储存在 `assets/config.js` 文件的 `vnoConfig` 对象中。它随页面载入，并且暴露在全局供所有脚本访问。这意味着你只需刷新页面就可以让配置的更新生效（如果你比较在意浏览器缓存，可以先看看[这里](/docs/browser-cache.md "#")）。
 
 这是默认的 `assets/config.js` 文件：
 
-[+](/docs/config.js.md)
+[+#clip=1](/docs/config.js.md)
 
 它由主配置和多配置两部分组成，可以为空的配置项也可以省略不写。
 

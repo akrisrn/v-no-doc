@@ -6,6 +6,8 @@
 @updater: AkrISrn
 @commit: 63b2e90
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
 1. 右键添加网站。
 1. 填写网站名称。
 1. 填写物理路径。如果你的 `VUE_APP_PUBLIC_PATH` [](/docs/env-vars.md "#") 是 `/`，它就是网站根目录的路径；如果不是，你需要指定它的上级目录的路径。

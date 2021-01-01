@@ -6,6 +6,8 @@
 @updater: AkrISrn
 @commit: 8a882ce
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
 v-no 选择不发布 Release，取而代之的是两个随版本号更新的 GitHub 模板仓库：
 
 - [v-no-template](https://github.com/akrisrn/v-no-template)：使用默认[](/docs/env-vars.md "#")进行编译的版本，能满足最常见的部署需求。

@@ -6,6 +6,8 @@
 @updater: AkrISrn
 @commit: b0fc02e
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
