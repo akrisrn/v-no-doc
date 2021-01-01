@@ -6,6 +6,10 @@
 @updater: AkrISrn
 @commit: 0742b6a
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
+--8<--
+
 ```js
 vnoConfig = {
   siteName: '',
@@ -34,6 +38,7 @@ vnoConfig = {
     showBacklinks: 'Show backlinks',
     noBacklinks: 'No backlinks.',
     loading: 'Loading...',
+    redirectFrom: 'Redirect from:',
   },
   defaultConf: '',
   multiConf: {},
