@@ -1,10 +1,10 @@
 # 部署 v-no
 
 @tags: 部署
-@updated: 1608536663000
+@updated: 1608536663000, 1609512226000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: c769195
+@commit: a266196
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

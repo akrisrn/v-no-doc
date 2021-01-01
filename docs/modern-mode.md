@@ -1,10 +1,10 @@
 # 现代模式
 
 @tags: 开发/编译
-@updated: 1607752145000, 1608521418000
+@updated: 1607752145000, 1609499170000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: b5c8b2f
+@commit: e005d17
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

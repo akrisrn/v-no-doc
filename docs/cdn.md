@@ -1,10 +1,10 @@
 # CDN
 
 @tags: 部署
-@updated: 1608215133000, 1608363537000
+@updated: 1608215133000, 1609498959000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 35949ab
+@commit: 55fd465
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

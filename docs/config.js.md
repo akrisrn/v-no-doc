@@ -1,10 +1,10 @@
 # config.js
 
 @tags: 部署/配置，代码片段
-@updated: 1608363717000
+@updated: 1608363717000, 1609500914000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 0742b6a
+@commit: aa2185b
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

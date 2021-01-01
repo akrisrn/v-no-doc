@@ -1,10 +1,10 @@
 # messages 段
 
 @tags: 部署/配置
-@updated: 1607966207000
+@updated: 1607966207000, 1609501047000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 5e05cfc
+@commit: e0f67f5
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

@@ -1,10 +1,10 @@
 # SEARCH
 
 @tags: root
-@updated: 1607595626000, 1607757408000
+@updated: 1607595626000, 1609498959000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 2ccdc77
+@commit: 1de415a
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

@@ -1,10 +1,10 @@
 # 列表排序规则
 
 @tags: 列表
-@updated: 1607757408000, 1607882726000
+@updated: 1607757408000, 1609498959000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: a80fab7
+@commit: 3ff67cc
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

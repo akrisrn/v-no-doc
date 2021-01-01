@@ -1,10 +1,10 @@
 # 浏览器缓存
 
 @tags: 部署
-@updated: 1608187630000
+@updated: 1608187630000, 1609498959000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 25b4f71
+@commit: d7f690a
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

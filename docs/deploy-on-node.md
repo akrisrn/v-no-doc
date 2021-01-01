@@ -1,10 +1,10 @@
 # 部署在 Node.js
 
 @tags: 部署
-@updated: 1608394091000
+@updated: 1608394091000, 1609510722000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 4c6801d
+@commit: 9d03893
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

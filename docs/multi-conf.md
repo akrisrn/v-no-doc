@@ -1,10 +1,10 @@
 # 多配置
 
 @tags: 部署/配置
-@updated: 1607966207000
+@updated: 1607966207000, 1609510722000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: f68c69a
+@commit: fb2984f
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

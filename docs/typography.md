@@ -1,9 +1,9 @@
 # 排字
 
-@updated: 1608188361000
+@updated: 1608188361000, 1609512110000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: d3b0617
+@commit: 559c666
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

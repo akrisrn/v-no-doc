@@ -1,10 +1,10 @@
 # Emoji
 
 @tags: 杂项
-@updated: 1608363717000, 1608536168000
+@updated: 1608363717000, 1609510722000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 223e370
+@commit: 9dc1811
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

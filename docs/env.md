@@ -1,10 +1,10 @@
 # .env
 
 @tags: 开发/编译，代码片段
-@updated: 1607752145000, 1608363717000
+@updated: 1607752145000, 1609499385000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: aae6b8c
+@commit: 8f55754
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

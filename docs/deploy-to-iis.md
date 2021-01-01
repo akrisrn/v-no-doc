@@ -1,10 +1,10 @@
 # 部署到 Internet Information Services (IIS)
 
 @tags: 部署
-@updated: 1608394091000
+@updated: 1608394091000, 1609512226000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 63b2e90
+@commit: a266196
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

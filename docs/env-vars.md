@@ -1,10 +1,10 @@
 # 环境变量
 
 @tags: 开发/编译
-@updated: 1607752145000, 1608536238000
+@updated: 1607752145000, 1609500642000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: be0f591
+@commit: a63e446
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

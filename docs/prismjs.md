@@ -1,10 +1,10 @@
 # Prism.js
 
 @tags: 开发/依赖
-@updated: 1608535980000
+@updated: 1608535980000, 1609510722000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 4d91852
+@commit: ab5e38e
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

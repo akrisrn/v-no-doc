@@ -2,10 +2,10 @@
 
 @tags: root
 @cover: ![](/uploads/images/logo.png)
-@updated: 1607595626000, 1608519726000
+@updated: 1607595626000, 1609498959000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 83babe4
+@commit: 7d18d62
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

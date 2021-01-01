@@ -1,10 +1,10 @@
 # paths 段
 
 @tags: 部署/配置
-@updated: 1607966207000
+@updated: 1607966207000, 1609512226000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: b726c5d
+@commit: a266196
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

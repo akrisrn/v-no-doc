@@ -1,10 +1,10 @@
 # 编译步骤
 
 @tags: 开发/编译
-@updated: 1607699591000
+@updated: 1607699591000, 1609512226000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: e292bce
+@commit: a266196
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 

@@ -1,10 +1,10 @@
 # 配置 v-no
 
 @tags: 部署/配置
-@updated: 1607966208000, 1608363717000
+@updated: 1607966208000, 1609512226000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 0742b6a
+@commit: a266196
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
