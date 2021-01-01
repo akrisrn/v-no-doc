@@ -6,6 +6,8 @@
 @updater: AkrISrn
 @commit: b5c8b2f
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
 [现代模式](https://cli.vuejs.org/zh/guide/browser-compatibility.html#%E7%8E%B0%E4%BB%A3%E6%A8%A1%E5%BC%8F)是 Vue CLI 提供的一种构建选择。
 
 v-no 在这个模式下编译的 `.js` 文件体积能减少 16% ~ 18% 左右，执行性能也会相应提高。不过你也有必要同时提供一份为老旧浏览器准备的传统代码，以防遇到还用着祖传软件的访客们。v-no 的部署大小会因此变成原来的两倍，浏览器会选择其中一种版本的代码进行加载。
@@ -31,6 +33,8 @@ dist
         │   chunk-vendors-legacy.[hash].js
         │   file.[hash].js
         │   file-legacy.[hash].js
+        │   main.[hash].js
+        │   main-legacy.[hash].js
         │   markdown.[hash].js
         │   markdown-legacy.[hash].js
         │   prismjs.[hash].js
