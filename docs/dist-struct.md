@@ -6,9 +6,11 @@
 @updater: AkrISrn
 @commit: 9cfc31c
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
 编译完成的文件会输出在 `dist` 目录下。这是默认的目录结构：
 
-```text|2,15,18-19,22-26
+```text|2,15,18-19,22-27
 dist
 │   index.html
 │   archives.md
@@ -33,6 +35,7 @@ dist
         │   app.[hash].js
         │   chunk-vendors.[hash].js
         │   file.[hash].js
+        │   main.[hash].js
         │   markdown.[hash].js
         │   prismjs.[hash].js
 ```
@@ -41,6 +44,4 @@ dist
 
 其中 `index.html`、`assets/css/*` 和 `assets/js/*` 是编译后的代码文件。
 
-`assets/config.js` 包含应用的一些可配置项。它默认指定了 `favicon.png` 和 六个 `.md` 文件的路径。
-
-`uploads/logo.png` 则是作为示例被 `index.md` 引用。
+`assets/config.js` 包含应用的一些可配置项。它默认指定了 `favicon.png` 和 六个 `.md` 文件的路径。`uploads/logo.png` 则是作为示例被 `index.md` 引用。
