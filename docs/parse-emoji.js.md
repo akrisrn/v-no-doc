@@ -6,22 +6,18 @@
 @updater: AkrISrn
 @commit: 6d245ce
 
+[+#1.2.0](/snippets/version-when-last-update.md)
+
+--8<--
+
 ```js
 (() => {
-  const parseEmoji = () => {
-    try {
-      twemoji.parse(document.body);
-    } catch (e) {
-      if (e.name === 'ReferenceError') {
-        console.log('wait for loading twemoji...');
-        setTimeout(() => parseEmoji(), 100);
-      }
-    }
-  };
-  parseEmoji();
-  document.addEventListener('rendered', parseEmoji);
-  vno.destructors.push(() => {
-    document.removeEventListener('rendered', parseEmoji);
-  });
+  vno.callAndListen(() => vno.waitFor(() => {
+    twemoji.parse(document.body);
+  }), vno.enums.EEvent.htmlChanged);
+  // 非驻留
+  // vno.callAndListen(() => vno.waitFor(() => {
+  //   twemoji.parse(document.body);
+  // }), vno.enums.EEvent.htmlChanged, document, false);
 })();
 ```
