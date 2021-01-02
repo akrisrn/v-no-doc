@@ -1,6 +1,10 @@
 # Flags
 
 @tags: 标记语法
+@updated: 1609607773000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: d876092
 
 [+#1.2.1](/snippets/version-when-last-update.md)
 

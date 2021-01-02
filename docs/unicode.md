@@ -1,6 +1,10 @@
 # Unicode
 
 @tags: 杂项
+@updated: 1609602408000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 436f4e0
 
 [+#1.2.1](/snippets/version-when-last-update.md)
 

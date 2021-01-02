@@ -1,6 +1,10 @@
 # IFlags
 
 @tags: 代码片段
+@updated: 1609607764000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 874a67e
 
 [+#1.2.1](/snippets/version-when-last-update.md)
 

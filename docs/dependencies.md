@@ -1,6 +1,10 @@
 # 依赖库
 
 @tags: 开发
+@updated: 1609602412000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 6783fc7
 
 [+#1.2.1](/snippets/version-when-last-update.md)
 
