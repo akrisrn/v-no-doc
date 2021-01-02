@@ -19,5 +19,3 @@
 [toc]
 
 [list]
-
-[$](/uploads/scripts/file-count.js)
