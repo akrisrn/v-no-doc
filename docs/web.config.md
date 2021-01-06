@@ -8,6 +8,8 @@
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
+--8<--
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
