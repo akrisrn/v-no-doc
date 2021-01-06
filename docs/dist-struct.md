@@ -1,10 +1,10 @@
 # 目录结构
 
 @tags: 开发/编译
-@updated: 1607752145000, 1609498959000
+@updated: 1607752145000, 1609946626000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: f3391bf
+@commit: 9694e01
 
 [+#1.2.2](/snippets/version-when-last-update.md)
 
