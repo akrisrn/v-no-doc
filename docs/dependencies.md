@@ -20,3 +20,5 @@ v-no 使用 Vue.js（+ vue-router + vue-class-component）+ TypeScript + Sass �
     - [markdown-it-footnote](https://github.com/markdown-it/markdown-it-footnote)：生成脚注。
     - [markdown-it-task-lists](https://github.com/revin/markdown-it-task-lists)：生成任务列表。
 - [prismjs](https://github.com/PrismJS/prism)：代码高亮。
+
+## [+](/docs/prismjs.md)
