@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: a266196
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 :::
 这里按主题手动汇总了部分 `.md` 文件。
 

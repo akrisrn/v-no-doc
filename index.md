@@ -7,8 +7,6 @@
 @updater: AkrISrn
 @commit: 7d18d62
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 这里由 [v-no](https://github.com/akrisrn/v-no) 自身驱动，源文件部署在 [GitHub Pages](https://github.com/akrisrn/v-no-doc)。
 
 - 如果你不清楚 v-no 是什么，可以去 [](/README.md "#") 看看（剧透：它是又一个静态网站生成器）。
