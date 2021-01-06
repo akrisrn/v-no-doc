@@ -1,4 +1,16 @@
 (() => {
+  const top = document.querySelector('#top > div');
+  const a = document.createElement('a');
+  a.href = '#/api/';
+  top.append(a);
+  vno.updateDom().then();
+  vno.callAndListen(() => {
+    if (vno.filePath.startsWith('/api/') && !vno.mainSelf.isError) {
+      document.querySelectorAll('header,h2,h3,h4,h5,h6,#toc').forEach(element => {
+        element.classList.add('api');
+      });
+    }
+  }, vno.enums.EEvent.htmlChanged);
   vno.callAndListen(() => {
     const itemCommit = document.querySelector('.item-commit');
     if (itemCommit) {
