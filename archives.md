@@ -28,6 +28,7 @@
 ## 语法
 
 - [](/docs/markdown-link-ext.md "#")
+- [](/docs/inline-script.md "#")
 - [](/docs/toc.md "#")
 - [](/docs/flags.md "#")
 
