@@ -1,6 +1,6 @@
 # 最后更新时的 v-no 版本
 
-@tags: 片段模板
+@tags: 片段/模板
 @updated: 1609498959000, 1609908679000
 @creator: AkrISrn
 @updater: AkrISrn

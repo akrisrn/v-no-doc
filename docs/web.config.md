@@ -1,6 +1,6 @@
 # web.config
 
-@tags: 部署，代码片段
+@tags: 部署，片段/代码
 @updated: 1608370400000, 1609946610000
 @creator: AkrISrn
 @updater: AkrISrn

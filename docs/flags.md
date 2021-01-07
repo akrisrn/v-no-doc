@@ -1,6 +1,6 @@
 # Flags
 
-@tags: 标记语法
+@tags: 语法/标记
 @updated: 1609607773000, 1609946651000
 @creator: AkrISrn
 @updater: AkrISrn

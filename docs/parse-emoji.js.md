@@ -1,6 +1,6 @@
 # parse-emoji.js
 
-@tags: 自定义脚本，代码片段
+@tags: 自定义脚本，片段/代码
 @updated: 1608363717000, 1609510722000
 @creator: AkrISrn
 @updater: AkrISrn

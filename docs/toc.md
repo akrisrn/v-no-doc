@@ -1,6 +1,6 @@
 # 内容目录
 
-@tags: 标记语法
+@tags: 语法/标记
 @updated: 1609946515000
 @creator: AkrISrn
 @updater: AkrISrn
