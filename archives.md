@@ -27,8 +27,7 @@
 
 ## 语法
 
-### 标记
-
+- [](/docs/markdown-link-ext.md "#")
 - [](/docs/toc.md "#")
 - [](/docs/flags.md "#")
 
