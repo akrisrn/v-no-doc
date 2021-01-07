@@ -1,6 +1,10 @@
 # 行内脚本
 
 @tags: 语法/扩展
+@updated: 1610031739000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: cc3436f
 
 你可以使用行内脚本在一定程度上编程控制页面的展示，它的执行结果会作为文件内容的一部分被渲染。
 
