@@ -21,7 +21,7 @@
 
 然后在 `/uploads` 目录新建 `parse-emoji.js` 文件，将下面的代码拷贝进去（你当然也可以选择其它你喜欢的 `.js` 文件放置它，只要记得修改上面的引用路径就好）。
 
-[+](/docs/parse-emoji.js.md)
+[+](/snippets/parse-emoji.js.md)
 
 这里有几处需要特别说明一下：
 

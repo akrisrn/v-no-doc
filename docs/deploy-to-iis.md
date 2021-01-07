@@ -16,6 +16,6 @@ IIS 有些特殊，你可能还需要配置一下 `.md` 文件的 MIME 类型：
 1. 在你填写物理路径下新建一个 `web.config` 文件。
 1. 将下面的代码拷贝进去：
 
-[+](/docs/web.config.md)
+[+](/snippets/web.config.md)
 
 你还有可能遇到 IIS 无权读取文件的问题，记得要右键为网站目录添加 Everyone 读取权限。

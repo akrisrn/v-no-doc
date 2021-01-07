@@ -10,7 +10,7 @@ v-no 的配置相当灵活，除了少数几个只能在编译前修改的[](/do
 
 这是默认的 `assets/config.js` 文件：
 
-[+](/docs/config.js.md)
+[+](/snippets/config.js.md)
 
 它由主配置和多配置两部分组成，可以为空的配置项也可以省略不写。
 
