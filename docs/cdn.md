@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: 55fd465
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 v-no 是个纯静态网站，这意味着你可以将所有文件都部署到 CDN。除了 `.html` 文件是无法从别的地方获取的，其它文件都能 CDN 化。而且它凭借异步请求再渲染的优势，启停更换 CDN 都非常容易。
 
 你可以将准备好的 CDN 地址填进配置文件的 [`cdn`](/docs/main-conf.md "#") 配置项，它被设计用来启用除 v-no 自身代码文件和配置文件以外的，所有以 `/` 开头的站内链接（v-no 不会处理相对地址）的 CDN。

@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: 8090633
 
-[+#1.2.1](/snippets/version-when-last-update.md)
-
 :::
 你可以用下面的输入框搜索你感兴趣的内容。结果的查找范围和[分类页](/categories.md "#")能汇总到的文件范围是一致的。
 

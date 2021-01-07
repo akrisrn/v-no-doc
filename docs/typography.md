@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: fbab87d
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 markdown-it 内置了一组[替换规则](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js)帮助你进行排字：
 
 | 匹配 | 替换 |

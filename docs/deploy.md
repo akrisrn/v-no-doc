@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: a266196
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 你可以将 v-no 部署到任意一个你喜欢的 Web 服务。除了各个服务对静态资源的基本配置，它几乎不需要你做更多额外的部署工作。
 
 这里简单举几个例子：

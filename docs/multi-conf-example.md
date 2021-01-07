@@ -6,10 +6,6 @@
 @updater: AkrISrn
 @commit: a266196
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
---8<--
-
 ```js
 vnoConfig = {
   // 这里为了避免重复，把主配置略去了。

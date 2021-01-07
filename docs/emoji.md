@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: 9dc1811
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 考虑到打包体积，v-no 没有内置任何版本的 Emoji 方案，你只能直接使用 [Unicode Emoji](https://en.wikipedia.org/wiki/Emoji#Unicode_blocks)。
 
 你可以直接输入 Emoji 字符 ❤，也能输入对应的 Unicode 代码 `\u2B50` \u2B50、`U+1F914` U+1F914。
@@ -23,7 +21,7 @@
 
 然后在 `/uploads` 目录新建 `parse-emoji.js` 文件，将下面的代码拷贝进去（你当然也可以选择其它你喜欢的 `.js` 文件放置它，只要记得修改上面的引用路径就好）。
 
-[+#clip=1](/docs/parse-emoji.js.md)
+[+](/docs/parse-emoji.js.md)
 
 这里有几处需要特别说明一下：
 

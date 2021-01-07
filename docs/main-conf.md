@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: ec8d9ed
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 | | |
 | - | - |
 | `siteName` | 站点名称。它会作为顶栏左侧图标旁指向主页的链接文本，也会被加到页面 `<title>` 后。如果此项为空，`messages.home` 会顶替上来，不过它不会被加进 `<title>`。 |

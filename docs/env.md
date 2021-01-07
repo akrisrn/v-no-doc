@@ -6,10 +6,6 @@
 @updater: AkrISrn
 @commit: 8f55754
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
---8<--
-
 ```shell
 VUE_APP_PUBLIC_PATH=/
 VUE_APP_INDEX_PATH=index.html

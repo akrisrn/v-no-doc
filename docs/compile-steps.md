@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: a266196
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 最通常不过的 Node.js 项目编译：
 
 1. 首先确认你安装有 [Node.js](https://nodejs.org/zh-cn/download/) 和 [Yarn](https://yarnpkg.com/getting-started/install) 包管理器。

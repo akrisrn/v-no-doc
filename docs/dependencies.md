@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: 40e5180
 
-[+#1.2.1](/snippets/version-when-last-update.md)
-
 v-no 使用 Vue.js（+ vue-router + vue-class-component）+ TypeScript + Sass 进行开发。
 
 除此之外，它主要依赖：

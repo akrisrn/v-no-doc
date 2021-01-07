@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: 9694e01
 
-[+#1.2.2](/snippets/version-when-last-update.md)
-
 编译完成的文件会输出在 `dist` 目录下。这是默认的目录结构：
 
 ```text|2,15,18-20,23-28

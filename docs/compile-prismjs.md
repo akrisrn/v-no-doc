@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: a266196
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 v-no 使用 [babel-plugin-prismjs](https://github.com/mAAdhaTTah/babel-plugin-prismjs) 对 Prism.js 按需编译。它的相关代码会被单独打包在 `assets/js/prismjs.[hash].js` 文件，体积会随着 `PRISM_LANGUAGES` [](/docs/env-vars.md "#")的改动而产生变化。
 
 但我不知道为什么如果不修改导入了 Prism.js 的代码文件，它就不会使用新的环境变量进行编译。具体表现为编译后的 `prismjs.[hash].js` 文件的大小和 Hash 值都没有发生变化。

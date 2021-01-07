@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: fb2984f
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 多配置是可以自由切换的、会覆盖到主配置的多组备用配置项。
 
 因为只要更换 `paths` 段指定的 `.md` 文件就可以索引到不同的内容，你可以用它在同一个地方构建多个独立索引的内容分区。没错，它可以用来做国际化（i18n）。
@@ -24,7 +22,7 @@ v-no 会尝试从 `multiConf` 中取出指定配置名下的一组配置项，�
 
 这里是一个多配置写法的示例：
 
-[+#clip=1](/docs/multi-conf-example.md)
+[+](/docs/multi-conf-example.md)
 
 如果 `multiConf` 只有一组配置项，虽然不会启用多配置，但你只要在 `defaultConf` 指定了它，对主配置的覆盖也会进行。所以，你也可以把外层主配置全部移动到 `multiConf` 中，这样配置文件会更加整洁。只要主配置最后是完整可用的，v-no 就可以正常运作。
 

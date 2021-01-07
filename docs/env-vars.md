@@ -6,13 +6,11 @@
 @updater: AkrISrn
 @commit: a63e446
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 v-no 有几个会影响编译结果的环境变量，它们储存在项目根目录下的 `.env` 文件中。
 
 这是默认的 `.env` 文件：
 
-[+#clip=1](/docs/env.md)
+[+](/docs/env.md)
 
 变量说明：
 

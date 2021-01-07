@@ -6,10 +6,6 @@
 @updater: AkrISrn
 @commit: f4f5d47
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
---8<--
-
 ```js
 (() => {
   vno.callAndListen(() => vno.waitFor(() => {

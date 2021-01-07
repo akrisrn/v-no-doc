@@ -6,10 +6,6 @@
 @updater: AkrISrn
 @commit: aa2185b
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
---8<--
-
 ```js
 vnoConfig = {
   siteName: '',

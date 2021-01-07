@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: 207bcd5
 
-[+#1.2.1](/snippets/version-when-last-update.md)
-
 Flags 是形如 `@tags: a, b, c` 的一组标记（注意使用英文冒号），用于提供描述页面的元数据（v-no 没有使用较为常见的 YAML 格式，我认为 `@` 标记更加灵活简易）。所有 Flag 标记都是可选的。
 
 每条 Flag 都需要单独占据一行，个别可以填入多项数据（用中英文逗号或中文顿号分隔）。多次出现的同类 Flag 会以最后一条为准。所有 Flag 标记都会从文件数据中剔除，取而代之的是展示在页头或者页脚。

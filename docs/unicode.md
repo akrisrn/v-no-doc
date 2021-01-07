@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: 436f4e0
 
-[+#1.2.1](/snippets/version-when-last-update.md)
-
 你可以在 `.md` 文件中输入 Unicode 代码，v-no 会自动转换它们。
 
 有两种写法，都不区分大小写：

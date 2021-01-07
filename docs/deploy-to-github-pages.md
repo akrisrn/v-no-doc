@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: a266196
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 如果你不是部署[](/docs/template.md "#")，可以从第四步开始。
 
 --8<--

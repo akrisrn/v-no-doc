@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: e0f67f5
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 方便进行本地化（l10n）的一些配置项。
 
 | | |

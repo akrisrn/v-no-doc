@@ -6,8 +6,6 @@
 @updater: AkrISrn
 @commit: 3ff67cc
 
-[+#1.2.0](/snippets/version-when-last-update.md)
-
 对于[搜索页](/search.md "#")和标记有 `[list]` 的页面中会出现的一类自动生成的列表项，v-no 有几条对它们进行排序的规则：
 
 1. 有日期的在前。
