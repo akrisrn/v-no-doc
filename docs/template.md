@@ -1,10 +1,10 @@
 # 网站模板
 
 @tags: 部署
-@updated: 1608370400000, 1609512226000
+@updated: 1608370400000, 1610010081000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: a266196
+@commit: dd805f1
 
 v-no 选择不发布 Release，取而代之的是两个随版本号更新的 GitHub 模板仓库：
 

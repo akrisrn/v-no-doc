@@ -1,10 +1,10 @@
 # 内容目录
 
 @tags: 语法/标记
-@updated: 1609946515000
+@updated: 1609946515000, 1610010298000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81dc2f7
+@commit: 5bb21c7
 
 你可以使用单独占据一行的 `[toc]` 标记（不区分大小写）在你指定的位置为页面添加内容目录（Table of contents）。如果一个页面有多个 `[toc]` 标记，只有第一个会生效，其它都会被剔除。
 

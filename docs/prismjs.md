@@ -1,10 +1,10 @@
 # Prism.js
 
 @tags: 开发/依赖
-@updated: 1608535980000, 1609510722000
+@updated: 1608535980000, 1610010081000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: ab5e38e
+@commit: ad10f15
 
 v-no 使用 [Prism.js](https://prismjs.com/) 对代码块进行高亮，需要高亮的语言越多，它的打包体积越大。如果你完全用不到它，最多只能将 `PRISM_LANGUAGES` [](/docs/env-vars.md "#")设为空，目前还没有办法将它彻底移除（默认打包的 JS + CSS 体积在 42 KB 左右，环境变量设空后能减少到 7 KB）。
 

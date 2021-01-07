@@ -1,10 +1,10 @@
 # 部署到 GitHub Pages
 
 @tags: 部署
-@updated: 1608370400000, 1609512226000
+@updated: 1608370400000, 1610010081000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: a266196
+@commit: ad10f15
 
 如果你不是部署[](/docs/template.md "#")，可以从第四步开始。
 

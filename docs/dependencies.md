@@ -1,10 +1,10 @@
 # 依赖库
 
 @tags: 开发
-@updated: 1609602412000, 1609946592000
+@updated: 1609602412000, 1610010081000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 40e5180
+@commit: ad10f15
 
 v-no 使用 Vue.js（+ vue-router + vue-class-component）+ TypeScript + Sass 进行开发。
 

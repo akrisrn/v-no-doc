@@ -1,10 +1,10 @@
 # Flags
 
 @tags: 语法/标记
-@updated: 1609607773000, 1609946651000
+@updated: 1609607773000, 1610010298000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 207bcd5
+@commit: 5bb21c7
 
 Flags 是形如 `@tags: a, b, c` 的一组标记（注意使用英文冒号），用于提供描述页面的元数据（v-no 没有使用较为常见的 YAML 格式，我认为 `@` 标记更加灵活简易）。所有 Flag 标记都是可选的。
 

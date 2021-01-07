@@ -1,10 +1,10 @@
 # parse-emoji.js
 
 @tags: 自定义脚本，片段/代码
-@updated: 1608363717000, 1609510722000
+@updated: 1610010437000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: f4f5d47
+@commit: 12e8a45
 
 ```js
 (() => {

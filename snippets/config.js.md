@@ -1,10 +1,10 @@
 # config.js
 
 @tags: 部署/配置，片段/代码
-@updated: 1608363717000, 1609500914000
+@updated: 1610010437000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: aa2185b
+@commit: 12e8a45
 
 ```js
 vnoConfig = {

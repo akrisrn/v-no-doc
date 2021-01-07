@@ -1,10 +1,10 @@
 # web.config
 
 @tags: 部署，片段/代码
-@updated: 1608370400000, 1609946610000
+@updated: 1610010437000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 5d04906
+@commit: 12e8a45
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

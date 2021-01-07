@@ -1,10 +1,10 @@
 # 部署到 Internet Information Services (IIS)
 
 @tags: 部署
-@updated: 1608394091000, 1609946610000
+@updated: 1608394091000, 1610010437000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 5d04906
+@commit: 12e8a45
 
 1. 右键添加网站。
 1. 填写网站名称。

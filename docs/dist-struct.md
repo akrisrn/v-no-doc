@@ -1,10 +1,10 @@
 # 目录结构
 
 @tags: 开发/编译
-@updated: 1607752145000, 1609946626000
+@updated: 1607752145000, 1610010081000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 9694e01
+@commit: ad10f15
 
 编译完成的文件会输出在 `dist` 目录下。这是默认的目录结构：
 
