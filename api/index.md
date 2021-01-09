@@ -1,10 +1,10 @@
 # API
 
 @tags: API
-@updated: 1609910685000
+@updated: 1609910685000, 1610185450000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: b1952be
+@commit: 1f115ef
 
 转换自 [vno.d.ts](https://github.com/akrisrn/v-no/blob/master/src/vno.d.ts)。
 
