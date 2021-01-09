@@ -66,11 +66,23 @@
 
 - 类型：`typeof utils.addInputBinds`
 
+## sleep
+
+[+#1.2.3](/snippets/version-when-last-update.md)
+
+- 类型：`typeof utils.sleep`
+
 ## waitFor
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 类型：`typeof utils.waitFor`
+
+## waitForEvent
+
+[+#1.2.3](/snippets/version-when-last-update.md)
+
+- 类型：`typeof utils.waitForEvent`
 
 ## addEventListener
 

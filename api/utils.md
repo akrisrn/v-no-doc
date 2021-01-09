@@ -52,15 +52,24 @@
     - `binds: Dict<() => void>`
 - 返回值：无
 
-## chopStr(str, sep, trim?)
+## chopStr(str, sep, trim?, last?)
 
-[+#1.2.0](/snippets/version-when-last-update.md)
+[+#1.2.3](/snippets/version-when-last-update.md)
 
 - 参数：
     - `str: string`
     - `sep: string`
     - `trim = true`
+    - `last = false`
 - 返回值：`[string, string | null]`
+
+## sleep(timeout)
+
+[+#1.2.3](/snippets/version-when-last-update.md)
+
+- 参数：
+    - `timeout: number`
+- 返回值：`Promise<void>`
 
 ## trimList(list, distinct?)
 
@@ -117,6 +126,16 @@
     - `maxCount = 100`
     - `timeout = 100`
 - 返回值：`Promise<boolean>`
+
+## waitForEvent(callback, event, element?)
+
+[+#1.2.3](/snippets/version-when-last-update.md)
+
+- 参数：
+    - `callback: () => any`
+    - `event: enums.EEvent`
+    - `element: Document | Element = document`
+- 返回值：`Promise<any>`
 
 ## addEventListener(element, type, listener)
 
