@@ -34,6 +34,7 @@
 
 ## 杂项
 
+- [](/docs/performance.md "#")
 - [](/docs/typography.md "#")
 - [](/docs/unicode.md "#")
 - [](/docs/emoji.md "#")
