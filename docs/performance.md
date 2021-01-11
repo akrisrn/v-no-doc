@@ -1,6 +1,10 @@
 # 性能优化
 
 @tags: 杂项
+@updated: 1610346176000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: dfb71b6
 
 v-no 主要通过优化代码打包和网络请求来提高它的性能。
 
