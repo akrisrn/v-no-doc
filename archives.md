@@ -30,6 +30,7 @@
 - [](/docs/markdown-link-ext.md "#")
 - [](/docs/inline-script.md "#")
 - [](/docs/toc.md "#")
+- [](/docs/list.md "#")
 - [](/docs/flags.md "#")
 
 ## 杂项
