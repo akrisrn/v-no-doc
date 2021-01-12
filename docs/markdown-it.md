@@ -1,6 +1,10 @@
 # markdown-it
 
 @tags: 开发/依赖
+@updated: 1610422050000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 85d303b
 
 v-no 使用 [markdown-it](https://github.com/markdown-it/markdown-it) 渲染 Markdown 文件，它的打包体积在 100 kb 左右。
 
