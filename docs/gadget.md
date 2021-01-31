@@ -1,6 +1,10 @@
 # 小工具
 
 @tags: 杂项
+@updated: 1612106269000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: c74086b
 
 页面右下角固定有三个小工具（鼠标悬浮可见）：
 
