@@ -40,3 +40,4 @@
 - [](/docs/typography.md "#")
 - [](/docs/unicode.md "#")
 - [](/docs/emoji.md "#")
+- [](/docs/gadget.md "#")
