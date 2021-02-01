@@ -13,31 +13,31 @@
 [+#1.2.2](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `href: string`
+    - `href: string`：链接地址。
 - 返回值：`boolean`
 
-是否为外部链接。
+判断链接地址是否为外部链接。
 
 ## checkLinkPath(path)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `path: string`
+    - `path: string`：文件路径。
 - 返回值：`string`
 
-检查链接地址是否符合要求。
+检查文件路径是否符合要求。
 
 ## shortenPath(path, ext?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `path: string`
-    - `ext = 'md'`
+    - `path: string`：文件路径。
+    - `ext = 'md'`：`index.` 的扩展名。
 - 返回值：`string`
 
-缩短地址。
+缩短文件路径。
 
 ## baseUrl
 
@@ -45,7 +45,7 @@
 
 - 类型：`string`
 
-URL 前缀。
+URL 前缀。如果生产环境下的 [`cdnUrl`](/api/path.md "#h2-7") 不为空，它就是 `cdnUrl`，否则为 [`publicPath`](/api/path.md "#h2-5")。
 
 ## publicPath
 
@@ -102,38 +102,38 @@ CDN 前缀。
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `path: string`
+    - `path: string`：文件路径。
 - 返回值：`string`
 
-为地址添加 URL 前缀。
+为文件路径添加 URL 前缀。
 
 ## cleanBaseUrl(path)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `path: string`
+    - `path: string`：文件路径。
 - 返回值：`string`
 
-清除地址中的 URL 前缀。
+清除文件路径中的 URL 前缀。
 
 ## buildHash(hashPath)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `hashPath: THashPath`
+    - `hashPath: THashPath`：Hash 路径对象。
 - 返回值：`string`
 
-构建 Hash 路径。
+根据 Hash 路径对象构建 Hash 地址。
 
 ## buildQueryContent(content, isFull?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `content: string`
-    - `isFull = false`
+    - `content: string`：`content` 参数值。
+    - `isFull = false`：是否为完整 Hash 地址。
 - 返回值：`string`
 
 构建包含 `content` 参数的 URL 查询字符串。
@@ -143,69 +143,69 @@ CDN 前缀。
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `flag: enums.EFlag`
-    - `text: string`
+    - `flag: enums.EFlag`：Flag 类型。
+    - `text: string`：Flag 值。
 - 返回值：`string`
 
-构建查询 Flag 的 URL 地址。
+构建查询 Flag 的 Hash 地址。
 
 ## parseHash(hash, isShort?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `hash: string`
-    - `isShort = false`
+    - `hash: string`：Hash 字符串。
+    - `isShort = false`：是否缩短地址。
 - 返回值：`THashPath`
 
-解析 Hash 路径。
+解析 Hash 字符串为 Hash 路径对象。
 
 ## changeAnchor(anchor)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `anchor: string`
+    - `anchor: string`：Hash 锚点。
 - 返回值：无
 
-更换 URL 锚点。
+更改 URL Hash 锚点。
 
 ## changeQueryContent(content)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `content: string`
+    - `content: string`：`content` 参数值。
 - 返回值：无
 
-更换 URL 查询字符串。
+更改 URL 查询字符串。
 
 ## parseRoute(route)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `route: Route`
+    - `route: Route`：vue-router 的路由对象。
 - 返回值：`THashPath`
 
-解析 vue-router 的路由对象。
+解析 vue-router 的路由对象为 Hash 路径对象。
 
 ## parseQuery(queryStr)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `queryStr: string`
+    - `queryStr: string`：URL 查询字符串。
 - 返回值：`TQuery`
 
-解析 URL 查询字符串。
+解析 URL 查询字符串为查询对象。
 
 ## formatQuery(query)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `query: TQuery`
+    - `query: TQuery`：查询对象。
 - 返回值：`string`
 
 格式化查询对象为 URL 查询字符串。

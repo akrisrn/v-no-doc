@@ -58,7 +58,15 @@ v-no 版本号。
 
 - 类型：`(path: string, data: string, asyncResults?: TAsyncResult[]) => Promise<string>`
 
-渲染 Markdown。
+将 Markdown 字符串渲染为 HTML 的函数。
+
+参数：
+
+- `path: string`：文件路径。如果不需要就传入一个空字符串。
+- `data: string`：Markdown 字符串。
+- `asyncResults?: TAsyncResult[]`：异步[](/docs/inline-script.md "#")的执行结果列表。
+
+返回值：`Promise<string>`
 
 ## updateDom
 

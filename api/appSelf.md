@@ -22,7 +22,7 @@
 
 - 类型：`string`
 
-同 [`vno.config.getSelectConf`](/api/config.md "#h2-1")。
+同 [`vno.config.getSelectConf`](/api/config.md "#h2-1") 的返回值。
 
 ## <mark>get</mark> initing()
 
@@ -78,7 +78,7 @@
 
 - 类型：`string`
 
-加上前置地址后的 `favicon` 路径。
+加上 URL 前缀后的 `favicon` 路径。
 
 ## returnHome()
 

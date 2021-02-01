@@ -31,7 +31,7 @@
 
 - 类型：`TConfList | null`
 
-多配置的配置名列表。
+多配置的配置名列表，包含别名。
 
 ## enableMultiConf
 
@@ -73,4 +73,4 @@
 
 - 类型：`string`
 
-主页的 Hash 路径。
+主页的 Hash 地址。

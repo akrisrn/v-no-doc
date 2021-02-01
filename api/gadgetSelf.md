@@ -121,7 +121,7 @@
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `toBottom = false`
+    - `toBottom = false`：是否滚动到底部。
 - 返回值：无
 
 滚动到页面顶部或底部。

@@ -46,7 +46,7 @@
 
 - 类型：`(() => void)[]`
 
-析构函数列表。
+在页面重载前执行的析构函数列表。
 
 ## inputBinds
 
@@ -54,14 +54,14 @@
 
 - 类型：`Dict<() => void>`
 
-包含所有[](/docs/custom-input-bind.md "#")的对象。
+包含所有[](/docs/custom-input-bind.md "#")的字典。
 
 ## addInputBinds(binds)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `binds: Dict<() => void>`
+    - `binds: Dict<() => void>`：函数字典，键为需要响应的输入字符串，值为被执行的事件函数。
 - 返回值：无
 
 增加[](/docs/custom-input-bind.md "#")。
@@ -71,125 +71,137 @@
 [+#1.2.3](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `str: string`
-    - `sep: string`
-    - `trim = true`
-    - `last = false`
+    - `str: string`：任意字符串。
+    - `sep: string`：分隔符。
+    - `trim = true`：是否移除分隔符两边的空白字符。
+    - `last = false`：是否倒序查找分隔符。
 - 返回值：`[string, string | null]`
 
-将字符串切成两半。
+用指定分隔符将字符串切成两半。
 
 ## sleep(timeout)
 
 [+#1.2.3](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `timeout: number`
+    - `timeout: number`：毫秒数。
 - 返回值：`Promise<void>`
 
-等待。
+等待指定的毫秒数。
 
 ## trimList(list, distinct?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `list: string[]`
-    - `distinct = true`
+    - `list: string[]`：字符串列表。
+    - `distinct = true`：是否去重。
 - 返回值：`string[]`
 
-修整列表。
+移除列表项前后的空白字符和空列表项。
 
 ## addCacheKey(path, needClean?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `path: string`
-    - `needClean = true`
+    - `path: string`：文件路径。
+    - `needClean = true`：是否需要清除文件路径中的 URL 前缀。
 - 返回值：`string`
 
-为地址添加缓存键。
+为指定文件路径添加缓存键。
 
 ## stringifyAny(value)
 
 [+#1.2.1](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `value: any`
+    - `value: any`：任意类型值。
 - 返回值：`string`
 
-字符串化任意类型值。
+将任意类型值转换为字符串。
 
 ## evalFunction(evalStr, params, asyncResults?)
 
 [+#1.2.2](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `evalStr: string`
-    - `params: Dict<string>`
-    - `asyncResults?: TAsyncResult[]`
+    - `evalStr: string`：字符串代码。
+    - `params: Dict<string>`：用于包裹字符串代码的函数的参数字典。
+    - `asyncResults?: TAsyncResult[]`：异步[](/docs/inline-script.md "#")的执行结果列表。
 - 返回值：`string`
 
-将字符串作为代码执行。
+将指定字符串包裹为一个 JavaScript 函数执行：
+
+```js
+eval(`(function(${Object.keys(params).join()}){${evalStr}})`)(...Object.values(params));
+```
 
 ## replaceByRegExp(regexp, data, callback)
 
 [+#1.2.2](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `regexp: RegExp`
-    - `data: string`
-    - `callback: (matches: string[]) => string`
+    - `regexp: RegExp`：正则表达式。
+    - `data: string`：需要进行替换的字符串。
+    - `callback: (matches: string[]) => string`：接收正则表达式分组匹配结果列表的回调函数，返回替换值。
 - 返回值：`string`
 
 替换正则表达式匹配到的值。
+
+用法：
+
+```js
+vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) => {
+  return ['He', 'rld'][parseInt(match)];
+});
+```
 
 ## waitFor(callback, maxCount?, timeout?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `callback: () => void`
-    - `maxCount = 100`
-    - `timeout = 100`
+    - `callback: () => void`：回调函数。
+    - `maxCount = 100`：最大重试次数。
+    - `timeout = 100`：失败后等待的毫秒数。
 - 返回值：`Promise<boolean>`
 
-等待回调函数成功执行。
+重复执行回调函数，直到无异常抛出或达到重试次数的上限。
 
 ## waitForEvent(callback, event, element?)
 
 [+#1.2.3](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `callback: () => any`
-    - `event: enums.EEvent`
-    - `element: Document | Element = document`
+    - `callback: () => any`：回调函数。
+    - `event: enums.EEvent`：事件类型。
+    - `element: Document | Element = document`：添加事件监听器的元素。
 - 返回值：`Promise<any>`
 
-等待指定事件被派发。
+等待指定事件被派发给指定元素后再执行回调函数，返回回调函数的返回值。
 
 ## addEventListener(element, type, listener)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `element: Document | Element`
-    - `type: string`
-    - `listener: EventListenerOrEventListenerObject`
+    - `element: Document | Element`：添加事件监听器的元素。
+    - `type: string`：事件类型。
+    - `listener: EventListenerOrEventListenerObject`：监听器函数。
 - 返回值：无
 
-添加事件监听器。它同时也会将移除监听器的函数添加到 [`vno.utils.destructors`](/api/utils.md "#h2-5")
+为元素添加事件监听器。它同时也会将移除监听器的函数 `push` 进 [`vno.utils.destructors`](/api/utils.md "#h2-5")。
 
 ## callAndListen(callback, event, element?, reside?)
 
 [+#1.2.2](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `callback: () => void`
-    - `event: enums.EEvent`
-    - `element: Document | Element = document`
-    - `reside = true`
+    - `callback: () => void`：回调函数。
+    - `event: enums.EEvent`：事件类型。
+    - `element: Document | Element = document`：添加事件监听器的元素。
+    - `reside = true`：是否在页面重载时保留监听器。
 - 返回值：无
 
 执行回调函数，并将它作为事件监听器添加到指定元素。
@@ -199,18 +211,18 @@
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `date: string | number`
+    - `date: string | number`：日期字符串或时间戳。
 - 返回值：`Date`
 
-解析日期字符串。
+解析日期字符串或时间戳为 `Date` 对象。
 
 ## formatDate(date, format?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `date: string | number | Date | Dayjs`
-    - `format?: string`
+    - `date: string | number | Date | Dayjs`：日期字符串、时间戳、`Date` 对象、`Dayjs` 对象。
+    - `format?: string`：日期格式化字符串。
 - 返回值：`string`
 
 格式化日期。

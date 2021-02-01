@@ -38,7 +38,7 @@
 
 - 类型：`typeof markdown`
 
-[`vno.markdown`](/api/markdown.md "#") 模块实例。
+[`vno.markdown`](/api/markdown.md "#") 模块的实例。
 
 ## startTime
 
@@ -46,7 +46,7 @@
 
 - 类型：`number`
 
-渲染开始前的时间戳。
+渲染开始前的时间戳，每次重新渲染都会重置。
 
 ## isRendering
 
@@ -62,7 +62,7 @@
 
 - 类型：`string`
 
-被渲染的字符串。
+实际渲染的字符串。
 
 ## asyncResults
 
@@ -70,7 +70,25 @@
 
 - 类型：`TAsyncResult[]`
 
-异步[](/docs/inline-script.md "#")的执行结果列表。v-no 会监听它，在列表发生变化后取最后一项更新页面。
+异步[](/docs/inline-script.md "#")会在执行完成后将它的结果 `push` 进这个列表。v-no 会监听它，在列表发生变化后取最后一项更新页面。
+
+你也可以不经由异步[](/docs/inline-script.md "#")，直接用它手动控制需要异步加载的内容。
+
+用法：
+
+- 将下面这行代码作为[](/docs/inline-script.md "#")，在页面上生成一个有 ID 的 Sync 元素占位：
+
+```js
+return vno.element.getSyncSpan('async-script-999');
+```
+
+- 将上一步的 ID 和结果字符串一起 `push` 进 `asyncResults`：
+
+```js
+vno.articleSelf.asyncResults.push(['async-script-999', 'Hello World']);
+```
+
+这里为你准备了一个 Sync 元素，你可以在浏览器控制台中输入这行代码让它不要再转了 --> $$ return vno.element.getSyncSpan('async-script-999') $$。
 
 ## resultsBeforeRendered
 
@@ -78,7 +96,7 @@
 
 - 类型：`TAsyncResult[]`
 
-渲染完成前得出的异步结果列表，是暂存区。
+渲染完成前得出的异步结果列表。它作为一个暂存区，会在渲染完成后再次被用来更新页面。
 
 ## <mark>get</mark> filePath()
 
@@ -102,7 +120,7 @@
 
 - 类型：`string`
 
-URL 查询字符串中的 `content` 参数值。
+URL 查询字符串中的 `content` 参数值，用作搜索页的查找内容。
 
 ## <mark>get</mark> isSearchFile()
 
@@ -118,24 +136,24 @@ URL 查询字符串中的 `content` 参数值。
 
 - 类型：`string`
 
-渲染后的 HTML 字符串。
+[renderData](/api/articleSelf.md "#h2-7") 渲染后的 HTML 字符串。
 
 ## renderMD(data?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `data = this.fileData`
+    - `data = this.fileData`：Markdown 字符串。
 - 返回值：无
 
-渲染 Markdown。
+将 Markdown 字符串渲染为 HTML。
 
 ## updateRenderData(data?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `data = ''`
+    - `data = ''`：新的 [renderData](/api/articleSelf.md "#h2-7") 值。
 - 返回值：`Promise<void>`
 
 更新 [renderData](/api/articleSelf.md "#h2-7")。
@@ -147,7 +165,7 @@ URL 查询字符串中的 `content` 参数值。
 - 参数：无
 - 返回值：无
 
-渲染完成后执行的方法。
+渲染完成后需要执行的函数。
 
 ## scrollToAnchor()
 
@@ -156,4 +174,4 @@ URL 查询字符串中的 `content` 参数值。
 - 参数：无
 - 返回值：无
 
-滚动到锚点所在位置。
+将页面滚动到 Hash 锚点所在位置。

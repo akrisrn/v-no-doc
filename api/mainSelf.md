@@ -14,7 +14,7 @@
 
 - 类型：`typeof file | null`
 
-[`vno.file`](/api/file.md "#") 模块实例。
+[`vno.file`](/api/file.md "#") 模块的实例。
 
 ## fileData
 
@@ -110,7 +110,7 @@
 
 - 类型：`ISimpleFile[]`
 
-链接到页面文件的其它文件简易对象列表。
+链接到页面文件的其它文件对象列表。
 
 ## isLoadingBacklinks
 
@@ -182,7 +182,7 @@
 
 - 类型：`typeof store.state.homePath`
 
-同 [`vno.store.state.homePath`](/api/store.md "#h2-1")
+同 [`vno.store.state.homePath`](/api/store.md "#h2-1")。
 
 ## <mark>get</mark> filePath()
 
@@ -190,7 +190,7 @@
 
 - 类型：`typeof store.state.filePath`
 
-同 [`vno.store.state.filePath`](/api/store.md "#h2-1")
+同 [`vno.store.state.filePath`](/api/store.md "#h2-1")。
 
 ## <mark>get</mark> anchor()
 
@@ -198,7 +198,7 @@
 
 - 类型：`typeof store.state.anchor`
 
-同 [`vno.store.state.anchor`](/api/store.md "#h2-1")
+同 [`vno.store.state.anchor`](/api/store.md "#h2-1")。
 
 ## <mark>get</mark> queryStr()
 
@@ -206,7 +206,7 @@
 
 - 类型：`typeof store.state.queryStr`
 
-同 [`vno.store.state.queryStr`](/api/store.md "#h2-1")
+同 [`vno.store.state.queryStr`](/api/store.md "#h2-1")。
 
 ## <mark>get</mark> shortFilePath()
 
@@ -238,7 +238,7 @@
 
 - 类型：`typeof config.config`
 
-同 [`vno.config.config`](/api/config.md "#h2-2")
+同 [`vno.config.config`](/api/config.md "#h2-2")。
 
 ## <mark>get</mark> isIndexFile()
 
@@ -262,7 +262,7 @@
 
 - 类型：`string`
 
-Sync 图标元素。
+Sync 图标元素字符串。
 
 ## <mark>get</mark> iconBacklink()
 
@@ -270,14 +270,14 @@ Sync 图标元素。
 
 - 类型：`string`
 
-反向链接图标元素。
+反向链接图标元素字符串。
 
 ## reload(toTop?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `toTop = false`
+    - `toTop = false`：是否在重载后滚动到页面顶部。
 - 返回值：无
 
 重载页面。
@@ -296,42 +296,42 @@ Sync 图标元素。
 [+#1.2.2](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `fileData?: TFileData`
+    - `fileData?: TFileData`：页面文件内容。
 - 返回值：无
 
-更新页面。
+用页面文件内容更新页面。
 
 ## setFlags(flags)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `flags: IFlags`
+    - `flags: IFlags`：Flag 对象。
 - 返回值：无
 
-更新 Flag。
+用 Flag 对象更新 Flag。
 
 ## addFlag(key, value, sort?)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `key: string`
-    - `value: string`
-    - `sort = true`
+    - `key: string`：Flag 键。
+    - `value: string`：Flag 值。
+    - `sort = true`：是否排序。
 - 返回值：无
 
-添加非预定义的 Flag。
+将指定键值对添加到非预定义 Flag 列表。
 
 ## removeFlag(key)
 
 [+#1.2.0](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `key: string`
+    - `key: string`：Flag 键。
 - 返回值：无
 
-移除非预定义的 Flag。
+从非预定义 Flag 列表中移除 Flag。
 
 ## getBacklinks()
 
@@ -340,14 +340,14 @@ Sync 图标元素。
 - 参数：无
 - 返回值：`Promise<void>`
 
-加载反向链接。
+加载页面文件的反向链接。
 
 ## getListHtml(file)
 
 [+#1.2.2](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `file: ISimpleFile`
+    - `file: ISimpleFile`：文件对象。
 - 返回值：`string`
 
 同 [`vno.element.createList`](/api/element.md "#h2-9") 的 `innerHTML`。
@@ -357,7 +357,7 @@ Sync 图标元素。
 [+#1.2.2](/snippets/version-when-last-update.md)
 
 - 参数：
-    - `tag: string`
+    - `tag: string`：标签名。
 - 返回值：`TAnchor[]`
 
 同 [`vno.element.getQueryTagLinks`](/api/element.md "#h2-8")。
