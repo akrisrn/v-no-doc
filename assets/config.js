@@ -19,6 +19,8 @@ vnoConfig = {
     ['”', '』'],
     ['‘', '「'],
     ['’', '」'],
+    ['-->', '→'],
+    ['<--', '←'],
   ],
   cdn: !['127.0.0.1', 'localhost'].includes(location.hostname)
       ? 'https://cdn.jsdelivr.net/gh/akrisrn/v-no-doc@master/' : '',
@@ -47,6 +49,27 @@ vnoConfig = {
     loading: 'Loading...',
     redirectFrom: 'Redirect from:',
   },
-  defaultConf: '',
-  multiConf: {},
+  defaultConf: 'zh',
+  multiConf: {
+    en: {
+      alias: 'English',
+    },
+    zh: {
+      alias: '简体中文',
+      messages: {
+        home: '主页',
+        raw: '源文件',
+        footnotes: '脚注：',
+        returnHome: '返回主页',
+        lastUpdated: '最后更新',
+        untagged: '未分类',
+        searching: '搜索中……',
+        searchNothing: '什么也没找到。',
+        showBacklinks: '查看反向链接',
+        noBacklinks: '没有页面链接到这里。',
+        loading: '加载中……',
+        redirectFrom: '重定向自：',
+      },
+    },
+  },
 };
