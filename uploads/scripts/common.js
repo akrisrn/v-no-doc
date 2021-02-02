@@ -2,7 +2,12 @@
   const top = document.querySelector('#top > div');
   const a = document.createElement('a');
   a.href = '#/api/';
-  top.append(a);
+  const select = top.querySelector('select');
+  if (select) {
+    top.insertBefore(a, select);
+  } else {
+    top.append(a);
+  }
   vno.updateDom().then();
   vno.callAndListen(() => {
     if (vno.filePath.startsWith('/api/') && !vno.mainSelf.isError) {
