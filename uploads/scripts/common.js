@@ -1,7 +1,7 @@
 (() => {
   const top = document.querySelector('#top > div');
   const a = document.createElement('a');
-  a.href = '#/api/';
+  a.href = `#/${vno.appSelf.selectConf}/api/`;
   const select = top.querySelector('select');
   if (select) {
     top.insertBefore(a, select);
