@@ -30,7 +30,25 @@
 祝愉快。
 :::
 
-![](https://img.shields.io/github/package-json/v/akrisrn/v-no "#.right") ![Release](https://github.com/akrisrn/v-no/workflows/Release/badge.svg) ![Prerender](https://github.com/akrisrn/v-no-doc/workflows/Prerender/badge.svg) 
+::: 因为启用了 CDN，页面更新可能会有一段时间的延迟。如果你觉得没必要使用 CDN，可以考虑禁用它。
+你可以在浏览器控制台中输入下面这行代码来禁用 CDN：
+
+```js
+vno.path.disableCDN();
+```
+
+或许你会想要重新启用它：
+
+```js
+vno.path.enableCDN();
+```
+
+如果你不方便打开控制台，这里也有两个相同功能的按钮：
+
+<button class="btn danger" onclick="vno.path.disableCDN();">disableCDN</button> <button class="btn success" onclick="vno.path.enableCDN();">enableCDN</button>
+:::
+
+![](https://img.shields.io/github/package-json/v/akrisrn/v-no "#.right") ![Release](https://github.com/akrisrn/v-no/workflows/Release/badge.svg) ![Prerender](https://github.com/akrisrn/v-no-doc/workflows/Prerender/badge.svg)
 
 
 : $$ return `v${vno.version}${deployTime ? `（最后部署：${vno.formatDate(deployTime)}）` : ''}` $$
