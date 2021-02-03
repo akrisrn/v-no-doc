@@ -36,6 +36,7 @@
 - [](/zh/docs/toc.md "#")
 - [](/zh/docs/list.md "#")
 - [](/zh/docs/flags.md "#")
+- [](/zh/docs/redirect.md "#")
 
 ## 杂项
 
