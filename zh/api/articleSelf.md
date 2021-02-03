@@ -10,7 +10,7 @@
 
 ## <mark>@Prop()</mark> fileData
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -18,7 +18,7 @@
 
 ## <mark>@Prop()</mark> query
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`TQuery`
 
@@ -26,7 +26,7 @@
 
 ## <mark>@Prop()</mark> showTime
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`number`
 
@@ -34,7 +34,7 @@
 
 ## markdownTs
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof markdown`
 
@@ -42,7 +42,7 @@
 
 ## startTime
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`number`
 
@@ -50,7 +50,7 @@
 
 ## isRendering
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -58,7 +58,7 @@
 
 ## renderData
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -66,7 +66,7 @@
 
 ## asyncResults
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 类型：`TAsyncResult[]`
 
@@ -92,7 +92,7 @@ vno.articleSelf.asyncResults.push(['async-script-999', 'Hello World']);
 
 ## resultsBeforeRendered
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 类型：`TAsyncResult[]`
 
@@ -100,7 +100,7 @@ vno.articleSelf.asyncResults.push(['async-script-999', 'Hello World']);
 
 ## <mark>get</mark> filePath()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof store.state.filePath`
 
@@ -108,7 +108,7 @@ vno.articleSelf.asyncResults.push(['async-script-999', 'Hello World']);
 
 ## <mark>get</mark> anchor()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof store.state.anchor`
 
@@ -116,7 +116,7 @@ vno.articleSelf.asyncResults.push(['async-script-999', 'Hello World']);
 
 ## <mark>get</mark> queryContent()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -124,7 +124,7 @@ URL 查询字符串中的 `content` 参数值，用作搜索页的查找内容�
 
 ## <mark>get</mark> isSearchFile()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -132,7 +132,7 @@ URL 查询字符串中的 `content` 参数值，用作搜索页的查找内容�
 
 ## <mark>get</mark> html()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -140,7 +140,7 @@ URL 查询字符串中的 `content` 参数值，用作搜索页的查找内容�
 
 ## renderMD(data?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `data = this.fileData`：Markdown 字符串。
@@ -150,7 +150,7 @@ URL 查询字符串中的 `content` 参数值，用作搜索页的查找内容�
 
 ## updateRenderData(data?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `data = ''`：新的 [renderData](/zh/api/articleSelf.md "#h2-7") 值。
@@ -160,7 +160,7 @@ URL 查询字符串中的 `content` 参数值，用作搜索页的查找内容�
 
 ## renderComplete()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -169,7 +169,7 @@ URL 查询字符串中的 `content` 参数值，用作搜索页的查找内容�
 
 ## scrollToAnchor()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无

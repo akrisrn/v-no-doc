@@ -10,7 +10,7 @@
 
 ## axios
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`axios`
 
@@ -18,7 +18,7 @@
 
 ## dayjs
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`Dayjs`
 
@@ -26,7 +26,7 @@
 
 ## definedFlags
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 类型：`enums.EFlag[]`
 
@@ -34,7 +34,7 @@
 
 ## snippetMark
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -42,7 +42,7 @@
 
 ## destructors
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`(() => void)[]`
 
@@ -50,7 +50,7 @@
 
 ## inputBinds
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`Dict<() => void>`
 
@@ -58,7 +58,7 @@
 
 ## addInputBinds(binds)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `binds: Dict<() => void>`：函数字典，键为需要响应的输入字符串，值为被执行的事件函数。
@@ -68,7 +68,7 @@
 
 ## chopStr(str, sep, trim?, last?)
 
-[+#1.2.3](/zh/snippets/version-when-last-update.md)
+[+#1.2.3|zh](/snippets/latest-version.md)
 
 - 参数：
     - `str: string`：任意字符串。
@@ -81,7 +81,7 @@
 
 ## sleep(timeout)
 
-[+#1.2.3](/zh/snippets/version-when-last-update.md)
+[+#1.2.3|zh](/snippets/latest-version.md)
 
 - 参数：
     - `timeout: number`：毫秒数。
@@ -91,7 +91,7 @@
 
 ## trimList(list, distinct?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `list: string[]`：字符串列表。
@@ -102,7 +102,7 @@
 
 ## addCacheKey(path, needClean?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -113,7 +113,7 @@
 
 ## stringifyAny(value)
 
-[+#1.2.1](/zh/snippets/version-when-last-update.md)
+[+#1.2.1|zh](/snippets/latest-version.md)
 
 - 参数：
     - `value: any`：任意类型值。
@@ -123,7 +123,7 @@
 
 ## evalFunction(evalStr, params, asyncResults?)
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 参数：
     - `evalStr: string`：字符串代码。
@@ -139,7 +139,7 @@ eval(`(function(${Object.keys(params).join()}){${evalStr}})`)(...Object.values(p
 
 ## replaceByRegExp(regexp, data, callback)
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 参数：
     - `regexp: RegExp`：正则表达式。
@@ -159,7 +159,7 @@ vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) 
 
 ## waitFor(callback, maxCount?, timeout?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `callback: () => void`：回调函数。
@@ -171,7 +171,7 @@ vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) 
 
 ## waitForEvent(callback, event, element?)
 
-[+#1.2.3](/zh/snippets/version-when-last-update.md)
+[+#1.2.3|zh](/snippets/latest-version.md)
 
 - 参数：
     - `callback: () => any`：回调函数。
@@ -183,7 +183,7 @@ vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) 
 
 ## addEventListener(element, type, listener)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `element: Document | Element`：添加事件监听器的元素。
@@ -195,7 +195,7 @@ vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) 
 
 ## callAndListen(callback, event, element?, reside?)
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 参数：
     - `callback: () => void`：回调函数。
@@ -208,7 +208,7 @@ vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) 
 
 ## parseDate(date)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `date: string | number`：日期字符串或时间戳。
@@ -218,7 +218,7 @@ vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) 
 
 ## formatDate(date, format?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `date: string | number | Date | Dayjs`：日期字符串、时间戳、`Date` 对象、`Dayjs` 对象。

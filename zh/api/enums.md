@@ -10,7 +10,7 @@
 
 ## EFlag
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 ```ts
 enum EFlag {
@@ -30,7 +30,7 @@ Flag 的枚举对象。`title`、`times`、`startDate`、`endDate` 会自动生�
 
 ## EMark
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 ```ts
 enum EMark {
@@ -49,7 +49,7 @@ enum EMark {
 
 ## EEvent
 
-[+#1.2.1](/zh/snippets/version-when-last-update.md)
+[+#1.2.1|zh](/snippets/latest-version.md)
 
 ```ts
 enum EEvent {
@@ -70,7 +70,7 @@ enum EEvent {
 
 ## EIcon
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 ```ts
 enum EIcon {

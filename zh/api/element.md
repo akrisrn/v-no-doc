@@ -10,7 +10,7 @@
 
 ## cleanEventListenerDict()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -19,7 +19,7 @@
 
 ## addEventListener(element, type, listener)
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 参数：
     - `element: Document | Element`：添加事件监听器的元素。
@@ -31,7 +31,7 @@
 
 ## dispatchEvent(type, payload?, timeout?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `type: enums.EEvent`：事件类型。
@@ -43,7 +43,7 @@
 
 ## removeClass(element, cls?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `element: Element`：元素。
@@ -54,7 +54,7 @@
 
 ## scroll(height, isSmooth?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `height: number`：指定高度值。
@@ -65,7 +65,7 @@
 
 ## getIcon(type, width?, height?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `type: enums.EIcon`：图标类型。
@@ -77,7 +77,7 @@
 
 ## getSyncSpan(id?)
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
     - `id?: string`：元素 ID。
@@ -87,7 +87,7 @@
 
 ## getQueryTagLinks(tag)
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 参数：
     - `tag: string`：标签名。
@@ -97,7 +97,7 @@
 
 ## createList(file, li?)
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 参数：
     - `file: ISimpleFile`：文件对象。

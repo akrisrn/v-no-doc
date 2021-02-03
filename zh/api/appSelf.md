@@ -10,7 +10,7 @@
 
 ## keyInput
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -18,7 +18,7 @@
 
 ## selectConf
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -26,7 +26,7 @@
 
 ## <mark>get</mark> initing()
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 类型：`typeof store.state.initing`
 
@@ -34,7 +34,7 @@
 
 ## <mark>get</mark> homePath()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof store.state.homePath`
 
@@ -42,7 +42,7 @@
 
 ## <mark>get</mark> config()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof config.config`
 
@@ -50,7 +50,7 @@
 
 ## <mark>get</mark> confList()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof config.confList`
 
@@ -58,7 +58,7 @@
 
 ## <mark>get</mark> enableMultiConf()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof config.enableMultiConf`
 
@@ -66,7 +66,7 @@
 
 ## <mark>get</mark> shortBaseFiles()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof config.shortBaseFiles`
 
@@ -74,7 +74,7 @@
 
 ## <mark>get</mark> favicon()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -82,7 +82,7 @@
 
 ## returnHome()
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无

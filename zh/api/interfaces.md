@@ -10,7 +10,7 @@
 
 ## IConfig
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 ```ts
 interface IConfig {
@@ -54,7 +54,7 @@ interface IConfig {
 
 ## IFlags
 
-[+#1.2.1](/zh/snippets/version-when-last-update.md)
+[+#1.2.1|zh](/snippets/latest-version.md)
 
 ```ts
 interface IFlags {
@@ -74,7 +74,7 @@ interface IFlags {
 
 ## ISimpleFile
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 ```ts
 interface ISimpleFile {
@@ -86,7 +86,7 @@ interface ISimpleFile {
 
 ## IFile
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 ```ts
 interface IFile extends ISimpleFile {

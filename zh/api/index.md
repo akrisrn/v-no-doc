@@ -14,7 +14,7 @@
 
 ## Vue
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`Vue`
 
@@ -22,7 +22,7 @@ Vue 函数。
 
 ## axios
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.axios`
 
@@ -30,7 +30,7 @@ Vue 函数。
 
 ## dayjs
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.dayjs`
 
@@ -38,7 +38,7 @@ Vue 函数。
 
 ## markdownIt
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof markdown.markdownIt`
 
@@ -46,7 +46,7 @@ Vue 函数。
 
 ## version
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -54,7 +54,7 @@ v-no 版本号。
 
 ## renderMD
 
-[+#1.2.2](/zh/snippets/version-when-last-update.md)
+[+#1.2.2|zh](/snippets/latest-version.md)
 
 - 类型：`(path: string, data: string, asyncResults?: TAsyncResult[]) => Promise<string>`
 
@@ -70,7 +70,7 @@ v-no 版本号。
 
 ## updateDom
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof markdown.updateDom`
 
@@ -78,7 +78,7 @@ v-no 版本号。
 
 ## destructors
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.destructors`
 
@@ -86,7 +86,7 @@ v-no 版本号。
 
 ## addInputBinds
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.addInputBinds`
 
@@ -94,7 +94,7 @@ v-no 版本号。
 
 ## sleep
 
-[+#1.2.3](/zh/snippets/version-when-last-update.md)
+[+#1.2.3|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.sleep`
 
@@ -102,7 +102,7 @@ v-no 版本号。
 
 ## waitFor
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.waitFor`
 
@@ -110,7 +110,7 @@ v-no 版本号。
 
 ## waitForEvent
 
-[+#1.2.3](/zh/snippets/version-when-last-update.md)
+[+#1.2.3|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.waitForEvent`
 
@@ -118,7 +118,7 @@ v-no 版本号。
 
 ## addEventListener
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.addEventListener`
 
@@ -126,7 +126,7 @@ v-no 版本号。
 
 ## callAndListen
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.callAndListen`
 
@@ -134,7 +134,7 @@ v-no 版本号。
 
 ## parseDate
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.parseDate`
 
@@ -142,7 +142,7 @@ v-no 版本号。
 
 ## formatDate
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof utils.formatDate`
 
@@ -150,7 +150,7 @@ v-no 版本号。
 
 ## toggleDark
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof gadgetSelf.toggleDark`
 
@@ -158,7 +158,7 @@ v-no 版本号。
 
 ## toggleZen
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof gadgetSelf.toggleZen`
 
@@ -166,7 +166,7 @@ v-no 版本号。
 
 ## toTop
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof gadgetSelf.toTop`
 
@@ -174,7 +174,7 @@ v-no 版本号。
 
 ## toBottom
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof gadgetSelf.toBottom`
 
@@ -182,7 +182,7 @@ v-no 版本号。
 
 ## reload
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof mainSelf.reload`
 
@@ -190,7 +190,7 @@ v-no 版本号。
 
 ## filePath
 
-[+#1.2.0](/zh/snippets/version-when-last-update.md)
+[+#1.2.0|zh](/snippets/latest-version.md)
 
 - 类型：`typeof mainSelf.filePath`
 
