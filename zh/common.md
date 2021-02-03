@@ -14,10 +14,4 @@
 ![](/uploads/images/github.png "#16")
 : 这个页面是开源的，[改进它](https://github.com/akrisrn/v-no-doc/edit/master$$ return vno.filePath $$)
 
-[**](/uploads/styles/font-face.css)
-[**](/uploads/styles/common.css)
-
-[$$](/uploads/scripts/common.js)
-[$$](/uploads/scripts/provider.js)
-[$$](/uploads/scripts/libs/twemoji.min.js)
-[$$](/uploads/scripts/parse-emoji.js)
+[+](/snippets/common-scripts.md)
