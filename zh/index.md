@@ -1,4 +1,4 @@
-# 欢迎来到 v-no 的项目文档
+# 文档主页
 
 @tags: root
 @cover: ![](/uploads/images/logo.png)
