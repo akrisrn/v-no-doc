@@ -10,7 +10,7 @@
   }
   vno.updateDom().then();
   vno.callAndListen(() => {
-    if (vno.filePath.startsWith('/api/') && !vno.mainSelf.isError) {
+    if (vno.filePath.split('/')[2] === 'api' && !vno.mainSelf.isError) {
       document.querySelectorAll('header,h2,h3,h4,h5,h6,#toc').forEach(element => {
         element.classList.add('api');
       });
