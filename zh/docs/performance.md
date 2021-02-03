@@ -1,10 +1,10 @@
 # 性能优化
 
 @tags: 开发
-@updated: 1612334783000
+@updated: 1612334783000, 1612362871000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81d16a2
+@commit: 15c7d49
 
 v-no 的代码执行效率没有太大可优化空间，主要还是通过优化代码打包和网络请求来提高页面响应速度。
 
