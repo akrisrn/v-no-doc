@@ -1,10 +1,10 @@
 # 下载与部署
 
 @tags: 部署
-@updated: 1610010081000, 1610010437000
+@updated: 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 12e8a45
+@commit: 81d16a2
 
 v-no 会使用语义化版本号进行版本更迭，但它暂时不会单独发布 Release。你可以克隆 / 下载随版本号更新的[](/zh/docs/template.md "#")，以它为基础搭建你自己的网站。如果它不能满足你的部署需求，那么你需要下载对应版本的[项目源码](https://github.com/akrisrn/v-no/tags)，自行[](/zh/docs/compile.md "#")。你当然也可以克隆项目仓库，编译它以获取最新的开发版本代码。
 

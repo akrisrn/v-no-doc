@@ -1,10 +1,10 @@
 # Latest version
 
 @tags: snippet/template
-@updated: 1609498959000, 1610010298000
+@updated: 1612335391000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 5bb21c7
+@commit: c6035a2
 
 :::$$ return '{{ 1 }}' === vno.version ? ' .success.empty .' : '' $$
 **v{{ 1|0.1.0 }}$$ return '{{ 1 }}' === vno.version ? {en: ' (Latest)', zh: '（最新）'}['{{ 2|en }}'] : ' +' $$**

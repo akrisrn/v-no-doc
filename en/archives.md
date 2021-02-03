@@ -1,6 +1,10 @@
 # ARCHIVES
 
 @tags: root
+@updated: 1612335503000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 04c25ea
 
 :::
 This page gather some `.md` files grouped by subjects.

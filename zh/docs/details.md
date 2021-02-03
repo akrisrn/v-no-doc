@@ -1,10 +1,10 @@
 # details 语法
 
 @tags: 语法/扩展
-@updated: 1612106269000
+@updated: 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: df3ca39
+@commit: 81d16a2
 
 $$ return vno.mainSelf.title $$是用 `:::` 包围的块级语法，它可以帮助你生成 `<details>` 标签。
 

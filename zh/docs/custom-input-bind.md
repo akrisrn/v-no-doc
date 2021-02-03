@@ -1,10 +1,10 @@
 # 自定义输入绑定
 
 @tags: 自定义
-@updated: 1612093023000
+@updated: 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: a6f2d63
+@commit: 81d16a2
 
 $$ return vno.mainSelf.title $$是一组响应特定按键输入的事件函数。
 

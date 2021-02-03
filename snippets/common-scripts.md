@@ -1,6 +1,10 @@
 # Common scripts
 
 @tags: snippet
+@updated: 1612335186000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: eee7ed5
 
 [**](/uploads/styles/font-face.css)
 [**](/uploads/styles/common.css)

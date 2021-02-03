@@ -1,10 +1,10 @@
 # 列表排序规则
 
 @tags: 列表
-@updated: 1607757408000, 1610349563000
+@updated: 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 372c1c3
+@commit: 81d16a2
 
 对于[搜索页](/zh/search.md "#")和使用[](/zh/docs/list.md "#")的页面中会出现的一类自动生成的列表项，v-no 有几条对它们进行排序的规则：
 

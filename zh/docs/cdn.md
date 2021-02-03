@@ -1,10 +1,10 @@
 # CDN
 
 @tags: 部署
-@updated: 1608215133000, 1610010081000
+@updated: 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: ad10f15
+@commit: 81d16a2
 
 v-no 是个纯静态网站，这意味着你可以将所有文件都部署到 CDN。除了 `.html` 文件是无法从别的地方获取的，其它文件都能 CDN 化。而且它凭借异步请求再渲染的优势，启停更换 CDN 都非常容易。
 

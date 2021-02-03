@@ -1,10 +1,10 @@
 # paths 段
 
 @tags: 部署/配置
-@updated: 1607966207000, 1610348881000
+@updated: 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 91d5534
+@commit: 81d16a2
 
 这里列出的配置项需要填入以 `assets/` 所在目录为根目录的文件的绝对路径。
 

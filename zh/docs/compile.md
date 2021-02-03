@@ -1,10 +1,10 @@
 # 编译 v-no
 
 @tags: 开发/编译
-@updated: 1607752145000, 1610010081000
+@updated: 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: ad10f15
+@commit: 81d16a2
 
 v-no 使用 [Vue CLI](https://cli.vuejs.org/zh/) 进行开发，编译它并不需要掌握 Vue 的相关知识。
 

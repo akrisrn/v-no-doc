@@ -1,6 +1,10 @@
 # CATEGORIES
 
 @tags: root
+@updated: 1612335503000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 04c25ea
 
 :::
 This page gather all `.md` files grouped by tags.  
