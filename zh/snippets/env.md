@@ -1,6 +1,6 @@
 # .env
 
-@tags: 开发/编译，片段/代码
+@tags: 开发/编译，snippet/code
 @updated: 1610010437000
 @creator: AkrISrn
 @updater: AkrISrn
