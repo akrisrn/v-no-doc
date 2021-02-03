@@ -16,6 +16,7 @@
 
 - [](/zh/docs/compile.md "#")
 - [](/zh/docs/dependencies.md "#")
+- [](/zh/docs/performance.md "#")
 - [](/zh/docs/some-problems.md "#")
 - [](/zh/docs/roadmap.md "#")
 
@@ -38,7 +39,6 @@
 
 ## 杂项
 
-- [](/zh/docs/performance.md "#")
 - [](/zh/docs/typography.md "#")
 - [](/zh/docs/unicode.md "#")
 - [](/zh/docs/emoji.md "#")
