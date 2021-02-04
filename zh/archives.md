@@ -33,15 +33,15 @@
 - [](/zh/docs/details.md "#")
 - [](/zh/docs/fold-heading.md "#")
 - [](/zh/docs/inline-script.md "#")
+- [](/zh/docs/flags.md "#")
 - [](/zh/docs/toc.md "#")
 - [](/zh/docs/list.md "#")
-- [](/zh/docs/flags.md "#")
 - [](/zh/docs/redirect.md "#")
 
 ## 杂项
 
+- [](/zh/docs/backlinks.md "#")
+- [](/zh/docs/gadget.md "#")
 - [](/zh/docs/typography.md "#")
 - [](/zh/docs/unicode.md "#")
 - [](/zh/docs/emoji.md "#")
-- [](/zh/docs/gadget.md "#")
-- [](/zh/docs/backlinks.md "#")
