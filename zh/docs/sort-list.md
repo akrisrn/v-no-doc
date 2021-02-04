@@ -1,6 +1,6 @@
 # 列表排序规则
 
-@tags: 列表
+@tags: 杂项
 @updated: 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
