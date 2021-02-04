@@ -1,10 +1,10 @@
 # 自定义脚本
 
 @tags: 自定义
-@updated: 1612334783000
+@updated: 1612334783000, 1612446329000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81d16a2
+@commit: fcbdef4
 
 自定义脚本是由 `.md` 文件动态引入的代码，它通常会随着页面的切换而挂载 / 销毁。
 

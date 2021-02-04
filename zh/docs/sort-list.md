@@ -1,10 +1,10 @@
 # 列表排序规则
 
 @tags: 杂项
-@updated: 1612334783000
+@updated: 1612334783000, 1612446253000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81d16a2
+@commit: 221a97c
 
 对于[搜索页](/zh/search.md "#")和使用[](/zh/docs/list.md "#")的页面中会出现的一类自动生成的列表项，v-no 有几条对它们进行排序的规则：
 
