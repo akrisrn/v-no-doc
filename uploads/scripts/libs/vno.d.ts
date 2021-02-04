@@ -13,7 +13,9 @@ declare namespace vno {
 
   const destructors: typeof utils.destructors;
   const addInputBinds: typeof utils.addInputBinds;
+  const sleep: typeof utils.sleep;
   const waitFor: typeof utils.waitFor;
+  const waitForEvent: typeof utils.waitForEvent;
   const addEventListener: typeof utils.addEventListener;
   const callAndListen: typeof utils.callAndListen;
   const parseDate: typeof utils.parseDate;
@@ -56,11 +58,11 @@ declare namespace vno {
 
     function parseMD(data: string): Token[]
 
-    function renderMD(data: string): string
+    function renderMD(data: string, replaceMark = true): string
 
-    function updateAsyncScript(result: TAsyncResult): boolean
+    function updateAsyncScript(asyncResult: TAsyncResult): boolean
 
-    function replaceInlineScript(path: string, data: string, asyncResults?: TAsyncResult[]): string
+    function updateInlineScript(path: string, data: string, asyncResults?: TAsyncResult[]): string
 
     function updateSnippet(data: string, updatedPaths: string[], asyncResults?: TAsyncResult[]): Promise<string>
 
@@ -130,6 +132,7 @@ declare namespace vno {
 
     enum EMark {
       redirect = 'redirect',
+      noCommon = 'noCommon',
       toc = 'toc',
       list = 'list',
       input = 'input',
@@ -238,7 +241,9 @@ declare namespace vno {
 
     function addInputBinds(binds: Dict<() => void>): void
 
-    function chopStr(str: string, sep: string, trim = true): [string, string | null]
+    function chopStr(str: string, sep: string, trim = true, last = false): [string, string | null]
+
+    function sleep(timeout: number): Promise<void>
 
     function trimList(list: string[], distinct = true): string[]
 
@@ -246,11 +251,13 @@ declare namespace vno {
 
     function stringifyAny(value: any): string
 
-    function evalFunction(evalStr: string, params: Dict<string>, asyncResults?: TAsyncResult[]): string
+    function evalFunction(evalStr: string, params: Dict<any>, asyncResults?: TAsyncResult[]): [string, boolean]
 
     function replaceByRegExp(regexp: RegExp, data: string, callback: (matches: string[]) => string): string
 
     function waitFor(callback: () => void, maxCount = 100, timeout = 100): Promise<boolean>
+
+    function waitForEvent(callback: () => any, event: enums.EEvent, element: Document | Element = document): Promise<any>
 
     function addEventListener(element: Document | Element, type: string, listener: EventListenerOrEventListenerObject): void
 
@@ -298,6 +305,10 @@ declare class Article {
    * @Prop()
    */
   showTime: number;
+  /**
+   * @Prop()
+   */
+  redirectTo: (path: string, anchor?: string, query?: string) => boolean;
 
   markdownTs: typeof vno.markdown;
   startTime: number;
@@ -421,7 +432,9 @@ declare class Main {
 
   removeFlag(key: string): void
 
-  getBacklinks(): Promise<void>
+  redirectTo(path: string, anchor?: string, query?: string): boolean
+
+  loadBacklinks(): Promise<void>
 
   getListHtml(file: ISimpleFile): string
 
@@ -527,7 +540,7 @@ type TFlag = [string, string]
 
 type TAnchor = [string, string]
 
-type TAsyncResult = [string, string]
+type TAsyncResult = [string, string, boolean?]
 
 /**
  * vue/types/vue.d.ts
