@@ -25,7 +25,9 @@
         });
         this.reset();
         this.$nextTick(() => {
-          vno.articleSelf.asyncResults.forEach(vno.markdown.updateAsyncScript);
+          vno.articleSelf.asyncResults.forEach(result => {
+            vno.markdown.updateAsyncScript(result);
+          });
           vno.markdown.updateDom().then();
         });
       },
