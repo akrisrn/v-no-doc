@@ -29,7 +29,7 @@
 
 ## 语法
 
-- [](/zh/docs/markdown-link-ext.md "#")
+- [](/zh/docs/links.md "#")
 - [](/zh/docs/details.md "#")
 - [](/zh/docs/fold-heading.md "#")
 - [](/zh/docs/inline-script.md "#")

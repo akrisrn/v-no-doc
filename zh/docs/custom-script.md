@@ -10,7 +10,7 @@
 
 v-no 有着丰富的 [](/zh/api/index.md "#")（所有 Vue 实例、`export` 的变量和方法、使用的依赖库……当然还有 Vue 函数，全部暴露在全局供你使用），通过调用它们，自定义脚本可以和 v-no 的核心代码高度集成，它们就像 v-no 自身的延展。
 
-你可以像这样引入一个自定义脚本（它是一个 [](/zh/docs/markdown-link-ext.md "#")）：
+你可以像这样引入一个自定义脚本（它就是一个 [](/zh/docs/links.md "#")）：
 
 ```markdown
 [$](/uploads/custom.js)
