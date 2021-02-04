@@ -333,9 +333,21 @@ Sync 图标元素字符串。
 
 从非预定义 Flag 列表中移除 Flag。
 
-## getBacklinks()
+## redirectTo(path, anchor?, query?)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.4|zh](/snippets/latest-version.md)
+
+- 参数：
+    - `path: string`：文件路径。
+    - `anchor?: string`：Hash 锚点。
+    - `query?: string`：URL 查询字符串。
+- 返回值：`boolean`
+
+重定向当前页面，返回是否重定向成功。
+
+## loadBacklinks()
+
+[+#1.2.4|zh](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：`Promise<void>`

@@ -32,6 +32,14 @@
 
 同 [`vno.mainSelf.showTime`](/zh/api/mainSelf.md "#h2-16")。
 
+## <mark>@Prop()</mark> redirectTo
+
+[+#1.2.4|zh](/snippets/latest-version.md)
+
+- 类型：`(path: string, anchor?: string, query?: string) => boolean`
+
+同 [`vno.mainSelf.redirectTo`](/zh/api/mainSelf.md "#h2-40")。
+
 ## markdownTs
 
 [+#1.2.0|zh](/snippets/latest-version.md)
@@ -136,7 +144,7 @@ URL 查询字符串中的 `content` 参数值，用作搜索页的查找内容�
 
 - 类型：`string`
 
-[renderData](/zh/api/articleSelf.md "#h2-7") 渲染后的 HTML 字符串。
+[renderData](/zh/api/articleSelf.md "#h2-8") 渲染后的 HTML 字符串。
 
 ## renderMD(data?)
 
@@ -153,10 +161,10 @@ URL 查询字符串中的 `content` 参数值，用作搜索页的查找内容�
 [+#1.2.0|zh](/snippets/latest-version.md)
 
 - 参数：
-    - `data = ''`：新的 [renderData](/zh/api/articleSelf.md "#h2-7") 值。
+    - `data = ''`：新的 [renderData](/zh/api/articleSelf.md "#h2-8") 值。
 - 返回值：`Promise<void>`
 
-更新 [renderData](/zh/api/articleSelf.md "#h2-7")。
+更新 [renderData](/zh/api/articleSelf.md "#h2-8")。
 
 ## renderComplete()
 

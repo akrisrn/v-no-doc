@@ -123,19 +123,21 @@
 
 ## evalFunction(evalStr, params, asyncResults?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.4|zh](/snippets/latest-version.md)
 
 - 参数：
     - `evalStr: string`：字符串代码。
-    - `params: Dict<string>`：用于包裹字符串代码的函数的参数字典。
+    - `params: Dict<any>`：用于包裹字符串代码的函数的参数字典。
     - `asyncResults?: TAsyncResult[]`：异步[](/zh/docs/inline-script.md "#")的执行结果列表。
-- 返回值：`string`
+- 返回值：`[string, boolean]`
 
-将指定字符串包裹为一个 JavaScript 函数执行：
+将指定字符串包裹进如下闭包函数执行：
 
 ```js
 eval(`(function(${Object.keys(params).join()}){${evalStr}})`)(...Object.values(params));
 ```
+
+返回执行结果和是否遇到异常。如果遇到异常，返回结果为异常信息。
 
 ## replaceByRegExp(regexp, data, callback)
 

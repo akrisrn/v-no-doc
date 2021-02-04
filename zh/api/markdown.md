@@ -26,29 +26,30 @@
 
 解析 Markdown 字符串为 `markdownIt` 的 `Token` 列表。
 
-## renderMD(data)
+## renderMD(data, replaceMark?)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.4|zh](/snippets/latest-version.md)
 
 - 参数：
     - `data: string`：Markdown 字符串。
+    - `replaceMark = true`：是否替换标记。
 - 返回值：`string`
 
 将 Markdown 字符串渲染为 HTML。
 
-## updateAsyncScript(result)
+## updateAsyncScript(asyncResult)
 
 [+#1.2.2|zh](/snippets/latest-version.md)
 
 - 参数：
-    - `result: TAsyncResult`：异步结果。
+    - `asyncResult: TAsyncResult`：异步结果。
 - 返回值：`boolean`
 
 用异步结果更新页面。如果没找到元素则返回 `false`。
 
-## replaceInlineScript(path, data, asyncResults?)
+## updateInlineScript(path, data, asyncResults?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.4|zh](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。

@@ -98,10 +98,10 @@ type TAnchor = [string, string]
 
 ## TAsyncResult
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.4|zh](/snippets/latest-version.md)
 
 ```ts
-type TAsyncResult = [string, string]
+type TAsyncResult = [string, string, boolean?]
 ```
 
 ## Vue
