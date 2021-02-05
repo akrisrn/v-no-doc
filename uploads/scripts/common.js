@@ -11,6 +11,9 @@
   const consoleLink = document.createElement('a');
   consoleLink.href = `#/${vno.appSelf.selectConf}/console.md`;
   top.insertBefore(consoleLink, apiLink);
+  const sandboxLink = document.createElement('a');
+  sandboxLink.href = `#/${vno.appSelf.selectConf}/sandbox.md`;
+  top.insertBefore(sandboxLink, apiLink);
   vno.updateDom().then();
 
   vno.callAndListen(() => {
