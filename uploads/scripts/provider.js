@@ -25,7 +25,7 @@
       ]);
     },
     mounted() {
-      document.addEventListener(vno.enums.EEvent.toggleZen, ({ detail }) => {
+      document.addEventListener(vno.EEvent.toggleZen, ({ detail }) => {
         if (detail === true) {
           setTimeout(() => {
             this.isZen = true;

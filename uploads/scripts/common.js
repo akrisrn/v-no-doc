@@ -1,7 +1,7 @@
 (() => {
   const top = document.querySelector('#top > div');
   const apiLink = document.createElement('a');
-  apiLink.href = `#/${vno.appSelf.selectConf}/api/`;
+  apiLink.href = `#/${vno.selectConf}/api/`;
   const select = top.querySelector('select');
   if (select) {
     top.insertBefore(apiLink, select);
@@ -9,10 +9,10 @@
     top.append(apiLink);
   }
   const consoleLink = document.createElement('a');
-  consoleLink.href = `#/${vno.appSelf.selectConf}/console.md`;
+  consoleLink.href = `#/${vno.selectConf}/console.md`;
   top.insertBefore(consoleLink, apiLink);
   const sandboxLink = document.createElement('a');
-  sandboxLink.href = `#/${vno.appSelf.selectConf}/sandbox.md`;
+  sandboxLink.href = `#/${vno.selectConf}/sandbox.md`;
   top.insertBefore(sandboxLink, apiLink);
   vno.updateDom().then();
 
@@ -29,7 +29,7 @@
     a.text = hash;
     itemCommit.innerHTML = '';
     itemCommit.append(a);
-  }, vno.enums.EEvent.mainShown);
+  }, vno.EEvent.mainShown);
 
   vno.callAndListen(() => {
     if (vno.filePath.split('/')[2] !== 'api' || vno.mainSelf.isError) {
@@ -38,5 +38,5 @@
     document.querySelectorAll('header,h2,h3,h4,h5,h6,#toc').forEach(element => {
       element.classList.add('api');
     });
-  }, vno.enums.EEvent.htmlChanged);
+  }, vno.EEvent.htmlChanged);
 })();
