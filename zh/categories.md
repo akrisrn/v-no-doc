@@ -12,7 +12,7 @@
 如果你想查看按主题进行的、对部分文件的手动分类，可以前往[归档页](/zh/archives.md "#")。
 :::
 
-总数：$$ return Object.keys((await vno.file.getFiles()).files).length $$
+总数：$$: Object.keys((await vno.file.getFiles()).files).length $$
 
 [toc]
 

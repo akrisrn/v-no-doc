@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 81d16a2
 
-$$ return vno.mainSelf.title $$是用 `:::` 包围的块级语法，它可以帮助你生成 `<details>` 标签。
+$$:: title $$是用 `:::` 包围的块级语法，它可以帮助你生成 `<details>` 标签。
 
 它的第一行由三部分组成：
 

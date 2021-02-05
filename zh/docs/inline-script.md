@@ -30,9 +30,9 @@
 示例（转义了第二个 `$` 以避免被执行，使用时请移除 `\`）：
 
 - `$\$ return Math.random() $\$`：$$ return Math.random() $$
-- `$\$ : vno.filePath $\$`：$$ : vno.filePath $$
-- `$\$ :: title $\$`：$$ :: title $$
+- `$\$: vno.filePath $\$`：$$: vno.filePath $$
+- `$\$:: title $\$`：$$:: title $$
 - `$\$ const date = vno.formatDate(new Date()); return date $\$`：$$ const date = vno.formatDate(new Date()); return date $$
 - `$\$ await vno.sleep(1000); return vno.version $\$`：$$ await vno.sleep(1000); return vno.version $$
-- `$\$ : (await vno.file.getFile('/zh/index.md')).flags.title $\$`：$$ : (await vno.file.getFile('/zh/index.md')).flags.title $$
-- `$\$ : await vno.waitForEvent(() => document.querySelector('article').childElementCount, vno.EEvent.rendered) $\$`：$$ : await vno.waitForEvent(() => document.querySelector('article').childElementCount, vno.EEvent.rendered) $$
+- `$\$: (await vno.file.getFile('/zh/index.md')).flags.title $\$`：$$: (await vno.file.getFile('/zh/index.md')).flags.title $$
+- `$\$: await vno.waitForEvent(() => document.querySelector('article').childElementCount, vno.EEvent.rendered) $\$`：$$: await vno.waitForEvent(() => document.querySelector('article').childElementCount, vno.EEvent.rendered) $$

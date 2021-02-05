@@ -96,7 +96,7 @@ return vno.element.getSyncSpan('async-script-999');
 vno.articleSelf.asyncResults.push(['async-script-999', 'Hello World']);
 ```
 
-这里为你准备了一个 Sync 元素，你可以在浏览器控制台中输入这行代码让它不要再转了 --> $$ return vno.element.getSyncSpan('async-script-999') $$。
+这里为你准备了一个 Sync 元素，你可以在浏览器控制台中输入这行代码让它不要再转了 --> $$:: element.getSyncSpan('async-script-999') $$。
 
 ## resultsBeforeRendered
 

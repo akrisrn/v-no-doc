@@ -6,4 +6,4 @@
 @updater: AkrISrn
 @commit: 256407a
 
-[redirect#$$ return `/${vno.appSelf.selectConf}/index.md` $$]
+[redirect#/$$:: selectConf $$/index.md]

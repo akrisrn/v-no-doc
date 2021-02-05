@@ -42,4 +42,4 @@ If there's no way to open console, you can click this two buttons to perform the
 [+](/snippets/badges.md)
 
 
-: $$ return `v${vno.version}${deployTime ? `（Last deployed: ${vno.formatDate(deployTime)}）` : ''}` $$
+: $$: `v${vno.version}${deployTime ? `（Last deployed: ${vno.formatDate(deployTime)}）` : ''}` $$

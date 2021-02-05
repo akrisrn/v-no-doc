@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 81d16a2
 
-$$ return vno.mainSelf.title $$是一组响应特定按键输入的事件函数。
+$$:: title $$是一组响应特定按键输入的事件函数。
 
 聚焦在页面时（输入框（`input`、`textarea`）除外）输入的按键会记录在 [`vno.appSelf.keyInput`](/zh/api/appSelf.md "#h2-1")，v-no 会在它发生变化时遍历绑定列表匹配字符串结尾，执行第一个匹配到的函数。
 
