@@ -5,6 +5,7 @@
       textarea: null,
       text: '',
       html: '',
+      enableLS: true,
       item: 'sandbox',
     },
     watch: {
@@ -16,18 +17,24 @@
             vno.updateDom().then();
           });
         });
-        if (this.text) {
-          localStorage.setItem(this.item, this.text);
-        } else {
-          localStorage.removeItem(this.item);
+        if (this.enableLS) {
+          if (this.text) {
+            localStorage.setItem(this.item, this.text);
+          } else {
+            localStorage.removeItem(this.item);
+          }
         }
       },
     },
-    created() {
-      this.text = localStorage.getItem(this.item) || '';
-    },
     mounted() {
       this.textarea = this.$refs.textarea;
+      const data = this.textarea.getAttribute('data');
+      if (data) {
+        this.enableLS = false;
+        this.text = decodeURIComponent(data);
+      } else {
+        this.text = localStorage.getItem(this.item) || '';
+      }
     },
     methods: {
       resize() {
