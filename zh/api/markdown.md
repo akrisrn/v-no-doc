@@ -10,7 +10,7 @@
 
 ## markdownIt
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`MarkdownIt`
 
@@ -18,7 +18,7 @@
 
 ## parseMD(data)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `data: string`：Markdown 字符串。
@@ -28,7 +28,7 @@
 
 ## renderMD(data, replaceMark?)
 
-[+#1.2.4|zh](/snippets/latest-version.md)
+[+#1.2.4](/snippets/latest-version.md)
 
 - 参数：
     - `data: string`：Markdown 字符串。
@@ -39,7 +39,7 @@
 
 ## updateAsyncScript(asyncResult)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `asyncResult: TAsyncResult`：异步结果。
@@ -49,7 +49,7 @@
 
 ## updateInlineScript(path, data, asyncResults?)
 
-[+#1.2.4|zh](/snippets/latest-version.md)
+[+#1.2.4](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -61,7 +61,7 @@
 
 ## updateSnippet(data, updatedPaths, asyncResults?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `data: string`：Markdown 字符串。
@@ -73,7 +73,7 @@
 
 ## updateList(data)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `data: string`：Markdown 字符串。
@@ -83,7 +83,7 @@
 
 ## preprocessSearchPage(data)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `data: string`：Markdown 字符串。
@@ -93,7 +93,7 @@
 
 ## updateSearchPage(content)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `content: string`：查询内容。
@@ -103,7 +103,7 @@
 
 ## updateHighlight()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：`Promise<void>`
@@ -112,7 +112,7 @@
 
 ## updateDom()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：`Promise<void>`

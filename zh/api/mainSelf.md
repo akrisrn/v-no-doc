@@ -10,7 +10,7 @@
 
 ## fileTs
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`typeof file | null`
 
@@ -18,7 +18,7 @@
 
 ## fileData
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -26,7 +26,7 @@
 
 ## title
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -34,7 +34,7 @@
 
 ## tags
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string[]`
 
@@ -42,7 +42,7 @@
 
 ## startDate
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -50,7 +50,7 @@
 
 ## endDate
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -58,7 +58,7 @@
 
 ## cover
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -66,7 +66,7 @@
 
 ## creator
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -74,7 +74,7 @@
 
 ## updater
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -82,7 +82,7 @@
 
 ## otherFlags
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 类型：`TFlag[]`
 
@@ -90,7 +90,7 @@
 
 ## links
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string[]`
 
@@ -98,7 +98,7 @@
 
 ## backlinks
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string[]`
 
@@ -106,7 +106,7 @@
 
 ## backlinkFiles
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 类型：`ISimpleFile[]`
 
@@ -114,7 +114,7 @@
 
 ## isLoadingBacklinks
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -122,7 +122,7 @@
 
 ## hasLoadedBacklinks
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -130,7 +130,7 @@
 
 ## showTime
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`number`
 
@@ -138,7 +138,7 @@
 
 ## isShow
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -146,7 +146,7 @@
 
 ## isError
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -154,7 +154,7 @@
 
 ## isRedirectPage
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -162,7 +162,7 @@
 
 ## redirectFrom
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 类型：`TRedirectList`
 
@@ -170,7 +170,7 @@
 
 ## initing
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -178,7 +178,7 @@
 
 ## <mark>get</mark> homePath()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`typeof store.state.homePath`
 
@@ -186,7 +186,7 @@
 
 ## <mark>get</mark> filePath()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`typeof store.state.filePath`
 
@@ -194,7 +194,7 @@
 
 ## <mark>get</mark> anchor()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`typeof store.state.anchor`
 
@@ -202,7 +202,7 @@
 
 ## <mark>get</mark> queryStr()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`typeof store.state.queryStr`
 
@@ -210,7 +210,7 @@
 
 ## <mark>get</mark> shortFilePath()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -218,7 +218,7 @@
 
 ## <mark>get</mark> rawFilePath()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -226,7 +226,7 @@
 
 ## <mark>get</mark> query()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`TQuery`
 
@@ -234,7 +234,7 @@
 
 ## <mark>get</mark> config()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`typeof config.config`
 
@@ -242,7 +242,7 @@
 
 ## <mark>get</mark> isIndexFile()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -250,7 +250,7 @@
 
 ## <mark>get</mark> lastUpdatedMessage()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -258,7 +258,7 @@
 
 ## <mark>get</mark> iconSync()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -266,7 +266,7 @@ Sync 图标元素字符串。
 
 ## <mark>get</mark> iconBacklink()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -274,7 +274,7 @@ Sync 图标元素字符串。
 
 ## reload(toTop?)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `toTop = false`：是否在重载后滚动到页面顶部。
@@ -284,7 +284,7 @@ Sync 图标元素字符串。
 
 ## getData()
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：`Promise<TFileData | undefined>`
@@ -293,7 +293,7 @@ Sync 图标元素字符串。
 
 ## setData(fileData?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `fileData?: TFileData`：页面文件内容。
@@ -303,7 +303,7 @@ Sync 图标元素字符串。
 
 ## setFlags(flags)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `flags: IFlags`：Flag 对象。
@@ -313,7 +313,7 @@ Sync 图标元素字符串。
 
 ## addFlag(key, value, sort?)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `key: string`：Flag 键。
@@ -325,7 +325,7 @@ Sync 图标元素字符串。
 
 ## removeFlag(key)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `key: string`：Flag 键。
@@ -335,7 +335,7 @@ Sync 图标元素字符串。
 
 ## redirectTo(path, anchor?, query?)
 
-[+#1.2.4|zh](/snippets/latest-version.md)
+[+#1.2.4](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -347,7 +347,7 @@ Sync 图标元素字符串。
 
 ## loadBacklinks()
 
-[+#1.2.4|zh](/snippets/latest-version.md)
+[+#1.2.4](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：`Promise<void>`
@@ -356,7 +356,7 @@ Sync 图标元素字符串。
 
 ## getListHtml(file)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `file: ISimpleFile`：文件对象。
@@ -366,7 +366,7 @@ Sync 图标元素字符串。
 
 ## getQueryTagLinks(tag)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `tag: string`：标签名。
@@ -376,7 +376,7 @@ Sync 图标元素字符串。
 
 ## returnHome()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无

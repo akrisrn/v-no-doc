@@ -10,7 +10,7 @@
 
 ## state
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 类型：
 

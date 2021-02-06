@@ -6,6 +6,6 @@
 @updater: AkrISrn
 @commit: 7b9e9c5
 
-:::$$: '<< 1 >>' === vno.version ? ' .success.empty .' : '' $$
-**v<< 1|0.1.0 >>$$: '<< 1 >>' === vno.version ? {en: ' (Latest)', zh: '（最新）'}['<< 2|en >>'] : ' +' $$**
+:::$$: '<< 1| >>' === vno.version ? ' .success.empty .' : '' $$
+**v<< 1|0.1.0 >>$$: '<< 1| >>' === vno.version ? {en: ' (Latest)', zh: '（最新）'}[vno.selectConf] : ' +' $$**
 :::

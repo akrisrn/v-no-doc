@@ -10,7 +10,7 @@
 
 ## isExternalLink(href)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `href: string`：链接地址。
@@ -20,7 +20,7 @@
 
 ## checkLinkPath(path)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -30,7 +30,7 @@
 
 ## shortenPath(path, ext?)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -41,7 +41,7 @@
 
 ## baseUrl
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -49,7 +49,7 @@ URL 前缀。如果生产环境下的 [`cdnUrl`](/zh/api/path.md "#h2-7") 不为
 
 ## publicPath
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -57,7 +57,7 @@ URL 前缀。
 
 ## indexPath
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -65,7 +65,7 @@ URL 前缀。
 
 ## cdnUrl
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -73,7 +73,7 @@ CDN 前缀。
 
 ## homePath
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -81,7 +81,7 @@ CDN 前缀。
 
 ## disableCDN()
 
-[+#1.2.1|zh](/snippets/latest-version.md)
+[+#1.2.1](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -90,7 +90,7 @@ CDN 前缀。
 
 ## enableCDN()
 
-[+#1.2.1|zh](/snippets/latest-version.md)
+[+#1.2.1](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -99,7 +99,7 @@ CDN 前缀。
 
 ## addBaseUrl(path)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -109,7 +109,7 @@ CDN 前缀。
 
 ## cleanBaseUrl(path)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -119,7 +119,7 @@ CDN 前缀。
 
 ## buildHash(hashPath)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `hashPath: THashPath`：Hash 路径对象。
@@ -129,7 +129,7 @@ CDN 前缀。
 
 ## buildQueryContent(content, isFull?)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `content: string`：`content` 参数值。
@@ -140,7 +140,7 @@ CDN 前缀。
 
 ## buildQueryFlagUrl(flag, text)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `flag: enums.EFlag`：Flag 类型。
@@ -151,7 +151,7 @@ CDN 前缀。
 
 ## parseHash(hash, isShort?)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `hash: string`：Hash 字符串。
@@ -162,7 +162,7 @@ CDN 前缀。
 
 ## changeAnchor(anchor)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `anchor: string`：Hash 锚点。
@@ -172,7 +172,7 @@ CDN 前缀。
 
 ## changeQueryContent(content)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `content: string`：`content` 参数值。
@@ -182,7 +182,7 @@ CDN 前缀。
 
 ## parseRoute(route)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `route: Route`：vue-router 的路由对象。
@@ -192,7 +192,7 @@ CDN 前缀。
 
 ## parseQuery(queryStr)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `queryStr: string`：URL 查询字符串。
@@ -202,7 +202,7 @@ CDN 前缀。
 
 ## formatQuery(query)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `query: TQuery`：查询对象。
@@ -212,7 +212,7 @@ CDN 前缀。
 
 ## returnHome()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无

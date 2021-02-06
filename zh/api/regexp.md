@@ -10,7 +10,7 @@
 
 ## getHeadingRegExp(min?, max?, flags?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `min = 1`：最小标题层级。
@@ -22,7 +22,7 @@
 
 ## getLinkRegExp(startWithSlash?, isImg?, isLine?, flags?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `startWithSlash = false`：链接地址是否以 `/` 开头。
@@ -35,7 +35,7 @@
 
 ## getSnippetRegExp(flags?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `flags?: string`：正则表达式的 `flags`。
@@ -45,7 +45,7 @@
 
 ## getAnchorRegExp(isLine?, min?, max?, flags?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `isLine = true`：是否为行匹配。
@@ -58,7 +58,7 @@
 
 ## getMarkRegExp(mark, isLine?, flags?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `mark: string`：标记字符串。
@@ -70,7 +70,7 @@
 
 ## getWrapRegExp(left, right?, flags?)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `left: string`：左侧字符串。

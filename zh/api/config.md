@@ -10,7 +10,7 @@
 
 ## getSelectConf()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：`string`
@@ -19,7 +19,7 @@
 
 ## config
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`IConfig`
 
@@ -27,7 +27,7 @@
 
 ## confList
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 类型：`TConfList | null`
 
@@ -35,7 +35,7 @@
 
 ## enableMultiConf
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -43,7 +43,7 @@
 
 ## baseFiles
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string[]`
 
@@ -51,7 +51,7 @@
 
 ## shortBaseFiles
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：
 
@@ -69,7 +69,7 @@
 
 ## homeHash
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 

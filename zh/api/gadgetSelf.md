@@ -10,7 +10,7 @@
 
 ## <mark>@Prop()</mark> addToKeyInput
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`(key: string) => void`
 
@@ -18,7 +18,7 @@
 
 ## metaTheme
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`HTMLMetaElement`
 
@@ -26,7 +26,7 @@
 
 ## isDark
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -34,7 +34,7 @@
 
 ## isZen
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -42,7 +42,7 @@
 
 ## isScrolling
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`boolean`
 
@@ -50,7 +50,7 @@
 
 ## darkMarks
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`[string, string]`
 
@@ -58,7 +58,7 @@
 
 ## zenMark
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -66,7 +66,7 @@
 
 ## toTopMark
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -74,7 +74,7 @@
 
 ## <mark>get</mark> metaThemeColor()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`string`
 
@@ -82,7 +82,7 @@
 
 ## toggleDark()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -91,7 +91,7 @@
 
 ## toggleZen()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -100,7 +100,7 @@
 
 ## toTop()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -109,7 +109,7 @@
 
 ## toBottom()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -118,7 +118,7 @@
 
 ## scroll(toBottom?)
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：
     - `toBottom = false`：是否滚动到底部。

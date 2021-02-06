@@ -10,7 +10,7 @@
 
 ## createErrorFile(path)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -20,7 +20,7 @@
 
 ## isCached()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：`boolean`
@@ -29,7 +29,7 @@
 
 ## disableCache()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -38,7 +38,7 @@
 
 ## enableCache()
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：无
@@ -47,7 +47,7 @@
 
 ## getFile(path)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -57,7 +57,7 @@
 
 ## getFiles()
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：无
 - 返回值：
@@ -73,7 +73,7 @@ Promise<{
 
 ## sortFiles(fileA, fileB)
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 - 参数：
     - `fileA: ISimpleFile`：文件对象 A。

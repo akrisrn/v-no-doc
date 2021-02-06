@@ -10,7 +10,7 @@
 
 ## Dict
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 ```ts
 type Dict<T> = { [index: string]: T }
@@ -18,7 +18,7 @@ type Dict<T> = { [index: string]: T }
 
 ## TLink
 
-[+#1.2.1|zh](/snippets/latest-version.md)
+[+#1.2.1](/snippets/latest-version.md)
 
 ```ts
 type TLink = {
@@ -34,7 +34,7 @@ type TLink = {
 
 ## TFileData
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 ```ts
 type TFileData = {
@@ -46,7 +46,7 @@ type TFileData = {
 
 ## TQuery
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 ```ts
 type TQuery = Dict<string | null>
@@ -54,7 +54,7 @@ type TQuery = Dict<string | null>
 
 ## THashPath
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 ```ts
 type THashPath = {
@@ -66,7 +66,7 @@ type THashPath = {
 
 ## TConfList
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 ```ts
 type TConfList = [string[], string[]]
@@ -74,7 +74,7 @@ type TConfList = [string[], string[]]
 
 ## TRedirectList
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 ```ts
 type TRedirectList = [string[], string[]]
@@ -82,7 +82,7 @@ type TRedirectList = [string[], string[]]
 
 ## TFlag
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 ```ts
 type TFlag = [string, string]
@@ -90,7 +90,7 @@ type TFlag = [string, string]
 
 ## TAnchor
 
-[+#1.2.2|zh](/snippets/latest-version.md)
+[+#1.2.2](/snippets/latest-version.md)
 
 ```ts
 type TAnchor = [string, string]
@@ -98,7 +98,7 @@ type TAnchor = [string, string]
 
 ## TAsyncResult
 
-[+#1.2.4|zh](/snippets/latest-version.md)
+[+#1.2.4](/snippets/latest-version.md)
 
 ```ts
 type TAsyncResult = [string, string, boolean?]
@@ -106,7 +106,7 @@ type TAsyncResult = [string, string, boolean?]
 
 ## Vue
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 ```ts
 /**
@@ -117,7 +117,7 @@ type Vue = any
 
 ## Route
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 ```ts
 /**
@@ -128,7 +128,7 @@ type Route = any
 
 ## axios
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 ```ts
 /**
@@ -139,7 +139,7 @@ type axios = any
 
 ## Dayjs
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 ```ts
 /**
@@ -150,7 +150,7 @@ type Dayjs = any
 
 ## MarkdownIt
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 ```ts
 /**
@@ -161,7 +161,7 @@ type MarkdownIt = any
 
 ## Token
 
-[+#1.2.0|zh](/snippets/latest-version.md)
+[+#1.2.0](/snippets/latest-version.md)
 
 ```ts
 /**
