@@ -49,6 +49,3 @@ vno.path.enableCDN();
 :::
 
 [+](/snippets/badges.md)
-
-
-: $$: `v${vno.version}${deployTime ? `（最后部署：${vno.formatDate(deployTime)}）` : ''}` $$
