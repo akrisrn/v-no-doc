@@ -208,6 +208,16 @@ vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) 
 
 执行回调函数，并将它作为事件监听器添加到指定元素。
 
+## encodeParam(value)
+
+[+#1.2.5](/snippets/latest-version.md)
+
+- 参数：
+    - `value: string`：参数值。
+- 返回值：`string`
+
+基本等同于 `encodeURIComponent`，只不过额外转义了单引号。可以用于编码嵌入参数。
+
 ## parseDate(date)
 
 [+#1.2.0](/snippets/latest-version.md)

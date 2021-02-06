@@ -47,7 +47,7 @@
 
 用异步结果更新页面。如果没找到元素则返回 `false`。
 
-## updateInlineScript(path, data, asyncResults?)
+## updateInlineScript(path, data, asyncResults?, isSnippet?)
 
 [+#1.2.4](/snippets/latest-version.md)
 
@@ -55,6 +55,7 @@
     - `path: string`：文件路径。
     - `data: string`：Markdown 字符串。
     - `asyncResults?: TAsyncResult[]`：异步[](/zh/docs/inline-script.md "#")的执行结果列表。
+    - `isSnippet = false`：是否执行在[](/zh/docs/snippets.md "#")中。
 - 返回值：`string`
 
 执行 Markdown 字符串中使用的[](/zh/docs/inline-script.md "#")，返回更新后的字符串。

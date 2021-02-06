@@ -76,6 +76,30 @@ v-no 版本号。
 
 同 [`vno.markdown.updateDom`](/zh/api/markdown.md "#h2-11")。
 
+## EFlag
+
+[+#1.2.5](/snippets/latest-version.md)
+
+- 类型：`typeof enums.EFlag`
+
+## EMark
+
+[+#1.2.5](/snippets/latest-version.md)
+
+- 类型：`typeof enums.EMark`
+
+## EEvent
+
+[+#1.2.5](/snippets/latest-version.md)
+
+- 类型：`typeof enums.EEvent`
+
+## EIcon
+
+[+#1.2.5](/snippets/latest-version.md)
+
+- 类型：`typeof enums.EIcon`
+
 ## destructors
 
 [+#1.2.0](/snippets/latest-version.md)
@@ -132,13 +156,21 @@ v-no 版本号。
 
 同 [`vno.utils.callAndListen`](/zh/api/utils.md "#h2-18")。
 
+## encodeParam
+
+[+#1.2.5](/snippets/latest-version.md)
+
+- 类型：`typeof utils.encodeParam`
+
+同 [`vno.utils.encodeParam`](/zh/api/utils.md "#h2-19")。
+
 ## parseDate
 
 [+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`typeof utils.parseDate`
 
-同 [`vno.utils.parseDate`](/zh/api/utils.md "#h2-19")。
+同 [`vno.utils.parseDate`](/zh/api/utils.md "#h2-20")。
 
 ## formatDate
 
@@ -146,7 +178,39 @@ v-no 版本号。
 
 - 类型：`typeof utils.formatDate`
 
-同 [`vno.utils.formatDate`](/zh/api/utils.md "#h2-20")。
+同 [`vno.utils.formatDate`](/zh/api/utils.md "#h2-21")。
+
+## selectConf
+
+[+#1.2.5](/snippets/latest-version.md)
+
+- 类型：`typeof appSelf.selectConf`
+
+同 [`vno.appSelf.selectConf`](/zh/api/appSelf.md "#h2-2")。
+
+## title
+
+[+#1.2.5](/snippets/latest-version.md)
+
+- 类型：`typeof mainSelf.title`
+
+同 [`vno.mainSelf.title`](/zh/api/mainSelf.md "#h2-3")。
+
+## filePath
+
+[+#1.2.0](/snippets/latest-version.md)
+
+- 类型：`typeof mainSelf.filePath`
+
+同 [`vno.mainSelf.filePath`](/zh/api/mainSelf.md "#h2-23")。
+
+## reload
+
+[+#1.2.0](/snippets/latest-version.md)
+
+- 类型：`typeof mainSelf.reload`
+
+同 [`vno.mainSelf.reload`](/zh/api/mainSelf.md "#h2-34")。
 
 ## toggleDark
 
@@ -180,22 +244,6 @@ v-no 版本号。
 
 同 [`vno.gadgetSelf.toBottom`](/zh/api/gadgetSelf.md "#h2-13")。
 
-## reload
-
-[+#1.2.0](/snippets/latest-version.md)
-
-- 类型：`typeof mainSelf.reload`
-
-同 [`vno.mainSelf.reload`](/zh/api/mainSelf.md "#h2-34")。
-
-## filePath
-
-[+#1.2.0](/snippets/latest-version.md)
-
-- 类型：`typeof mainSelf.filePath`
-
-同 [`vno.mainSelf.filePath`](/zh/api/mainSelf.md "#h2-23")。
-
 ## [+](/zh/api/file.md)
 
 ## [+](/zh/api/markdown.md)
@@ -216,8 +264,8 @@ v-no 版本号。
 
 ## [+](/zh/api/appSelf.md)
 
+## [+](/zh/api/mainSelf.md)
+
 ## [+](/zh/api/articleSelf.md)
 
 ## [+](/zh/api/gadgetSelf.md)
-
-## [+](/zh/api/mainSelf.md)
