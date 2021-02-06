@@ -1,6 +1,10 @@
 # SANDBOX
 
 @tags: 杂项
+@updated: 1612610931000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 64e4b9b
 
 这里有一个沙盒页面组件，在右侧的输入框中输入的字符串会即时渲染在左侧，渲染逻辑与渲染 `.md` 文件一致。
 

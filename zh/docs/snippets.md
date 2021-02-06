@@ -1,6 +1,10 @@
 # 嵌入文件
 
 @tags: 语法/扩展
+@updated: 1612624857000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: bd20d3e
 
 $$:: title $$就是由[嵌入链接](/zh/docs/links.md "#")引入的文件，它会替代链接字符串进行渲染。
 
