@@ -18,7 +18,7 @@
 
 - `path`：执行时的文件路径。
 - `data`：执行时的文件内容。
-- `isSnippet`：是否执行在嵌入文件中。
+- `isSnippet`：是否执行在[](/zh/docs/snippets.md "#")中。
 
 因此，你至少需要一条 `return` 语句才能得到有效的输出结果，它会作为 Markdown 文件的一部分被渲染。为一行代码写一堆 `return` 也挺麻烦，为了简化输入，v-no 会将字符串开头的 `: ` 替换为 `return `、`:: ` 替换为 `return vno.`。
 
