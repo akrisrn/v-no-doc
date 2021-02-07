@@ -27,6 +27,7 @@ vnoConfig = {
   cacheKey,
   paths: {
     favicon: '/uploads/images/favicon.png',
+    common: '/common.md',
   },
   defaultConf: 'en',
   multiConf: {
@@ -38,7 +39,6 @@ vnoConfig = {
         archive: '/en/archives.md',
         category: '/en/categories.md',
         search: '/en/search.md',
-        common: '/en/common.md',
       },
       messages: {
         home: 'HOME',
@@ -64,7 +64,6 @@ vnoConfig = {
         archive: '/zh/archives.md',
         category: '/zh/categories.md',
         search: '/zh/search.md',
-        common: '/zh/common.md',
       },
       messages: {
         home: '主页',
