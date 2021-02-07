@@ -1,10 +1,10 @@
 # Emoji
 
 @tags: 杂项
-@updated: 1612334783000
+@updated: 1612334783000, 1612681598000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81d16a2
+@commit: 078ce15
 
 考虑到打包体积，v-no 没有内置任何版本的 Emoji 方案，你只能使用 [Unicode Emoji](https://en.wikipedia.org/wiki/Emoji#Unicode_blocks)。
 
