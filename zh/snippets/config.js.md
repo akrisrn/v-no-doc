@@ -10,6 +10,8 @@
 vnoConfig = {
   siteName: '',
   dateFormat: '',
+  smartQuotes: '',
+  replacer: [],
   cdn: '',
   cacheKey: '',
   paths: {
@@ -34,7 +36,7 @@ vnoConfig = {
     showBacklinks: 'Show backlinks',
     noBacklinks: 'No backlinks.',
     loading: 'Loading...',
-    redirectFrom: 'Redirect from:',
+    redirectFrom: 'Redirect from: ',
   },
   defaultConf: '',
   multiConf: {},
