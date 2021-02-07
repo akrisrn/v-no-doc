@@ -12,7 +12,7 @@
   consoleLink.href = `#/console.md`;
   top.insertBefore(consoleLink, apiLink);
   const sandboxLink = document.createElement('a');
-  sandboxLink.href = `#/${vno.selectConf}/sandbox.md`;
+  sandboxLink.href = `#/sandbox.md`;
   top.insertBefore(sandboxLink, apiLink);
   vno.updateDom().then();
 

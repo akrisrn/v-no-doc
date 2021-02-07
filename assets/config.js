@@ -56,6 +56,7 @@ vnoConfig = {
         redirectFrom: 'Redirect from: ',
         components: {
           console: 'There is a console page component, the input value will be executed as inline script.',
+          sandbox: 'There is a sandbox page component, the input value will be rendered like `.md` files.',
         },
         common: {
           WIP: 'The documentation is still worked in process, and it maybe lacks a lot of content.',
@@ -90,6 +91,7 @@ vnoConfig = {
         redirectFrom: '重定向自：',
         components: {
           console: '这里有一个控制台页面组件，在下面的输入框中输入的字符串都会作为[](/zh/docs/inline-script.md "#")执行。',
+          sandbox: '这里有一个沙盒页面组件，在右侧的输入框中输入的字符串会即时渲染在左侧，渲染逻辑与渲染 `.md` 文件一致。\n\n字符串会保存在 `localStorage`，无法保证不会丢失，请留意备份重要数据。',
         },
         common: {
           WIP: '文档正在初步施工中，部分页面可能并不完整。',
