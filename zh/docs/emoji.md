@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 81d16a2
 
-考虑到打包体积，v-no 没有内置任何版本的 Emoji 方案，你只能直接使用 [Unicode Emoji](https://en.wikipedia.org/wiki/Emoji#Unicode_blocks)。
+考虑到打包体积，v-no 没有内置任何版本的 Emoji 方案，你只能使用 [Unicode Emoji](https://en.wikipedia.org/wiki/Emoji#Unicode_blocks)。
 
 你可以直接输入 Emoji 字符 ❤，也能输入对应的 [](/zh/docs/unicode.md "#") 代码 `\u2B50` \u2B50、`U+1F914` U+1F914。
 

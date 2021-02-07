@@ -7,7 +7,7 @@
 @updater: AkrISrn
 @commit: 7f74c5b
 
-::: .readonly.danger.bold English is not my native language, please excuse my wrong sentences in this document. To be honest, writing English is really difficult for me. <br>I would be grateful if someone could correct my mistakes, feel free to create pull request!
+::: .readonly.danger.bold English is not my native language, please excuse my wrong sentences in this documentation. To be honest, writing English is really difficult for me. <br>I would be grateful if someone could correct my mistakes, feel free to create pull request!
 :::
 
 <a href="#/zh/"><button class="btn bold" onclick="vno.appSelf.selectConf='zh';">中文版本</button></a>

@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: ea5e205
 
-::: .readonly.danger.bold The document is still worked in process, and it maybe lacks a lot of content.
+::: .readonly.danger.bold The documentation is still worked in process, and it maybe lacks a lot of content.
 :::
 
 --8<--
