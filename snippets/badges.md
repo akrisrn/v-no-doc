@@ -9,4 +9,4 @@
 ![version](https://img.shields.io/github/package-json/v/akrisrn/v-no "#.right") ![Release](https://github.com/akrisrn/v-no/workflows/Release/badge.svg) ![Prerender](https://github.com/akrisrn/v-no-doc/workflows/Prerender/badge.svg)
 
 
-: v$$:: version $$$$ const msg = {en: [' (Last deployed: ', ')'], zh: ['（最后部署：', '）']}[vno.selectConf]; msg.splice(1, 0, vno.formatDate(deployTime)); return deployTime ? msg.join('') : '' $$
+: v$$:: version $$$$: deployTime ? vno.getMessage('lastDeployed', [vno.formatDate(deployTime)]) : '' $$

@@ -7,5 +7,5 @@
 @commit: 5812292
 
 :::$$: '<< 1| >>' === vno.version ? ' .success.empty .' : '' $$
-**v<< 1|0.1.0 >>$$: '<< 1| >>' === vno.version ? {en: ' (Latest)', zh: '（最新）'}[vno.selectConf] : ' +' $$**
+**v<< 1|0.1.0 >>$$: '<< 1| >>' === vno.version ? vno.getMessage('latest') : ' +' $$**
 :::

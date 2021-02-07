@@ -54,6 +54,12 @@ vnoConfig = {
         noBacklinks: 'No backlinks.',
         loading: 'Loading...',
         redirectFrom: 'Redirect from: ',
+        common: {
+          WIP: 'The documentation is still worked in process, and it maybe lacks a lot of content.',
+          openSource: 'This page is open source, [improve it]',
+        },
+        latest: ' (Latest)',
+        lastDeployed: ' (Last deployed: << 0 >>)',
       },
     },
     zh: {
@@ -79,6 +85,12 @@ vnoConfig = {
         noBacklinks: '没有页面链接到这里。',
         loading: '加载中……',
         redirectFrom: '重定向自：',
+        common: {
+          WIP: '文档正在初步施工中，部分页面可能并不完整。',
+          openSource: '这个页面是开源的，[改进它]',
+        },
+        latest: '（最新）',
+        lastDeployed: '（最后部署：<< 0 >>）',
       },
     },
   },
