@@ -9,7 +9,7 @@
     top.append(apiLink);
   }
   const consoleLink = document.createElement('a');
-  consoleLink.href = `#/${vno.selectConf}/console.md`;
+  consoleLink.href = `#/console.md`;
   top.insertBefore(consoleLink, apiLink);
   const sandboxLink = document.createElement('a');
   sandboxLink.href = `#/${vno.selectConf}/sandbox.md`;

@@ -54,6 +54,9 @@ vnoConfig = {
         noBacklinks: 'No backlinks.',
         loading: 'Loading...',
         redirectFrom: 'Redirect from: ',
+        components: {
+          console: 'There is a console page component, the input value will be executed as inline script.',
+        },
         common: {
           WIP: 'The documentation is still worked in process, and it maybe lacks a lot of content.',
           openSource: 'This page is open source, [improve it]',
@@ -85,6 +88,9 @@ vnoConfig = {
         noBacklinks: '没有页面链接到这里。',
         loading: '加载中……',
         redirectFrom: '重定向自：',
+        components: {
+          console: '这里有一个控制台页面组件，在下面的输入框中输入的字符串都会作为[](/zh/docs/inline-script.md "#")执行。',
+        },
         common: {
           WIP: '文档正在初步施工中，部分页面可能并不完整。',
           openSource: '这个页面是开源的，[改进它]',
