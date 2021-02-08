@@ -2,10 +2,10 @@
 
 @tags: Vue.js, TypeScript
 @cover: ![](/uploads/images/big-logo.png)
-@updated: 1612676303000
+@updated: 1612676303000, 1612765773000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 524b7e3
+@commit: 1b0bb03
 
 [noCommon]
 
