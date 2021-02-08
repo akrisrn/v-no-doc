@@ -6,11 +6,7 @@
 @updater: AkrISrn
 @commit: 8fefc2b
 
-<div id="sandbox">
-  <div id="preview" v-html="html"></div>
-  <div id="separator"></div>
-  <textarea class="ipt" $$: isSnippet && '<< 1| >>' ? `data="<< 1| >>" ` : '' $$v-model="text" ref="textarea"></textarea>
-</div>
+<div id="sandbox"$$: isSnippet && '<< 1| >>' ? ' data="<< 1| >>"' : '' $$></div>
 
-[$](/uploads/scripts/sandbox.js)
-[*](/uploads/styles/sandbox.css)
+[$](/uploads/dist/scripts/sandbox.js)
+[*](/uploads/dist/styles/sandbox.css)

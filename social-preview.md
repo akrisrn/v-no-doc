@@ -9,5 +9,5 @@
 
 [noCommon]
 
-[$](/uploads/scripts/social-preview.js)
-[*](/uploads/styles/social-preview.css)
+[$](/uploads/dist/scripts/social-preview.js)
+[*](/uploads/dist/styles/social-preview.css)

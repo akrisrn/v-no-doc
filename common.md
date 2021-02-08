@@ -12,8 +12,8 @@
 
 [$$](/uploads/libs/twemoji.min.js)
 
-[$$](/uploads/scripts/common.js)
-[**](/uploads/styles/common.css)
+[$$](/uploads/dist/scripts/common.js)
+[**](/uploads/dist/styles/common.css)
 
-[$$](/uploads/scripts/provider.js)
-[**](/uploads/styles/provider.css)
+[$$](/uploads/dist/scripts/provider.js)
+[**](/uploads/dist/styles/provider.css)
