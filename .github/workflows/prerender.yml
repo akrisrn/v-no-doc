@@ -19,11 +19,13 @@ jobs:
         with:
           path: v-no-doc
           fetch-depth: 0
+          submodules: true
 
       - name: Build
         run: |
           yarn && yarn run build
           cd v-no-doc/.scripts
+          cp ../.env.scripts .env
           yarn && yarn run build
 
       - name: Prerender
