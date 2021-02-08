@@ -21,7 +21,10 @@ jobs:
           fetch-depth: 0
 
       - name: Build
-        run: yarn && yarn run build
+        run: |
+          yarn && yarn run build
+          cd v-no-doc/.scripts
+          yarn && yarn run build
 
       - name: Prerender
         run: |
