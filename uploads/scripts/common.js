@@ -39,4 +39,8 @@
       element.classList.add('api');
     });
   }, vno.EEvent.htmlChanged);
+
+  vno.callAndListen(() => vno.waitFor(() => {
+    twemoji.parse(document.body);
+  }), vno.EEvent.htmlChanged);
 })();
