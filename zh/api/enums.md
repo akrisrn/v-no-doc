@@ -46,7 +46,7 @@ enum EMark {
 }
 ```
 
-标记的枚举对象。`input`、`result`、`number`、`count`、`time` 只在搜索页中生效。
+标记的枚举对象。`input`、`result`、`number`、`count`、`time` 只在[搜索页](/zh/search.md "#")中生效。
 
 ## EEvent
 
