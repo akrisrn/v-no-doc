@@ -10,7 +10,6 @@
 ![](/uploads/images/github.png "#16")
 : $$::: 'common.openSource' $$(https://github.com/akrisrn/v-no-doc/edit/master$$:: filePath $$)
 
-[**](/uploads/styles/font-face.css)
 [**](/uploads/styles/common.css)
 
 [$$](/uploads/libs/twemoji.min.js)
