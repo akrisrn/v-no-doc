@@ -34,10 +34,7 @@
 - [](/zh/docs/details.md "#")
 - [](/zh/docs/fold-heading.md "#")
 - [](/zh/docs/inline-script.md "#")
-- [](/zh/docs/flags.md "#")
-- [](/zh/docs/toc.md "#")
-- [](/zh/docs/list.md "#")
-- [](/zh/docs/redirect.md "#")
+- [](/zh/docs/marks.md "#")
 
 ## 杂项
 
