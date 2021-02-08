@@ -1,6 +1,7 @@
 declare let vnoConfig: IConfig;
 
 declare namespace vno {
+  const VPD: VPD;
   const Vue: Vue;
   const axios: typeof utils.axios;
   const dayjs: typeof utils.dayjs;
@@ -24,6 +25,7 @@ declare namespace vno {
   const addEventListener: typeof utils.addEventListener;
   const callAndListen: typeof utils.callAndListen;
   const encodeParam: typeof utils.encodeParam;
+  const getMessage: typeof utils.getMessage;
   const parseDate: typeof utils.parseDate;
   const formatDate: typeof utils.formatDate;
 
@@ -227,6 +229,8 @@ declare namespace vno {
     function getMarkRegExp(mark: string, isLine = true, flags = 'im'): RegExp
 
     function getWrapRegExp(left: string, right = left, flags?: string): RegExp
+
+    function getParamRegExp(flags = 'g'): RegExp
   }
 
   namespace store {
@@ -262,7 +266,7 @@ declare namespace vno {
 
     function evalFunction(evalStr: string, params: Dict<any>, asyncResults?: TAsyncResult[]): [string, boolean]
 
-    function replaceByRegExp(regexp: RegExp, data: string, callback: (matches: string[]) => string): string
+    function replaceByRegExp(regexp: RegExp, data: string, callback: (match: string[]) => string): string
 
     function waitFor(callback: () => void, maxCount = 100, timeout = 100): Promise<boolean>
 
@@ -273,6 +277,8 @@ declare namespace vno {
     function callAndListen(callback: () => void, event: enums.EEvent, element: Document | Element = document, reside = true): void
 
     function encodeParam(value: string): string
+
+    function getMessage(key: string, params: string[] | Dict<string>): string
 
     function parseDate(date: string | number): Date
 
@@ -454,6 +460,10 @@ declare class Main {
   returnHome(): void
 }
 
+interface IMessage {
+  [index: string]: string | IMessage
+}
+
 interface IConfig {
   siteName?: string;
   dateFormat?: string;
@@ -484,6 +494,8 @@ interface IConfig {
     noBacklinks: string;
     loading: string;
     redirectFrom: string;
+
+    [index: string]: string | IMessage;
   };
   defaultConf?: string;
   multiConf?: Dict<IConfig>;
@@ -552,6 +564,11 @@ type TFlag = [string, string]
 type TAnchor = [string, string]
 
 type TAsyncResult = [string, string, boolean?]
+
+/**
+ * vue-property-decorator/lib/index.d.ts
+ */
+type VPD = any
 
 /**
  * vue/types/vue.d.ts
