@@ -1,12 +1,7 @@
 <template>
   <div id="provider" :class="isZen ? 'hidden' : null">
     <img :src="logo" alt="logo" height="32">
-    <div>Powered by <a :href="powered[0]" rel="noopener noreferrer" target="_blank">{{
-        powered[1]
-      }}</a>, hosted on <a :href="hosted[0]" rel="noopener noreferrer" target="_blank">{{
-        hosted[1]
-      }}</a>
-    </div>
+    <div v-html="html"></div>
   </div>
 </template>
 
@@ -17,8 +12,15 @@
   export default class Provider extends vno.Vue {
     isZen = vno.gadgetSelf.isZen;
     logo = vno.path.addBaseUrl('/uploads/images/logo.png');
-    powered = ['https://github.com/akrisrn/v-no', '@akrisrn/v-no'];
-    hosted = ['https://github.com/akrisrn/v-no-doc', 'GitHub Pages'];
+    powered = ['@akrisrn/v-no', 'https://github.com/akrisrn/v-no'];
+    hosted = ['GitHub Pages', 'https://github.com/akrisrn/v-no-doc'];
+
+    get html() {
+      return vno.markdown.renderMD(vno.getMessage('components.provider', [
+        this.powered,
+        this.hosted,
+      ].map(link => `[${link[0]}](${link[1]})`)), false);
+    }
 
     mounted() {
       document.addEventListener(vno.EEvent.toggleZen, event => {
@@ -52,6 +54,16 @@
       visibility: hidden;
       height: 0;
       margin: 0;
+    }
+
+    > div {
+      > :first-child {
+        margin-top: 0;
+      }
+
+      > :last-child {
+        margin-bottom: 0;
+      }
     }
 
     @media screen and (max-width: 800px) {
