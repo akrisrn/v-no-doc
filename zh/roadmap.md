@@ -1,0 +1,29 @@
+# 路线图
+
+@tags: 开发
+@updated: 1612334783000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 81d16a2
+
+这里记录了 v-no 和它的子项目 v-no-script 在该文件创建后，计划新增、调整或移除的功能特性。
+
+说实话，我只是将我暂时不想动（优先级较低）的任务留在这里做个备忘，你可能想看的是[版本更新记录](/zh/releases/index.md "#")。
+
+v-no 的开发没有什么路线可言，一直都是想到什么写什么，API 改来改去更是家常便饭。
+
+总之，v-no，no way（冷）。
+
+::: open .readonly.bold v-no
+1. [ ] 命名切片。
+1. [ ] 重构锚点。
+1. [ ] 汇总 `.md` 以外的文件。
+:::
+
+v-no-script 不标记版本号，它默认跟随 v-no 的最新代码。
+
+::: open .readonly.bold v-no-script
+1. [ ] 生成 RSS 文件。
+1. [ ] 批量压缩图片 / 转换为 WebP 格式。
+1. [ ] v-no CLI。
+:::
