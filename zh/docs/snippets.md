@@ -1,10 +1,10 @@
 # 嵌入文件
 
 @tags: 语法/扩展
-@updated: 1612624857000, 1612681598000
+@updated: 1612624857000, 1612886035000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 078ce15
+@commit: d83fb77
 
 嵌入文件就是由[嵌入链接](/zh/docs/links.md "#")引入的文件，它会替代链接字符串进行渲染。
 

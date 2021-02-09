@@ -1,10 +1,10 @@
 # Sandbox
 
 @tags: snippet/component
-@updated: 1612610931000, 1612765773000
+@updated: 1612610931000, 1612886035000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 1b0bb03
+@commit: d83fb77
 
 <div id="sandbox"$$: isSnippet && '{{ 0| }}' ? ' data="{{ 0| }}"' : '' $$></div>
 

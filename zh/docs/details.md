@@ -1,10 +1,10 @@
 # details 语法
 
 @tags: 语法/扩展
-@updated: 1612106269000, 1612610931000
+@updated: 1612106269000, 1612872577000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: ea5e205
+@commit: 4d8fc32
 
 details 语法是用 `:::` 包围的块级语法，它可以帮助你生成 `<details>` 标签。
 

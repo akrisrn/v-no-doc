@@ -1,10 +1,10 @@
 # 自定义输入绑定
 
 @tags: 自定义
-@updated: 1612093023000, 1612610931000
+@updated: 1612093023000, 1612872577000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: ea5e205
+@commit: 4d8fc32
 
 自定义输入绑定是一组响应特定按键输入的事件函数。
 
