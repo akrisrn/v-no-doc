@@ -6,6 +6,6 @@
 @updater: AkrISrn
 @commit: c815ad8
 
-:::$$: '<< 1| >>' === vno.version ? ' .success.empty .' : '' $$
-**v<< 1|0.1.0 >>$$: '<< 1| >>' === vno.version ? vno.getMessage('latest') : ' +' $$**
+:::$$: '{{ 0| }}' === vno.version ? ' .success.empty .' : '' $$
+**v{{ 0|0.1.0 }}$$: '{{ 0| }}' === vno.version ? vno.getMessage('latest') : ' +' $$**
 :::

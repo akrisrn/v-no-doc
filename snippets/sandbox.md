@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 1b0bb03
 
-<div id="sandbox"$$: isSnippet && '<< 1| >>' ? ' data="<< 1| >>"' : '' $$></div>
+<div id="sandbox"$$: isSnippet && '{{ 0| }}' ? ' data="{{ 0| }}"' : '' $$></div>
 
 [$](/uploads/dist/scripts/sandbox.js)
 [*](/uploads/dist/styles/sandbox.css)
