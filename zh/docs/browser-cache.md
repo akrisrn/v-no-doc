@@ -1,7 +1,7 @@
 # 浏览器缓存
 
 @tags: 部署
-@updated: 1612334783000
+@updated: 1608187630000, 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
 @commit: 81d16a2

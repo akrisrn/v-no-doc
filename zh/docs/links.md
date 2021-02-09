@@ -1,7 +1,7 @@
 # 链接语法
 
 @tags: 语法/扩展
-@updated: 1612446329000, 1612625081000
+@updated: 1610024443000, 1612625081000
 @creator: AkrISrn
 @updater: AkrISrn
 @commit: 1093f68

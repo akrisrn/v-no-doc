@@ -1,7 +1,7 @@
 # 自定义输入绑定
 
 @tags: 自定义
-@updated: 1612334783000, 1612610931000
+@updated: 1612093023000, 1612610931000
 @creator: AkrISrn
 @updater: AkrISrn
 @commit: ea5e205

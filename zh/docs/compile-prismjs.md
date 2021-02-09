@@ -1,7 +1,7 @@
 # 编译 Prism.js
 
 @tags: 开发/编译
-@updated: 1612334783000
+@updated: 1607752145000, 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn
 @commit: 81d16a2

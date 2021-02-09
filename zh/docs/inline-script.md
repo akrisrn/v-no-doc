@@ -1,7 +1,7 @@
 # 行内脚本
 
 @tags: 语法/扩展
-@updated: 1612334783000, 1612776577000
+@updated: 1610031739000, 1612776577000
 @creator: AkrISrn
 @updater: AkrISrn
 @commit: cd4a7bd
