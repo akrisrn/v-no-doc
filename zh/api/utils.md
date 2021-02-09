@@ -141,12 +141,12 @@ eval(`(function(${Object.keys(params).join()}){${evalStr}})`)(...Object.values(p
 
 ## replaceByRegExp(regexp, data, callback)
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.6](/snippets/latest-version.md)
 
 - 参数：
     - `regexp: RegExp`：正则表达式。
     - `data: string`：需要进行替换的字符串。
-    - `callback: (matches: string[]) => string`：接收正则表达式分组匹配结果列表的回调函数，返回替换值。
+    - `callback: (match: RegExpExecArray) => string`：接收正则表达式执行结果列表的回调函数，返回替换值。
 - 返回值：`string`
 
 替换正则表达式匹配到的值。
@@ -154,7 +154,7 @@ eval(`(function(${Object.keys(params).join()}){${evalStr}})`)(...Object.values(p
 用法：
 
 ```js
-vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) => {
+vno.utils.replaceByRegExp(vno.regexp.getParamRegExp(), '{{ 0 }}llo Wo{{ 1 }}', ([, match]) => {
   return ['He', 'rld'][parseInt(match)];
 });
 ```
@@ -217,6 +217,17 @@ vno.utils.replaceByRegExp(/{{\s*(.+?)\s*}}/g, '{{ 0 }}llo Wo{{ 1 }}', ([match]) 
 - 返回值：`string`
 
 基本等同于 `encodeURIComponent`，只不过额外转义了单引号。可以用于编码嵌入参数。
+
+## getMessage(key, params)
+
+[+#1.2.6](/snippets/latest-version.md)
+
+- 参数：
+    - `key: string`：索引键，可以深入对象（`a.b.c`）。
+    - `params: any[] | Dict<any>`：需要嵌入的参数列表或者字典。
+- 返回值：`string`
+
+根据索引键从当前[配置对象](/zh/api/config.md "#h2-2")的 [](/zh/docs/conf-messages.md "#")取出对应的字符串，支持使用嵌入参数语法占位。
 
 ## parseDate(date)
 

@@ -4,6 +4,14 @@
 
 [toc]
 
+## VPD
+
+[+#1.2.6](/snippets/latest-version.md)
+
+- 类型：`VPD`
+
+vue-property-decorator 模块的实例。
+
 ## Vue
 
 [+#1.2.0](/snippets/latest-version.md)
@@ -156,13 +164,21 @@ v-no 版本号。
 
 同 [`vno.utils.encodeParam`](/zh/api/utils.md "#h2-19")。
 
+## getMessage
+
+[+#1.2.6](/snippets/latest-version.md)
+
+- 类型：`typeof utils.getMessage`
+
+同 [`vno.utils.getMessage`](/zh/api/utils.md "#h2-20")。
+
 ## parseDate
 
 [+#1.2.0](/snippets/latest-version.md)
 
 - 类型：`typeof utils.parseDate`
 
-同 [`vno.utils.parseDate`](/zh/api/utils.md "#h2-20")。
+同 [`vno.utils.parseDate`](/zh/api/utils.md "#h2-21")。
 
 ## formatDate
 
@@ -170,7 +186,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.formatDate`
 
-同 [`vno.utils.formatDate`](/zh/api/utils.md "#h2-21")。
+同 [`vno.utils.formatDate`](/zh/api/utils.md "#h2-22")。
 
 ## selectConf
 

@@ -56,6 +56,18 @@
 
 获取匹配 Hash 锚点语法的正则表达式。
 
+## getWrapRegExp(left, right?, flags?)
+
+[+#1.2.2](/snippets/latest-version.md)
+
+- 参数：
+    - `left: string`：左侧字符串。
+    - `right = left`：右侧字符串。
+    - `flags?: string`：正则表达式的 `flags`。
+- 返回值：`RegExp`
+
+获取匹配被指定字符串包围的字符串的正则表达式。
+
 ## getMarkRegExp(mark, isLine?, flags?)
 
 [+#1.2.2](/snippets/latest-version.md)
@@ -68,14 +80,12 @@
 
 获取匹配标记语法的正则表达式。
 
-## getWrapRegExp(left, right?, flags?)
+## getParamRegExp(flags?)
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.6](/snippets/latest-version.md)
 
 - 参数：
-    - `left: string`：左侧字符串。
-    - `right = left`：右侧字符串。
-    - `flags?: string`：正则表达式的 `flags`。
+    - `flags = 'g'`：正则表达式的 `flags`。
 - 返回值：`RegExp`
 
-获取匹配被指定字符串包围的字符串的正则表达式。
+获取匹配嵌入参数语法的正则表达式。

@@ -104,6 +104,17 @@ type TAnchor = [string, string]
 type TAsyncResult = [string, string, boolean?]
 ```
 
+## VPD
+
+[+#1.2.6](/snippets/latest-version.md)
+
+```ts
+/**
+ * vue-property-decorator/lib/index.d.ts
+ */
+type VPD = any
+```
+
 ## Vue
 
 [+#1.2.0](/snippets/latest-version.md)
