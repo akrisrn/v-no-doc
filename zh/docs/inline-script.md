@@ -20,7 +20,7 @@
 - `data`：执行时的文件内容。
 - `isSnippet`：是否执行在[](/zh/docs/snippets.md "#")中。
 
-因此，你至少需要一条 `return` 语句才能得到有效的输出结果，它会作为 Markdown 文件的一部分被渲染。为一行代码写一堆 `return` 也挺麻烦，为了简化输入，v-no 会将字符串开头的 `: ` 替换为 `return `、`:: ` 替换为 `return vno.`。
+因此，你至少需要一条 `return` 语句才能得到有效的输出结果，它会作为 Markdown 文件的一部分被渲染。为一行代码写一堆 `return` 也挺麻烦，为了简化输入，v-no 会将字符串开头的 `: ` 替换为 `return `、`:: ` 替换为 `return vno.`。如果你使用三个冒号 `::: `，在它之后的字符串会构成 `return vno.getMessage()` 的 `getMessage` 函数实参。
 
 你可以认为你能在浏览器控制台下执行的代码，对它来说也是同样有效的。只不过同步脚本会在文件渲染之前执行完毕，这意味着它查询不到渲染后的页面元素。这个问题就需要使用异步脚本来解决（见最后一个示例）。
 
@@ -33,6 +33,7 @@
 - `$\$ return Math.sqrt(2) $\$`：$$ return Math.sqrt(2) $$
 - `$\$: vno.filePath $\$`：$$: vno.filePath $$
 - `$\$:: title $\$`：$$:: title $$
+- `$\$::: 'home' $\$`：$$::: 'home' $$
 - `$\$ const date = vno.formatDate('2020/12/31'); return date $\$`：$$ const date = vno.formatDate('2020/12/31'); return date $$
 - `$\$ await vno.sleep(1000); return vno.version $\$`：$$ await vno.sleep(1000); return vno.version $$
 - `$\$: (await vno.file.getFile('/zh/index.md')).flags.title $\$`：$$: (await vno.file.getFile('/zh/index.md')).flags.title $$
