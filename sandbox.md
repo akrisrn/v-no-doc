@@ -6,6 +6,8 @@
 @updater: AkrISrn
 @commit: 1aa0044
 
-$$::: 'components.sandbox' $$
+$$::: 'components.sandbox', ['https://github.com/akrisrn/v-no-doc-script/blob/master/src/components/Sandbox.vue'] $$
+
+---
 
 [+](/snippets/sandbox.md)

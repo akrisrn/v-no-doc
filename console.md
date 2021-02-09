@@ -6,6 +6,8 @@
 @updater: AkrISrn
 @commit: 087367a
 
-$$::: 'components.console' $$
+$$::: 'components.console', ['https://github.com/akrisrn/v-no-doc-script/blob/master/src/components/Console.vue'] $$
+
+---
 
 [+](/snippets/console.md)
