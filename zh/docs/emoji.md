@@ -1,7 +1,7 @@
 # Emoji
 
 @tags: 杂项
-@updated: 1612334783000, 1612681598000
+@updated: 1608363717000, 1612681598000
 @creator: AkrISrn
 @updater: AkrISrn
 @commit: 078ce15

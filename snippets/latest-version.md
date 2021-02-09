@@ -1,7 +1,7 @@
 # Latest version
 
 @tags: snippet/template
-@updated: 1612335391000, 1612698773000
+@updated: 1609498959000, 1612698773000
 @creator: AkrISrn
 @updater: AkrISrn
 @commit: c815ad8

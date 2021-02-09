@@ -1,7 +1,7 @@
 # 列表排序规则
 
 @tags: 杂项
-@updated: 1612334783000, 1612446253000
+@updated: 1607757408000, 1612446253000
 @creator: AkrISrn
 @updater: AkrISrn
 @commit: 221a97c

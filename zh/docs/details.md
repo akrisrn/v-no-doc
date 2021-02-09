@@ -1,7 +1,7 @@
 # details 语法
 
 @tags: 语法/扩展
-@updated: 1612334783000, 1612610931000
+@updated: 1612106269000, 1612610931000
 @creator: AkrISrn
 @updater: AkrISrn
 @commit: ea5e205
