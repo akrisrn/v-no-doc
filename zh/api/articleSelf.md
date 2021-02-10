@@ -16,6 +16,14 @@
 
 同 [`vno.mainSelf.fileData`](/zh/api/mainSelf.md "#h2-2")。
 
+## <mark>@Prop()</mark> title
+
+[+#1.2.7](/snippets/latest-version.md)
+
+- 类型：`string`
+
+同 [`vno.mainSelf.title`](/zh/api/mainSelf.md "#h2-3")。
+
 ## <mark>@Prop()</mark> query
 
 [+#1.2.0](/snippets/latest-version.md)
