@@ -11,12 +11,13 @@
 行内脚本使用一对 `$$` 作为标记，所有被它们包裹的字符串都会被放进下面这个独立的函数上下文中被 `eval`：
 
 ```js
-(function(path, data, isSnippet) {
+(function(path, title, data, isSnippet) {
   // 行内脚本
-})(path, data, isSnippet)
+})(path, title, data, isSnippet)
 ```
 
 - `path`：执行时的文件路径。
+- `title`：执行时的文件标题。
 - `data`：执行时的文件内容。
 - `isSnippet`：是否执行在[](/zh/docs/snippets.md "#")中。
 
