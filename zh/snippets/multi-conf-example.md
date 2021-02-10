@@ -1,6 +1,6 @@
 # 多配置示例
 
-@tags: 部署/配置
+@tags: 部署/配置，snippet/code
 @updated: 1607966207000, 1612334783000
 @creator: AkrISrn
 @updater: AkrISrn

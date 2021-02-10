@@ -22,7 +22,7 @@ v-no 会尝试从 `multiConf` 中取出指定配置名下的一组配置项，�
 
 这里是一个多配置写法的示例：
 
-[+](/zh/docs/multi-conf-example.md)
+[+](/zh/snippets/multi-conf-example.md)
 
 如果 `multiConf` 只有一组配置项，虽然不会启用多配置，但你只要在 `defaultConf` 指定了它，对主配置的覆盖也会进行。所以，你也可以把外层主配置全部移动到 `multiConf` 中，这样配置文件会更加整洁。只要主配置最后是完整可用的，v-no 就可以正常运作。
 
