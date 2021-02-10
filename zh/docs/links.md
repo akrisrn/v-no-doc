@@ -1,10 +1,10 @@
 # 链接语法
 
 @tags: 语法/扩展
-@updated: 1610024443000, 1612886035000
+@updated: 1610024443000, 1612966734000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: d83fb77
+@commit: eb862ba
 
 因为链接语法是 Markdown 引用文件的关键，它是 v-no 主要进行扩展的目标。
 

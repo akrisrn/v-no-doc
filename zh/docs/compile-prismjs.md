@@ -1,10 +1,10 @@
 # 编译 Prism.js
 
 @tags: 开发/编译
-@updated: 1607752145000, 1612334783000
+@updated: 1607752145000, 1612966734000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81d16a2
+@commit: eb862ba
 
 v-no 使用 [babel-plugin-prismjs](https://github.com/mAAdhaTTah/babel-plugin-prismjs) 对 Prism.js 按需编译。它的相关代码会被单独打包在 `assets/js/prismjs.[hash].js` 文件，体积会随着 `PRISM_LANGUAGES` [](/zh/docs/env-vars.md "#")的改动而产生变化。
 

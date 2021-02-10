@@ -1,10 +1,10 @@
 # 多配置示例
 
 @tags: 部署/配置，snippet/code
-@updated: 1607966207000, 1612334783000
+@updated: 1607966207000, 1612966026000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81d16a2
+@commit: 12e1048
 
 ```js
 vnoConfig = {
