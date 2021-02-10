@@ -10,7 +10,7 @@ v-no 会使用语义化版本号进行版本更迭，但它暂时不会单独发
 
 在你有了一份可以用于部署的代码后，需要准备几个用于初始化的文件（它们包含在网站模板中）：
 
-- `assets/config.js` [配置文件](/zh/snippets/config.js.md "#")。
+- `assets/config.js`：[配置文件](/zh/snippets/config.js.md "#")。
 - 六个 `.md` 文件：
     - `archives.md`
     - `categories.md`

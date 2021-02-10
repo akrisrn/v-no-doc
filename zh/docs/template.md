@@ -9,7 +9,7 @@
 v-no 选择不发布 Release，取而代之的是两个随版本号更新的 GitHub 模板仓库：
 
 - [v-no-template](https://github.com/akrisrn/v-no-template)：使用默认[](/zh/docs/env-vars.md "#")进行编译的版本，能满足最常见的部署需求。
-- [v-no-hash-template](https://github.com/akrisrn/v-no-hash-template)：为预渲染准备的版本，和上面仓库的区别只有 `index.html` 文件路径不一样。它将 `index.html` 文件移动到了`-/` 目录，以避免预渲染时的冲突。你仍然需要执行预渲染脚本才能获得预渲染页面。
+- [v-no-hash-template](https://github.com/akrisrn/v-no-hash-template)：为预渲染准备的版本，和上面仓库的区别只有 `index.html` 文件路径不一样。它将 `index.html` 文件移动到了`-/` 目录，以避免预渲染时的冲突，你仍然需要执行预渲染脚本才能获得预渲染页面。
 
 为了方便你开箱即用，它们都包含了已经初始化的默认文件，你可以在之后详细[配置](/zh/docs/config.md "#")它们。
 

@@ -26,5 +26,5 @@
 这里有几处需要特别说明一下：
 
 1. 这是两条驻留脚本，加载后会一直保留在页面上，`parse-emoji.js` 的代码也是默认为驻留脚本编写的。如果你只需要在特定页面启用转换，可以选择不把它们加到 `config.paths.common`，使用非驻留引用标记（一个 `$`）和注释部分的非驻留代码。
-1. 多条自定义脚本在初次加载时的执行顺序并不稳定，`parse-emoji.js` 有可能会在 Twemoji 脚本加载完成之前执行。v-no 为这种情况提供了 `waitFor` 方法，它接收一个回调函数，返回一个 `Promise<boolean>`。它会在回调函数抛出异常（比如 `ReferenceError`）后等待一段时间（默认 0.1s）重新执行它，直到正常退出（返回 `true`），或者达到重试次数的上限（默认 100，返回 `false`）。
+1. 多条[](/zh/docs/custom-script.md "#")在初次加载时的执行顺序并不稳定，`parse-emoji.js` 有可能会在 Twemoji 脚本加载完成之前执行。v-no 为这种情况提供了 `waitFor` 方法，它接收一个回调函数，返回一个 `Promise<boolean>`。它会在回调函数抛出异常（比如 `ReferenceError`）后等待一段时间（默认 0.1s）重新执行它，直到正常退出（返回 `true`），或者达到重试次数的上限（默认 100，返回 `false`）。
 1. 页面有可能会进行两次渲染，如果你只调用一次 `twemoji.parse`，它的执行结果就会被第二次渲染覆盖掉。`htmlChanged` 事件会在 `<article>` 的 `innerHTML` 改变后派发给 `document`，所以你需要监听它，在事件达到后重新调用 `twemoji.parse`。因为首次调用后监听事件再调用的情况较为常见，v-no 将这两个步骤整合为 `callAndListen` 方法。它没有返回值，默认脚本是驻留的，会将监听器加在 `document`。
