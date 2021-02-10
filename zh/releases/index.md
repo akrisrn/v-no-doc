@@ -8,6 +8,8 @@
 
 [toc]
 
+## [+](/zh/releases/v1.2.7.md)
+
 ## [+](/zh/releases/v1.2.6.md)
 
 ## [+](/zh/releases/v1.2.5.md)
