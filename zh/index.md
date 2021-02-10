@@ -48,4 +48,8 @@ vno.path.enableCDN();
 <button class="btn danger" onclick="vno.path.disableCDN();">disableCDN</button> <button class="btn success" onclick="vno.path.enableCDN();">enableCDN</button>
 :::
 
+::: .success 最新版本更新记录
+[+#clip=1](/zh/releases/index.md)
+:::
+
 [+](/snippets/badges.md)

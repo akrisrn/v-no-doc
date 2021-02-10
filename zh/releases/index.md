@@ -8,16 +8,30 @@
 
 [toc]
 
+--8<--
+
 ## [+](/zh/releases/v1.2.6.md)
+
+--8<--
 
 ## [+](/zh/releases/v1.2.5.md)
 
+--8<--
+
 ## [+](/zh/releases/v1.2.4.md)
+
+--8<--
 
 ## [+](/zh/releases/v1.2.3.md)
 
+--8<--
+
 ## [+](/zh/releases/v1.2.2.md)
 
+--8<--
+
 ## [+](/zh/releases/v1.2.1.md)
+
+--8<--
 
 ## [+](/zh/releases/v1.2.0.md)
