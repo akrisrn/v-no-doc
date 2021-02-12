@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 81d16a2
 
-编译完成的文件会输出在 `dist` 目录下。这是默认的目录结构：
+编译完成的文件会输出在 `dist` 目录下。这是默认的$$: title $$：
 
 ```text|2,15,18-20,23-28
 dist

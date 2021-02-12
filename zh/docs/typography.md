@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 81d16a2
 
-markdown-it 内置了一组[替换规则](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js)帮助你进行排字：
+markdown-it 内置了一组[替换规则](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js)帮助你进行$$: title $$：
 
 | 匹配 | 替换 |
 | - | - |
@@ -28,7 +28,7 @@ markdown-it 内置了一组[替换规则](https://github.com/markdown-it/markdow
 
 markdown-it 还能将非开闭引号（`"'`）都转换为开闭引号，不过这样一来普通文本就不会显示非开闭引号了。你可以使用配置文件的 [`smartQuotes`](/zh/docs/main-conf.md "#") 配置项对它进行配置，v-no 默认不会启用这个功能。
 
-另外，`replacer` 配置项被设计用来做一些自定义正则替换，它和 markdown-it 内置的替换规则是相同的原理。你当然也可以用它处理引号转换和其它的排字需求。
+另外，`replacer` 配置项被设计用来做一些自定义正则替换，它和 markdown-it 内置的替换规则是相同的原理。你当然也可以用它处理引号转换和其它的$$: title $$需求。
 
 比如，你可以把~~容易弄反还很难区分的~~英式开闭引号都换成中式直角引号：
 

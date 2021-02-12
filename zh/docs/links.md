@@ -6,9 +6,9 @@
 @updater: AkrISrn
 @commit: eb862ba
 
-因为链接语法是 Markdown 引用文件的关键，它是 v-no 主要进行扩展的目标。
+因为$$: title $$是 Markdown 引用文件的关键，它是 v-no 主要进行扩展的目标。
 
-一个标准 Markdown 链接语法由三个部分组成：
+一个标准 Markdown $$: title $$由三个部分组成：
 
 1. `!`：标记它是一个文字链接还是图像链接。
 1. `[text]`：
