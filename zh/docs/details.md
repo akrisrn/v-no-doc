@@ -1,26 +1,26 @@
 # details 语法
 
 @tags: 语法/扩展
-@updated: 1612106269000, 1612872577000
+@updated: 1612106269000, 1612966734000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 4d8fc32
+@commit: eb862ba
 
 details 语法是用 `:::` 包围的块级语法，它可以帮助你生成 `<details>` 标签。
 
 它的第一行由三部分组成：
 
 - `open`：是否默认展开，可以省略。
--  `class` 列表：以 `.` 开头，用 `.` 相连，可以省略。有几个特殊 `class`：
-   - `readonly`：禁用 `<summary>` 的点击事件。
-   - `empty`：不显示 `<summary>`，默认展开。
-   - `bold`：`<summary>` 的字体为粗体。
-   - 主题色：
-      - `success`：绿。
-      - `warning`：黄。
-      - `danger`：红。
-      - `dark`：黑。
--  `<summary>` 标签的 `innerHTML`：支持 Markdown 语法，可以省略（不过因为它的优先级最高，如果你需要使用前两项，就不能省略它）。
+- `class` 列表：以 `.` 开头，用 `.` 相连，可以省略。有几个特殊 `class`：
+    - `readonly`：禁用 `<summary>` 的点击事件。
+    - `empty`：不显示 `<summary>`，默认展开。
+    - `bold`：`<summary>` 的字体为粗体。
+    - 主题色：
+        - `success`：绿。
+        - `warning`：黄。
+        - `danger`：红。
+        - `dark`：黑。
+- `<summary>` 标签的 `innerHTML`：支持 Markdown 语法，可以省略（不过因为它的优先级最高，如果你需要使用前两项，就不能省略它）。
 
 示例：
 
@@ -149,6 +149,7 @@ content
 content
 :::
 ```
+
 ::: .warning.empty summary
 content
 :::

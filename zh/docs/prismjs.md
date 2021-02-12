@@ -1,12 +1,12 @@
 # Prism.js
 
 @tags: 开发/依赖
-@updated: 1608535980000, 1612334783000
+@updated: 1608535980000, 1612966734000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81d16a2
+@commit: eb862ba
 
-v-no 使用 [Prism.js](https://github.com/PrismJS/prism) 对代码块进行高亮，需要高亮的语言越多，它的打包体积越大。如果你完全用不到它，最多只能将 `PRISM_LANGUAGES` [](/zh/docs/env-vars.md "#")设为空，目前还没有办法将它彻底移除（默认打包的 JS + CSS 体积在 42 KB 左右，环境变量设空后能减少到 7 KB）。
+v-no 使用 [Prism.js](https://github.com/PrismJS/prism) 对代码块进行高亮，需要高亮的语言越多，它的打包体积越大。如果你完全用不到它，最多只能将 `PRISM_LANGUAGES` [](/zh/docs/env-vars.md "#")设为空，目前还没有办法将它彻底移除（默认打包的 JS + CSS 体积在 42 KB 左右，[](/zh/docs/env-vars.md "#")设空后能减少到 7 KB）。
 
 不过因为它是动态引入的，只在页面有需要高亮的代码块时才会被加载，所以你也不用担心体积太大的代码文件会影响到页面的加载速度。
 
