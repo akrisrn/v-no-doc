@@ -14,6 +14,8 @@
 
 ## [+](/zh/docs/list.md)
 
+## [+](/zh/docs/slice.md)
+
 ## [+](/zh/docs/redirect.md)
 
 [+](/zh/docs/other-marks.md)
