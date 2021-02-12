@@ -13,9 +13,12 @@
 总之，v-no，no way（冷）。
 
 ::: open .readonly.bold v-no
-1. [ ] 命名切片。
 1. [ ] 重构锚点。
 1. [ ] 汇总 `.md` 以外的文件。
+
+::: .success.bold 已完成
+- [](/zh/releases/v1.2.7.md "#")
+    1. [x] 可命名的[](/zh/docs/slice.md "#")标记。
 :::
 
 v-no-script 不标记版本号，它默认跟随 v-no 的最新代码。
