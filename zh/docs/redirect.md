@@ -1,10 +1,10 @@
 # 重定向
 
 @tags: 语法/标记
-@updated: 1612366351000
+@updated: 1612366351000, 1613115194000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: d48fc2b
+@commit: b2345cc
 
 你可以使用单独占据一行的 `[redirect]` 标记（不区分大小写）将当前页面$$: title $$到其它页面。如果一个页面有多个 `[redirect]` 标记，只有第一个会生效。你需要将$$: title $$路径作为参数传给它。
 

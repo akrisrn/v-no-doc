@@ -1,10 +1,10 @@
 # API
 
 @tags: API
-@updated: 1612334783000, 1612966734000
+@updated: 1612334783000, 1613105889000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: eb862ba
+@commit: 9acd4dd
 
 转换自 [vno.d.ts](https://github.com/akrisrn/v-no-doc-script/blob/master/src/utils/vno.d.ts)，所有 API 都位于全局 `vno` 对象下。
 

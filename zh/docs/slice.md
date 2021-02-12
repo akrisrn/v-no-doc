@@ -1,6 +1,10 @@
 # 文件切片
 
 @tags: 语法/标记
+@updated: 1613114914000, 1613115194000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: b2345cc
 
 你可以使用单独占据一行的 `[slice]` 标记（不区分大小写）将位于它前后的文件内容划分为多个切片。
 

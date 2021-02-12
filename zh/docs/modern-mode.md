@@ -1,10 +1,10 @@
 # 现代模式
 
 @tags: 开发/编译
-@updated: 1607752145000, 1612334783000
+@updated: 1607752145000, 1613115194000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81d16a2
+@commit: b2345cc
 
 [$$: title $$](https://cli.vuejs.org/zh/guide/browser-compatibility.html#%E7%8E%B0%E4%BB%A3%E6%A8%A1%E5%BC%8F)是 Vue CLI 提供的一种构建选择。
 

@@ -1,10 +1,10 @@
 # 行内脚本
 
 @tags: 语法/扩展
-@updated: 1610031739000, 1612928543000
+@updated: 1610031739000, 1613115194000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 8533371
+@commit: b2345cc
 
 你可以通过编写可执行的行内代码，在一定程度上编程控制页面内容的展示。
 
