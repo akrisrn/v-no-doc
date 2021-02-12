@@ -22,8 +22,8 @@
 
 ## 部署
 
+- [](/zh/docs/download_&_deploy.md "#")
 - [](/zh/docs/config.md "#")
-- [](/zh/docs/deploy.md "#")
 - [](/zh/docs/browser-cache.md "#")
 - [](/zh/docs/cdn.md "#")
 
@@ -35,6 +35,11 @@
 - [](/zh/docs/fold-heading.md "#")
 - [](/zh/docs/inline-script.md "#")
 - [](/zh/docs/marks.md "#")
+
+## 自定义
+
+- [](/zh/docs/custom-script.md "#")
+- [](/zh/docs/custom-input-bind.md "#")
 
 ## 杂项
 
