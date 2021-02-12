@@ -49,7 +49,7 @@ vno.path.enableCDN();
 :::
 
 ::: .success 最新版本更新记录
-[+#clip=1](/zh/releases/index.md)
+[+#slice=1](/zh/releases/index.md)
 :::
 
 [+](/snippets/badges.md)

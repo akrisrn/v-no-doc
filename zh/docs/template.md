@@ -19,4 +19,4 @@ v-no 选择不发布 Release，取而代之的是两个随版本号更新的 Git
 
 如果你想将它们[](/zh/docs/deploy-to-github-pages.md "#")，这里有个简单的步骤说明：
 
-[+#clip=1](/zh/docs/deploy-to-github-pages.md)
+[+#slice=1](/zh/docs/deploy-to-github-pages.md)
