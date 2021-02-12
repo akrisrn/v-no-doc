@@ -1,7 +1,7 @@
 # 文档主页
 
 @tags: root
-@cover: ![](/uploads/images/logo.png)
+@cover: ![](/uploads/images/big-logo.png)
 @updated: 1607595626000, 1613114914000
 @creator: AkrISrn
 @updater: AkrISrn
@@ -11,10 +11,11 @@
 
 - 如果你不清楚 v-no 是什么，可以去 [](/zh/README.md "#") 看看（剧透：它是又一个静态网站生成器）。
 - 要是你想纵览这里都有些什么内容，[归档页](/zh/archives.md "#")和[分类页](/zh/categories.md "#")把它们列了出来。
-- 又或者你带来了一两个关键词，试试拿去[搜索页](/zh/search.md "#")。
+- 又或者你带来了一两个关键词，试试拿到[搜索页](/zh/search.md "#")。
+- 而它们都固定在顶栏，那边也向你指引了更多有用的页面。
 - 有时我们没有明确的方向，那就漫游于页面底部的反向链接吧。
 
-::: open .readonly.warning.bold 对了
+::: .warning.bold 对了
 我会充分利用 v-no 的特性为它编写文档，以便你在浏览的过程中体验它们。
 
 你在这里看到的页面都是一个个片段文件，它们之间会互相引用、嵌入，纵向组织成分层级的树状结构（构成一篇文章），也会自然形成以反向链接为基础的根茎状网图结构。在这之上，可嵌套的标签系统又从另一个维度将它们分类汇总，最终将整个文档以立体的形式呈现给你。
@@ -30,7 +31,7 @@
 祝愉快。
 :::
 
-::: 因为启用了 CDN，页面更新可能会有一段时间的延迟。如果你觉得没必要使用 CDN，可以考虑禁用它。
+::: .bold 因为启用了 CDN，页面更新可能会有一段时间的延迟。如果你觉得没必要使用 CDN，可以考虑禁用它。
 你可以在浏览器控制台中输入下面这行代码来禁用 CDN：
 
 ```js
@@ -48,7 +49,7 @@ vno.path.enableCDN();
 <button class="btn danger" onclick="vno.path.disableCDN();">disableCDN</button> <button class="btn success" onclick="vno.path.enableCDN();">enableCDN</button>
 :::
 
-::: .success 最新版本更新记录
+::: .success.bold 最新版本更新记录
 [+#slice=1](/zh/releases/index.md)
 :::
 
