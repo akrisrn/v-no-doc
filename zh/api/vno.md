@@ -112,7 +112,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.destructors`
 
-同 [`vno.utils.destructors`](/zh/api/utils.md "#h2-5")。
+同 [`vno.utils.destructors`](/zh/api/utils.md "#h2-4")。
 
 ## addInputBinds
 
@@ -120,7 +120,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.addInputBinds`
 
-同 [`vno.utils.addInputBinds`](/zh/api/utils.md "#h2-7")。
+同 [`vno.utils.addInputBinds`](/zh/api/utils.md "#h2-6")。
 
 ## sleep
 
@@ -128,7 +128,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.sleep`
 
-同 [`vno.utils.sleep`](/zh/api/utils.md "#h2-9")。
+同 [`vno.utils.sleep`](/zh/api/utils.md "#h2-8")。
 
 ## waitFor
 
@@ -136,7 +136,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.waitFor`
 
-同 [`vno.utils.waitFor`](/zh/api/utils.md "#h2-15")。
+同 [`vno.utils.waitFor`](/zh/api/utils.md "#h2-14")。
 
 ## waitForEvent
 
@@ -144,7 +144,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.waitForEvent`
 
-同 [`vno.utils.waitForEvent`](/zh/api/utils.md "#h2-16")。
+同 [`vno.utils.waitForEvent`](/zh/api/utils.md "#h2-15")。
 
 ## addEventListener
 
@@ -152,7 +152,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.addEventListener`
 
-同 [`vno.utils.addEventListener`](/zh/api/utils.md "#h2-17")。
+同 [`vno.utils.addEventListener`](/zh/api/utils.md "#h2-16")。
 
 ## callAndListen
 
@@ -160,7 +160,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.callAndListen`
 
-同 [`vno.utils.callAndListen`](/zh/api/utils.md "#h2-18")。
+同 [`vno.utils.callAndListen`](/zh/api/utils.md "#h2-17")。
 
 ## encodeParam
 
@@ -168,7 +168,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.encodeParam`
 
-同 [`vno.utils.encodeParam`](/zh/api/utils.md "#h2-19")。
+同 [`vno.utils.encodeParam`](/zh/api/utils.md "#h2-18")。
 
 ## getMessage
 
@@ -176,7 +176,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.getMessage`
 
-同 [`vno.utils.getMessage`](/zh/api/utils.md "#h2-20")。
+同 [`vno.utils.getMessage`](/zh/api/utils.md "#h2-19")。
 
 ## parseDate
 
@@ -184,7 +184,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.parseDate`
 
-同 [`vno.utils.parseDate`](/zh/api/utils.md "#h2-21")。
+同 [`vno.utils.parseDate`](/zh/api/utils.md "#h2-20")。
 
 ## formatDate
 
@@ -192,7 +192,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.formatDate`
 
-同 [`vno.utils.formatDate`](/zh/api/utils.md "#h2-22")。
+同 [`vno.utils.formatDate`](/zh/api/utils.md "#h2-21")。
 
 ## selectConf
 

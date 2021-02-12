@@ -30,7 +30,7 @@ Flag 的枚举对象。`title`、`times`、`startDate`、`endDate` 会自动生�
 
 ## EMark
 
-[+#1.2.4](/snippets/latest-version.md)
+[+#1.2.7](/snippets/latest-version.md)
 
 ```ts
 enum EMark {
@@ -38,6 +38,7 @@ enum EMark {
   noCommon = 'noCommon',
   toc = 'toc',
   list = 'list',
+  slice = 'slice',
   input = 'input',
   result = 'result',
   number = 'number',

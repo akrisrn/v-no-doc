@@ -32,14 +32,6 @@
 
 预定义的 Flag 列表。
 
-## snippetMark
-
-[+#1.2.0](/snippets/latest-version.md)
-
-- 类型：`string`
-
-切片语法标记。
-
 ## destructors
 
 [+#1.2.0](/snippets/latest-version.md)
@@ -193,7 +185,7 @@ vno.utils.replaceByRegExp(vno.regexp.getParamRegExp(), '{{ 0 }}llo Wo{{ 1 }}', (
     - `listener: EventListenerOrEventListenerObject`：监听器函数。
 - 返回值：无
 
-为元素添加事件监听器。它同时也会将移除监听器的函数 `push` 进 [`vno.utils.destructors`](/zh/api/utils.md "#h2-5")。
+为元素添加事件监听器。它同时也会将移除监听器的函数 `push` 进 [`vno.utils.destructors`](/zh/api/utils.md "#h2-4")。
 
 ## callAndListen(callback, event, element?, reside?)
 

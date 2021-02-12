@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: eb862ba
 
-转换自 [vno.d.ts](https://github.com/akrisrn/v-no/blob/master/src/vno.d.ts)，所有 API 都位于全局 `vno` 对象下。
+转换自 [vno.d.ts](https://github.com/akrisrn/v-no-doc-script/blob/master/src/utils/vno.d.ts)，所有 API 都位于全局 `vno` 对象下。
 
 [toc]
 
