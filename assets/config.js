@@ -29,6 +29,20 @@ vnoConfig = {
     favicon: '/uploads/images/favicon.png',
     common: '/common.md',
   },
+  messages: {
+    paths: {
+      logo: '/uploads/images/logo.png',
+      console: '/console.md',
+      sandbox: '/sandbox.md',
+      releases: '/{{ 0 }}/releases/',
+      api: '/{{ 0 }}/api/',
+    },
+    links: {
+      raw: 'https://raw.githubusercontent.com/akrisrn/v-no-doc/{{ 0 }}',
+      powered: ['@akrisrn/v-no', 'https://github.com/akrisrn/v-no'],
+      hosted: ['GitHub Pages', 'https://github.com/akrisrn/v-no-doc'],
+    },
+  },
   defaultConf: 'en',
   multiConf: {
     en: {
