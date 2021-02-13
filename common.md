@@ -12,7 +12,7 @@
 --8<--
 
 ![](/uploads/images/github.png "#16")
-: $$::: 'common.openSource' $$(https://github.com/akrisrn/v-no-doc/edit/master$$:: filePath $$)
+: $$::: 'common.openSource', [`https://github.com/akrisrn/v-no-doc/edit/master${vno.filePath}`] $$
 
 [$$](/uploads/libs/twemoji.min.js)
 

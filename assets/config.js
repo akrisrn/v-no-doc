@@ -61,7 +61,7 @@ vnoConfig = {
         },
         common: {
           WIP: 'The documentation is still worked in process, and it maybe lacks a lot of content.',
-          openSource: 'This page is open source, [improve it]',
+          openSource: 'This page is open source, [improve it]({{ 0 }})',
         },
         latest: ' (Latest)',
         lastDeployed: ' (Last deployed: {{ 0 }})',
@@ -97,7 +97,7 @@ vnoConfig = {
         },
         common: {
           WIP: '文档正在初步施工中，部分页面可能并不完整。',
-          openSource: '这个页面是开源的，[改进它]',
+          openSource: '这个页面是开源的，[改进它]({{ 0 }})',
         },
         latest: '（最新）',
         lastDeployed: '（最后部署：{{ 0 }}）',
