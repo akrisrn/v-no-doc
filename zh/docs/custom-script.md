@@ -36,3 +36,4 @@ v-no 丰富的 [](/zh/api/index.md "#")（所有 Vue 实例、`export` 的变量
 
 - [](/console.md "#")：将输入的字符串作为[](/zh/docs/inline-script.md "#")执行。
 - [](/sandbox.md "#")：用与渲染 `.md` 文件相同的逻辑，即时渲染输入的字符串。
+- [](/graph.md "#")：`.md` 文件之间的网状链接关系图。
