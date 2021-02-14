@@ -1,10 +1,10 @@
 # 路线图
 
 @tags: 开发
-@updated: 1612151334000, 1613115194000
+@updated: 1612151334000, 1613320616000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 8d9268d
+@commit: 0840f48
 
 这里记录了 v-no 和它的子项目 v-no-script 在该文件创建后，计划新增、调整或移除的功能特性。
 
