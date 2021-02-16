@@ -29,11 +29,7 @@
 
 ## 语法
 
-- [](/zh/docs/links.md "#")
-- [](/zh/docs/snippets.md "#")
-- [](/zh/docs/details.md "#")
-- [](/zh/docs/fold-heading.md "#")
-- [](/zh/docs/inline-script.md "#")
+- [](/zh/docs/syntax.md "#")
 - [](/zh/docs/marks.md "#")
 
 ## 自定义
