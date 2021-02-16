@@ -12,7 +12,7 @@ $$: title $$是一组响应特定按键输入的事件函数。
 
 你可以使用 [`vno.utils.addInputBinds`](/zh/api/utils.md "#h2-6") 增加输入绑定，[`vno.utils.inputBinds`](/zh/api/utils.md "#h2-5") 记录了所有绑定。
 
-示例：
+## 示例
 
 ```js
 vno.utils.addInputBinds({
@@ -22,7 +22,7 @@ vno.utils.addInputBinds({
 })
 ```
 
-默认绑定：
+## 默认绑定
 
 - `home`：返回主页。
 - `dark`：切换暗色模式。

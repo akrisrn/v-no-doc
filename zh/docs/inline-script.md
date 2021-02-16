@@ -31,6 +31,6 @@ $$: title $$使用一对 `$$` 作为标记，所有被它们包裹的字符串�
 
 最后需要注意一点，$$: title $$的执行优先级通常是最高的。不过在[](/zh/docs/snippets.md "#")中，它排在了参数传递和文件切分的后面，以便于你将传入的参数作为脚本代码的一部分。另外它也排在 [](/zh/docs/flags.md "#") 和 [`[noCommon]`](/zh/docs/other-marks.md "#h2-1") 标记后，其它语法标记前。
 
-示例：
+## 示例
 
 [+#$$:: encodeParam('$\$ return Math.sqrt(2) $\$\n\n$\$: vno.filePath $\$\n\n$\$:: title $\$\n\n$\$::: "home" $\$\n\n$\$ const date = vno.formatDate("2020/12/31"); return date $\$\n\n$\$ aw\ait vno.sleep(1000); return vno.version $\$\n\n$\$: (aw\ait vno.file.getFile("/zh/index.md")).flags.title $\$\n\n$\$: aw\ait vno.waitForEvent(() => document.querySelector("article").childElementCount, vno.EEvent.rendered) $\$') $$](/snippets/sandbox.md)

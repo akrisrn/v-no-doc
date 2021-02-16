@@ -24,4 +24,4 @@
 
 [result#在上面敲点什么，然后按下回车。结果会在这里展示出来。]
 
-: **[number#0] / [count#0] results ( [time#0] seconds )**
+: **[number#0] / [count#0] results ([time#0] seconds)**

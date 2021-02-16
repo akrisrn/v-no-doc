@@ -10,7 +10,7 @@
 
 $$: title $$路径以 `/` 开头，`.md` 结尾，锚点要在查询字符串前。
 
-举几个例子：
+## 示例
 
 - `[redirect#/index.md]`：$$: title $$到 `/index.md`。
 - `[redirect#/zh/archives.md#h2-1]`：$$: title $$到 `/zh/archives.md`，并滚动到锚点。
