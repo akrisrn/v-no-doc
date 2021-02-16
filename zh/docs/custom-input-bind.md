@@ -1,10 +1,10 @@
 # 自定义输入绑定
 
 @tags: 自定义
-@updated: 1612093023000, 1613115194000
+@updated: 1612093023000, 1613492963000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: b2345cc
+@commit: ee370c6
 
 $$: title $$是一组响应特定按键输入的事件函数。
 

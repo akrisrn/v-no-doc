@@ -1,10 +1,10 @@
 # details 语法
 
 @tags: 语法/扩展
-@updated: 1612106269000, 1613115194000
+@updated: 1612106269000, 1613492963000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: b2345cc
+@commit: ee370c6
 
 $$: title $$是用 `:::` 包围的块级语法，它可以帮助你生成 `<details>` 标签。
 
