@@ -208,18 +208,18 @@ vno.utils.replaceByRegExp(vno.regexp.getParamRegExp(), '{{ 0 }}llo Wo{{ 1 }}', (
     - `value: string`：参数值。
 - 返回值：`string`
 
-基本等同于 `encodeURIComponent`，只不过额外转义了单引号。可以用于编码嵌入参数。
+基本等同于 `encodeURIComponent`，只不过额外转义了单引号。可以用于在[嵌入链接](/zh/docs/links.md "#")中编码[嵌入参数](/zh/docs/snippets.md "#h2-1")。
 
-## getMessage(key, params)
+## getMessage(key, params?)
 
-[+#1.2.6](/snippets/latest-version.md)
+[+#1.2.8](/snippets/latest-version.md)
 
 - 参数：
-    - `key: string`：索引键，可以深入对象（`a.b.c`）。
-    - `params: any[] | Dict<any>`：需要嵌入的参数列表或者字典。
+    - `key: string`：索引键，可以深入对象（`a.b.c`）或列表（`a.0.c`）。
+    - `params?: TMessage`：需要嵌入的参数列表或字典。如果列表长度为 1，可以直接传入列表项。
 - 返回值：`string`
 
-根据索引键从当前[配置对象](/zh/api/config.md "#h2-2")的 [](/zh/docs/conf-messages.md "#")取出对应的字符串，支持使用嵌入参数语法占位。
+根据索引键从当前[配置对象](/zh/api/config.md "#h2-2")的 [](/zh/docs/conf-messages.md "#")取出对应的字符串，支持使用[嵌入参数](/zh/docs/snippets.md "#h2-1")语法占位，不过不识别默认值。
 
 ## parseDate(date)
 

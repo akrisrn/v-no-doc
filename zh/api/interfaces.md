@@ -8,19 +8,9 @@
 
 [toc]
 
-## IMessage
-
-[+#1.2.6](/snippets/latest-version.md)
-
-```ts
-interface IMessage {
-  [index: string]: string | IMessage
-}
-```
-
 ## IConfig
 
-[+#1.2.6](/snippets/latest-version.md)
+[+#1.2.8](/snippets/latest-version.md)
 
 ```ts
 interface IConfig {
@@ -54,13 +44,23 @@ interface IConfig {
     loading: string;
     redirectFrom: string;
 
-    [index: string]: string | IMessage;
+    [index: string]: TMessage;
   };
   defaultConf?: string;
   multiConf?: Dict<IConfig>;
   alias?: string;
 
   [index: string]: any;
+}
+```
+
+## IMessage
+
+[+#1.2.8](/snippets/latest-version.md)
+
+```ts
+interface IMessage {
+  [index: string]: TMessage
 }
 ```
 

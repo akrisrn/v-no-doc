@@ -10,8 +10,6 @@
 
 [toc]
 
-## [+](/zh/api/definition.md)
-
 [+](/zh/api/vno.md)
 
 ## [+](/zh/api/file.md)
@@ -28,6 +26,8 @@
 
 ## [+](/zh/api/regexp.md)
 
+## [+](/zh/api/storage.md)
+
 ## [+](/zh/api/store.md)
 
 ## [+](/zh/api/utils.md)
@@ -39,3 +39,5 @@
 ## [+](/zh/api/articleSelf.md)
 
 ## [+](/zh/api/gadgetSelf.md)
+
+## [+](/zh/api/definition.md)

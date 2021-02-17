@@ -72,6 +72,22 @@ type THashPath = {
 type TConfList = [string[], string[]]
 ```
 
+## TMessageData
+
+[+#1.2.8](/snippets/latest-version.md)
+
+```ts
+type TMessageData = string | number | boolean | null
+```
+
+## TMessage
+
+[+#1.2.8](/snippets/latest-version.md)
+
+```ts
+type TMessage = TMessageData | TMessageData[] | IMessage
+```
+
 ## TRedirectList
 
 [+#1.2.2](/snippets/latest-version.md)

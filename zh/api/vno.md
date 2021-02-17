@@ -218,6 +218,14 @@ v-no 版本号。
 
 同 [`vno.mainSelf.filePath`](/zh/api/mainSelf.md "#h2-23")。
 
+## isIndexFile
+
+[+#1.2.8](/snippets/latest-version.md)
+
+- 类型：`typeof mainSelf.isIndexFile`
+
+同 [`vno.mainSelf.isIndexFile`](/zh/api/mainSelf.md "#h2-30")。
+
 ## reload
 
 [+#1.2.0](/snippets/latest-version.md)
@@ -225,6 +233,14 @@ v-no 版本号。
 - 类型：`typeof mainSelf.reload`
 
 同 [`vno.mainSelf.reload`](/zh/api/mainSelf.md "#h2-34")。
+
+## isSearchFile
+
+[+#1.2.8](/snippets/latest-version.md)
+
+- 类型：`typeof articleSelf.isSearchFile`
+
+同 [`vno.articleSelf.isSearchFile`](/zh/api/articleSelf.md "#h2-15")。
 
 ## toggleDark
 
