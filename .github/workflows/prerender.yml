@@ -42,6 +42,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_CONFIG_NAME: AkrISrn-Bot
+          GIT_CONFIG_NAME: gh-actions
           BRANCH: master
           FOLDER: v-no-doc
