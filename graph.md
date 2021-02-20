@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 19ca5fd
 
-$$::: 'components.graph.text', 'https://github.com/akrisrn/v-no-doc-script/blob/master/src/components/Graph.vue' $$
+$$::: 'components.graph.text', 'https://github.com/akrisrn/v-no-page-component/blob/master/src/components/Graph.vue' $$
 
 ---
 

@@ -8,5 +8,5 @@
 
 <div id="sandbox"$$: isSnippet && '{{ 0| }}' ? ' data="{{ 0| }}"' : '' $$></div>
 
-[$](/uploads/dist/scripts/sandbox.js)
-[*](/uploads/dist/styles/sandbox.css)
+[$](https://cdn.jsdelivr.net/gh/akrisrn/v-no-page-component/dist/scripts/sandbox.js)
+[*](https://cdn.jsdelivr.net/gh/akrisrn/v-no-page-component/dist/styles/sandbox.css)

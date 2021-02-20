@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 19ca5fd
 
-$$::: 'components.console', 'https://github.com/akrisrn/v-no-doc-script/blob/master/src/components/Console.vue' $$
+$$::: 'components.console', 'https://github.com/akrisrn/v-no-page-component/blob/master/src/components/Console.vue' $$
 
 ---
 

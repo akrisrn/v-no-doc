@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 19ca5fd
 
-$$::: 'components.sandbox', 'https://github.com/akrisrn/v-no-doc-script/blob/master/src/components/Sandbox.vue' $$
+$$::: 'components.sandbox', 'https://github.com/akrisrn/v-no-page-component/blob/master/src/components/Sandbox.vue' $$
 
 ---
 

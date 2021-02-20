@@ -8,5 +8,5 @@
 
 <div id="console"></div>
 
-[$](/uploads/dist/scripts/console.js)
-[*](/uploads/dist/styles/console.css)
+[$](https://cdn.jsdelivr.net/gh/akrisrn/v-no-page-component/dist/scripts/console.js)
+[*](https://cdn.jsdelivr.net/gh/akrisrn/v-no-page-component/dist/styles/console.css)
