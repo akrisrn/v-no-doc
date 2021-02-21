@@ -1,10 +1,10 @@
 # 部署在 Node.js
 
 @tags: 部署
-@updated: 1608394091000, 1612334783000
+@updated: 1608394091000, 1613906959000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 81d16a2
+@commit: 16e0fdf
 
 v-no-script 有个帮助你[启动 Web 服务的脚本](https://github.com/akrisrn/v-no-script/blob/master/src/web-server.ts)，它专门设计用来在本地部署 v-no。
 
