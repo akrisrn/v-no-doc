@@ -8,7 +8,7 @@
 
 v-no-script 有个帮助你[启动 Web 服务的脚本](https://github.com/akrisrn/v-no-script/blob/master/src/web-server.ts)，它专门设计用来在本地部署 v-no。
 
-它除了可以部署静态资源，也能为 v-no 植入一个 [WebSocket 客户端](https://github.com/akrisrn/v-no-script/blob/master/src/ws-client.ts)，让它能响应网站目录下的 `index.html`、`assets/config` 和 `.md` 文件的修改，自动重载 / 刷新页面（Hot / Live reload）。
+它除了可以部署静态资源，也能为 v-no 植入一个 [WebSocket 客户端](https://github.com/akrisrn/v-no-script/blob/master/src/ws-client.ts)，让它能响应网站目录下的 `index.html`、`assets/config.js` 和 `.md` 文件的修改，自动重载 / 刷新页面（Hot / Live reload）。
 
 它需要你在 `.env` 文件中正确填写下面的配置项才能正常工作：
 
