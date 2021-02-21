@@ -64,8 +64,8 @@
 
 ```ts
 Promise<{
-  files: Dict<IFile>;
-  backlinks: Dict<string[]>;
+  files: Dict<IFile>
+  backlinks: Dict<string[]>
 }>
 ```
 

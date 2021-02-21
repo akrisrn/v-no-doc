@@ -82,11 +82,11 @@
 
 ## otherFlags
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 类型：`TFlag[]`
 
-非预定义的 Flag 列表。
+非预定义 Flag 列表。
 
 ## links
 
@@ -311,27 +311,26 @@ Sync 图标元素字符串。
 
 用 Flag 对象更新 Flag。
 
-## addFlag(key, value, sort?)
+## addFlag(key, value)
 
-[+#1.2.0](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 参数：
     - `key: string`：Flag 键。
     - `value: string`：Flag 值。
-    - `sort = true`：是否排序。
-- 返回值：无
+- 返回值：`TFlag`
 
-将指定键值对添加到非预定义 Flag 列表。
+将指定 Flag 添加到[非预定义 Flag 列表](/zh/api/mainSelf.md "#h2-10")，返回被添加的 Flag 对象。
 
 ## removeFlag(key)
 
-[+#1.2.0](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 参数：
     - `key: string`：Flag 键。
-- 返回值：无
+- 返回值：`number`
 
-从非预定义 Flag 列表中移除 Flag。
+从[非预定义 Flag 列表](/zh/api/mainSelf.md "#h2-10")中移除 Flag，返回被移除的 Flag 索引。
 
 ## redirectTo(path, anchor?, query?)
 
@@ -366,7 +365,7 @@ Sync 图标元素字符串。
 
 ## getQueryTagLinks(tag)
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 参数：
     - `tag: string`：标签名。

@@ -16,11 +16,11 @@
 
 ```ts
 {
-  initing: boolean;
-  filePath: string;
-  anchor: string;
-  queryStr: string;
-  homePath: string;
+  initing: boolean
+  filePath: string
+  anchor: string
+  queryStr: string
+  homePath: string
 }
 ```
 

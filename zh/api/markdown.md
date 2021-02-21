@@ -39,7 +39,7 @@
 
 ## updateAsyncScript(asyncResult)
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 参数：
     - `asyncResult: TAsyncResult`：异步结果。
@@ -49,7 +49,7 @@
 
 ## updateInlineScript(path, title, data, isSnippet?, asyncResults?)
 
-[+#1.2.7](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 参数：
     - `path: string`：文件路径。
@@ -63,7 +63,7 @@
 
 ## updateSnippet(data, updatedPaths, asyncResults?)
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 参数：
     - `data: string`：Markdown 字符串。

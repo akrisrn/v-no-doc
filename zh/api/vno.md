@@ -58,7 +58,7 @@ v-no 版本号。
 
 ## renderMD
 
-[+#1.2.7](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 类型：`(path: string, title: string, data: string, isSnippet = false, asyncResults?: TAsyncResult[]) => Promise<string>`
 

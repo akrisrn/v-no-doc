@@ -87,7 +87,7 @@
 
 ## getQueryTagLinks(tag)
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 参数：
     - `tag: string`：标签名。

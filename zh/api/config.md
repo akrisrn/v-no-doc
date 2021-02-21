@@ -57,11 +57,11 @@
 
 ```ts
 {
-  index: string;
-  readme: string;
-  archive: string;
-  category: string;
-  search: string;
+  index: string
+  readme: string
+  archive: string
+  category: string
+  search: string
 }
 ```
 

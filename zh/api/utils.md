@@ -115,7 +115,7 @@
 
 ## evalFunction(evalStr, params, asyncResults?)
 
-[+#1.2.4](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 参数：
     - `evalStr: string`：字符串代码。

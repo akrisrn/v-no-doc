@@ -82,7 +82,7 @@
 
 ## asyncResults
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 类型：`TAsyncResult[]`
 
@@ -101,14 +101,14 @@ return vno.element.getSyncSpan('async-script-999');
 - 将上一步的 ID 和结果字符串一起 `push` 进 `asyncResults`：
 
 ```js
-vno.articleSelf.asyncResults.push(['async-script-999', 'Hello World']);
+vno.articleSelf.asyncResults.push({ id: 'async-script-999', result: 'Hello World' });
 ```
 
 这里为你准备了一个 Sync 元素，你可以在浏览器控制台中输入这行代码让它不要再转了 --> $$:: element.getSyncSpan('async-script-999') $$。
 
 ## resultsBeforeRendered
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 - 类型：`TAsyncResult[]`
 

@@ -22,13 +22,13 @@ type Dict<T> = { [index: string]: T }
 
 ```ts
 type TLink = {
-  href: string;
-  texts: string[];
-  isMarkdown?: boolean;
-  isImage?: boolean;
-  isAnchor?: boolean;
-  isExternal?: boolean;
-  isError?: boolean;
+  href: string
+  texts: string[]
+  isMarkdown?: boolean
+  isImage?: boolean
+  isAnchor?: boolean
+  isExternal?: boolean
+  isError?: boolean
 }
 ```
 
@@ -38,9 +38,9 @@ type TLink = {
 
 ```ts
 type TFileData = {
-  data: string;
-  flags: IFlags;
-  links: string[];
+  data: string
+  flags: IFlags
+  links: string[]
 }
 ```
 
@@ -58,9 +58,9 @@ type TQuery = Dict<string | null>
 
 ```ts
 type THashPath = {
-  path: string;
-  anchor: string;
-  query: string;
+  path: string
+  anchor: string
+  query: string
 }
 ```
 
@@ -98,26 +98,36 @@ type TRedirectList = [string[], string[]]
 
 ## TFlag
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 ```ts
-type TFlag = [string, string]
+type TFlag = {
+  key: string
+  value: string
+}
 ```
 
 ## TAnchor
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 ```ts
-type TAnchor = [string, string]
+type TAnchor = {
+  text: string
+  href: string
+}
 ```
 
 ## TAsyncResult
 
-[+#1.2.4](/snippets/latest-version.md)
+[+#1.2.9](/snippets/latest-version.md)
 
 ```ts
-type TAsyncResult = [string, string, boolean?]
+type TAsyncResult = {
+  id: string
+  result: string
+  isError?: boolean
+}
 ```
 
 ## VPD
