@@ -1,6 +1,6 @@
 # STATIC SITE RENDERER / GENERATOR FOR MARKDOWN.
 
-@tags: Vue.js, TypeScript
+@tags: Vue.js, TypeScript, Sass
 @cover: ![](/uploads/images/big-logo.png)
 @updated: 1612676303000, 1612765773000
 @creator: AkrISrn

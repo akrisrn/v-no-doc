@@ -25,7 +25,7 @@
 [list#@title:v-no]
 
 :::
-列出所有内容包含 `列表` 的文件（`[list#列表]`）：
+列出所有内容包含 `Vue.js` 的文件（`[list#Vue.js]`）：
 :::
 
-[list#列表]
+[list#Vue.js]

@@ -32,7 +32,7 @@ v-no 丰富的 [](/zh/api/index.md "#")（所有 Vue 实例、`export` 的变量
 
 ## 页面组件
 
-使用 v-no 导出的 Vue 函数编写的 Vue 组件，经由$$: title $$ / 样式引入到 `.md` 文件后，通过挂载在 Markdown 渲染的 HTML 元素上，就构成了一个 v-no 页面组件。
+使用 v-no 导出的 Vue 函数编写的 Vue 单文件组件，经由$$: title $$ / 样式引入到 `.md` 文件后，通过挂载在 Markdown 渲染的 HTML 元素上，就构成了一个 v-no 页面组件。
 
 这里是它的几个应用：
 
@@ -40,4 +40,4 @@ v-no 丰富的 [](/zh/api/index.md "#")（所有 Vue 实例、`export` 的变量
 - [](/sandbox.md "#")：用与渲染 `.md` 文件相同的逻辑，即时渲染输入的字符串。
 - [](/graph.md "#")：`.md` 文件之间的网状链接关系图。
 
-它们位于 [v-no-page-component](https://github.com/akrisrn/v-no-page-component) 仓库，欢迎贡献代码！
+它们位于 [v-no-page-component](https://github.com/akrisrn/v-no-page-component) 仓库，那边也是一个收集箱，欢迎提出你的想法或是贡献代码！
