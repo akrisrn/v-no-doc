@@ -1,1 +1,1 @@
-(()=>{"use strict";var e;null===(e=document.querySelector("#top > div > select"))||void 0===e||e.remove()})();
+(()=>{"use strict";var e;null===(e=document.querySelector("#top > div > select"))||void 0===e||e.remove(),vno.mainSelf.tags=vno.mainSelf.tags.reverse()})();
