@@ -88,18 +88,26 @@
 
 加上 URL 前缀后的 `favicon` 路径。
 
+## <mark>get</mark> iconExternal()
+
+[+#1.2.10](/snippets/latest-version.md)
+
+- 类型：`string`
+
+外部链接图标元素字符串。
+
 ## addLink(href, text?)
 
 [+#1.2.9](/snippets/latest-version.md)
 
 - 参数：
-    - `href: string`：链接地址，需要为以 `/` 开头的 `.md` 文件地址，可以省略 `index.md`。
+    - `href: string`：链接地址。
     - `text = ''`：链接文本。
 - 返回值：`TAnchor`
 
 将指定链接添加到[自定义顶栏链接列表](/zh/api/appSelf.md "#h2-3")，返回被添加的链接对象。
 
-如果省略 `text` 让 v-no 自动填充，要在 `$nextTick` 中更新 `document`：
+如果省略 `text` 让 v-no 自动填充 `.md` 文件的标题，要在 `$nextTick` 中更新 `document`：
 
 ```js
 vno.appSelf.addLink('/index.md');

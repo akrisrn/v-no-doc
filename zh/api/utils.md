@@ -219,7 +219,7 @@ vno.utils.replaceByRegExp(vno.regexp.getParamRegExp(), '{{ 0 }}llo Wo{{ 1 }}', (
     - `params?: TMessage`：需要嵌入的参数列表或字典。如果列表长度为 1，可以直接传入列表项。
 - 返回值：`string`
 
-根据索引键从当前[配置对象](/zh/api/config.md "#h2-2")的 [](/zh/docs/conf-messages.md "#")取出对应的字符串，支持使用[嵌入参数](/zh/docs/snippets.md "#h2-1")语法占位，不过不识别默认值。
+根据索引键从当前[配置对象](/zh/api/config.md "#h2-2")的 [](/zh/docs/conf-messages.md "#")取出对应的字符串，支持使用[嵌入参数](/zh/docs/snippets.md "#h2-1")语法占位。
 
 ## parseDate(date)
 

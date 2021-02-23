@@ -109,12 +109,14 @@ type TFlag = {
 
 ## TAnchor
 
-[+#1.2.9](/snippets/latest-version.md)
+[+#1.2.10](/snippets/latest-version.md)
 
 ```ts
 type TAnchor = {
   text: string
   href: string
+  isExternal?: boolean
+  isMarkdown?: boolean
 }
 ```
 
