@@ -6,7 +6,7 @@
 @updater: AkrISrn
 @commit: 4dd8ef9
 
-这里记录了 v-no 和它的子项目 v-no-script 在该文件创建后，计划新增、调整或移除的功能特性。
+这里记录了 v-no 和它的子项目 v-no-script 在该文件创建后，计划新增、调整或移除的功能特性，说不定也有几条可以解决[](/zh/docs/some-problems.md "#")。
 
 说实话，v-no 的开发没有什么路线可言，一直都是想到什么写什么，[](/zh/api/index.md "#") 改来改去更是家常便饭。我只是将我暂时不想动（优先级较低）的任务留在这里做个备忘，你可能想看的是[版本更新记录](/zh/releases/index.md "#")。
 
