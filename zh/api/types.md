@@ -18,7 +18,7 @@ type Dict<T> = { [index: string]: T }
 
 ## TLink
 
-[+#1.2.1](/snippets/latest-version.md)
+[+#1.2.11](/snippets/latest-version.md)
 
 ```ts
 type TLink = {
@@ -28,7 +28,6 @@ type TLink = {
   isImage?: boolean
   isAnchor?: boolean
   isExternal?: boolean
-  isError?: boolean
 }
 ```
 
