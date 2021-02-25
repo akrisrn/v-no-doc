@@ -1,6 +1,10 @@
 # 设计理念
 
 @tags: 开发/设计理念
+@updated: 1614240503000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 7f0fefd
 
 v-no 是我为静态网站生成器这一命题交出的一份答卷，它在不断迭代的过程中逐步确立了三条基本原则：
 
