@@ -1,10 +1,10 @@
 # Flags
 
 @tags: 语法/标记
-@updated: 1609607773000, 1614047221000
+@updated: 1609607773000, 1614251237000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 1a76bb6
+@commit: fd7c6a1
 
 $$: title $$ 是形如 `@tags: a, b, c` 的一组标记（注意使用英文冒号），用于提供描述页面的元数据（我认为 `@` 标记更加灵活简易，没有选用较为常见的 YAML 格式）。
 

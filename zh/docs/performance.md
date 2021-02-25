@@ -1,10 +1,10 @@
 # 性能优化
 
 @tags: 开发
-@updated: 1610346176000, 1613115194000
+@updated: 1610346176000, 1614251237000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: b2345cc
+@commit: fd7c6a1
 
 这里记录了我对 v-no 的$$: title $$思路，它的代码执行效率没有太大可优化空间，主要还是通过优化代码打包和网络请求来提高页面响应速度。
 
