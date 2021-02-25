@@ -1,10 +1,10 @@
 # README
 
 @tags: root
-@updated: 1612335503000
+@updated: 1612335503000, 1614255728000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 04c25ea
+@commit: 2f13cb5
 
 [v-no](https://github.com/akrisrn/v-no) is a lightweight static site renderer / generator for Markdown, and also a pure static single page application powered by Vue.js at the same time.
 
