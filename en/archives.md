@@ -7,7 +7,7 @@
 @commit: 04c25ea
 
 :::
-This page gather some `.md` files grouped by subjects.
+This page gather some `.md` files, and group them by subjects.
 
 If you are looking all files grouped by tags, please go to [](/en/categories.md "#").
 :::

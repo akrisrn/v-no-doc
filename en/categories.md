@@ -7,7 +7,7 @@
 @commit: ea5e205
 
 :::
-This page gather all `.md` files grouped by tags.  
+This page gather all `.md` files, and group them by tags.  
 
 If you are looking some files grouped by subjects, please go to [](/en/archives.md "#").
 :::

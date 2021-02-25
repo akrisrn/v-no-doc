@@ -79,7 +79,7 @@ vnoConfig = {
           provider: 'Powered by {{ 0 }} itself, hosted on {{ 1 }}',
         },
         common: {
-          WIP: 'The documentation is still worked in process, and it maybe lacks a lot of content.',
+          WIP: 'The documentation is a work in progress, and English edition is just an empty shell for now. I will translate it when Chinese edition has done.',
           openSource: 'This page is open source, [improve it]({{ 0 }})',
         },
         latest: ' (Latest)',
