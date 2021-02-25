@@ -6,24 +6,53 @@
 @updater: AkrISrn
 @commit: 81d16a2
 
-[v-no](https://github.com/akrisrn/v-no) 是一个轻量级的静态网站生成器，也是一个由 Vue.js 驱动的纯静态单页面应用。它主要通过识别 URL 的 Hash 部分记录的路径，异步请求 Markdown 文件对页面进行渲染。你可以只把它当作一个 Markdown 渲染器使用，也可以用它的子项目 [v-no-script](https://github.com/akrisrn/v-no-script) 生成预渲染 HTML 文件。这个轮子被造出来的目的是为了探索静态网站生成器的可能性，它会尝试在尽可能减少使用者负担的同时，提供足够丰富且自由的特性。
+[v-no](https://github.com/akrisrn/v-no) 是一个为 Markdown 准备的轻量级静态网站渲染 / 生成器，也是一个由 Vue.js 驱动的纯静态单页面应用。它主要通过识别 URL 的 Hash 部分记录的路径，异步请求 Markdown 文件对页面进行渲染。你可以只把它当作一个 Markdown 渲染器使用，也可以用它的子项目 [v-no-script](https://github.com/akrisrn/v-no-script) 生成预渲染 HTML 文件，或者启动一个支持热重载的 Web 服务。
 
-v-no 的开发过程中遍布充满我个人喜好的选择（它一直是我自用的工具），当我开始逐渐遗忘曾经写过的代码，我终于决定将我留存于脑海中想法整理出来。于是有了这篇 README，以及这整个网站。当然，我也不能否认我在写下这些文字时，抱着那么一点寻求认同的心态。我希望 v-no 它不仅对我，也能对更多的人有所帮助。虽然这只是一个小小的静态网站生成器，它也是我为这个命题交出的一份答卷。
+这个轮子被造出来的目的是为了探索静态网站生成器的可能性，它会尝试在尽可能减少使用者负担的同时，提供足够丰富且自由的特性。如果你希望更加深入地了解它，可以看看 v-no 的[](/zh/docs/design-concept.md "#")。如果你对它不感兴趣、想要直接上手体验，建议去试试[](/zh/docs/download_&_deploy.md "#")。
 
-接下来我会谈论一些 v-no 的设计理念。如果你不感兴趣、想要直接上手体验，可以前往[](/zh/docs/download_&_deploy.md "#")。要是你还留在这里，那就让我们继续。
+v-no 是我非常喜欢的工具，我在这里将它推荐给你，希望它不仅对我，也能对更多的人有所帮助。要是你在使用它的过程中发现任何问题，又或是想要给它提建议，我都欢迎你发个 [Issue](https://github.com/akrisrn/v-no/issues/new) 告诉我。
 
-v-no 在不断迭代中逐步确立了三条基本原则：
+## 主要特性
 
-[toc]
+- 可切换的[](/zh/docs/multi-conf.md "#")组（以及借此实现的 l10n 和 i18n）。
+- 可嵌入的[文件片段和模板](/zh/docs/snippets.md "#")（支持传递参数和切分文件）。
+- 可执行的[](/zh/docs/inline-script.md "#")（执行结果会作为 Markdown 的一部分被渲染，支持 `await` 异步函数）。
+- 动态引入的[](/zh/docs/custom-script.md "#")和样式（可选择暂留或者常驻）。
+- 大量服务行内 / 自定义脚本的 [](/zh/api/index.md "#")（200+，不过还不太稳定）。
+- Markdown 文件之间的[双向链接](/zh/docs/backlinks.md "#")（[可视化网状链接关系图](/graph.md "#")）。
+- 扩展了部分 [Markdown 语法](/zh/docs/syntax.md "#")（自动填充链接文本、在图像链接中追加样式、折叠标题等）。
+- 额外增加了多个[标记语法](/zh/docs/marks.md "#")（文件元数据、可嵌套标签、自动生成列表、重定向页面等）。
+- 两种模式的[站内搜索](/zh/search.md "#")（关键词或元数据）。
+- [暗色 / 禅模式](/zh/docs/gadget.md "#")。
 
-它为这几条原则做出了很多功能上的取舍，这让它和其它常见的静态网站生成器相比，稍微有些不一样。
+## 谁有可能对它感兴趣？
 
-（现在这里还没有内容，我会在之后详细说明它们。）
+- 希望 Markdown 拥有对页面内容的可编程能力。
+- 希望细化 Markdown 文件的粒度，建立起它们之间的关联、增加复用。
 
-## 原则一：只运行在浏览器
+## 谁会对它不感兴趣？
 
-## 原则二：渲染优于生成
+- 希望定制主题、更换布局（很遗憾你只能做一些样式上的调整）。
+- ...
 
-## 原则三：Markdown 是一等公民
+## 子项目
 
-最后（~~你什么都没说就到最后了！~~），v-no 是我非常喜欢的工具，我认真将它推荐给你。要是你在使用它的过程中发现任何问题，又或者想要给它提建议，我都欢迎你发个 [Issue](https://github.com/akrisrn/v-no/issues) 告诉我。
+- [v-no-script](https://github.com/akrisrn/v-no-script)：一些需要在 Node.js 环境下执行的脚本位于这个仓库，它包含：
+    - 预渲染页面的脚本（使用 Puppeteer，有同步队列和递归并发两种选择）。
+    - 启动支持热重载的 Web 服务（express）的脚本（它会自动植入一个 WebSocket 客户端）。
+    - 根据 `git log` 更新 Markdown 文件元数据的脚本。
+    - 计算文件摘要，更新缓存键的脚本。
+- [v-no-doc](https://github.com/akrisrn/v-no-doc)：文档仓库。
+- [v-no-doc-script](https://github.com/akrisrn/v-no-doc-script)：文档使用的自定义脚本仓库。
+- [v-no-page-component](https://github.com/akrisrn/v-no-page-component)：可以作为自定义脚本引入的 Vue 单文件组件仓库，它包含：
+    - 在页面中执行行内脚本的[控制台](/console.md "#")。
+    - 即时渲染 Markdown 的[沙盒](/sandbox.md "#")。
+    - Markdown 文件之间的[网状链接关系图](/graph.md "#")。
+- 项目模板:
+    - [v-no-template](https://github.com/akrisrn/v-no-template)：使用默认环境变量进行编译的网站模板，开箱即用，能满足通常的部署需求。
+    - [v-no-hash-template](https://github.com/akrisrn/v-no-hash-template)：为避免预渲染冲突而准备的网站模板。
+    - [v-no-script-template](https://github.com/akrisrn/v-no-script-template)：用于搭建自定义脚本仓库的脚手架，使用 Webpack 打包，配置有：
+        - `vue-loader`
+        - `ts-loader`
+        - `babel-loader`
+        - `sass-loader`
