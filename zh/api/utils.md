@@ -103,6 +103,18 @@
 
 为指定文件路径添加缓存键。
 
+## addCustomTag(href, reside, isScript)
+
+[+#1.2.12](/snippets/latest-version.md)
+
+- 参数：
+  - `href: string`：链接地址。
+  - `reside: boolean`：是否在页面重载时保留元素。
+  - `isScript: boolean`：是[](/zh/docs/custom-script.md "#")还是样式。
+- 返回值：`boolean`
+
+将指定链接地址添加为[](/zh/docs/custom-script.md "#") / 样式。如果已经存在相同链接，则返回 `false`。
+
 ## stringifyAny(value)
 
 [+#1.2.1](/snippets/latest-version.md)
@@ -112,6 +124,16 @@
 - 返回值：`string`
 
 将任意类型值转换为字符串。
+
+## isolatedEval(str)
+
+[+#1.2.12](/snippets/latest-version.md)
+
+- 参数：
+  - `str: string`：字符串代码。
+- 返回值：`any`
+
+一个隔离上下文环境的 `eval`。
 
 ## evalFunction(evalStr, params, asyncResults?)
 
@@ -153,25 +175,25 @@ vno.utils.replaceByRegExp(vno.regexp.getParamRegExp(), '{{ 0 }}llo Wo{{ 1 }}', (
 
 ## waitFor(callback, maxCount?, timeout?)
 
-[+#1.2.0](/snippets/latest-version.md)
+[+#1.2.12](/snippets/latest-version.md)
 
 - 参数：
-    - `callback: () => void`：回调函数。
+    - `callback: () => T`：回调函数。
     - `maxCount = 100`：最大重试次数。
     - `timeout = 100`：失败后等待的毫秒数。
-- 返回值：`Promise<boolean>`
+- 返回值：`Promise<T | undefined>`
 
-重复执行回调函数，直到无异常抛出或达到重试次数的上限。
+重复执行回调函数，直到无异常抛出或达到重试次数的上限，返回回调函数的返回值或 `undefined`。
 
 ## waitForEvent(callback, event, element?)
 
-[+#1.2.3](/snippets/latest-version.md)
+[+#1.2.12](/snippets/latest-version.md)
 
 - 参数：
-    - `callback: () => any`：回调函数。
+    - `callback: () => T`：回调函数。
     - `event: enums.EEvent`：事件类型。
     - `element: Document | Element = document`：添加事件监听器的元素。
-- 返回值：`Promise<any>`
+- 返回值：`Promise<T>`
 
 等待指定事件被派发给指定元素后再执行回调函数，返回回调函数的返回值。
 
@@ -189,13 +211,13 @@ vno.utils.replaceByRegExp(vno.regexp.getParamRegExp(), '{{ 0 }}llo Wo{{ 1 }}', (
 
 ## callAndListen(callback, event, element?, reside?)
 
-[+#1.2.2](/snippets/latest-version.md)
+[+#1.2.12](/snippets/latest-version.md)
 
 - 参数：
     - `callback: () => void`：回调函数。
     - `event: enums.EEvent`：事件类型。
     - `element: Document | Element = document`：添加事件监听器的元素。
-    - `reside = true`：是否在页面重载时保留监听器。
+    - `reside = false`：是否在页面重载时保留监听器。
 - 返回值：无
 
 执行回调函数，并将它作为事件监听器添加到指定元素。
