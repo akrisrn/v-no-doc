@@ -15,6 +15,8 @@ v-no 使用 Vue.js（+ vue-router + vue-class-component）+ TypeScript + Sass �
 - [markdown-it](https://github.com/markdown-it/markdown-it)：渲染 Markdown。
 - [prismjs](https://github.com/PrismJS/prism)：代码高亮。
 
+## [+](/zh/docs/dayjs.md)
+
 ## [+](/zh/docs/markdown-it.md)
 
 ## [+](/zh/docs/prismjs.md)
