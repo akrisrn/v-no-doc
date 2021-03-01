@@ -44,3 +44,4 @@
 - [](/zh/docs/typography.md "#")
 - [](/zh/docs/unicode.md "#")
 - [](/zh/docs/emoji.md "#")
+- [](/zh/docs/katex.md "#")
