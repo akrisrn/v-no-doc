@@ -14,8 +14,6 @@
 ![](/uploads/images/github.png "#16")
 : $$::: 'common.openSource', `https://github.com/akrisrn/v-no-doc/edit/master${vno.filePath}` $$
 
-[$$](https://twemoji.maxcdn.com/v/latest/twemoji.min.js)
-
 [$$](/uploads/dist/scripts/common.js)
 [**](/uploads/dist/styles/common.css)
 
