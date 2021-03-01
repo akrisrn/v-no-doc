@@ -1,6 +1,10 @@
 # Day.js
 
 @tags: 开发/依赖
+@updated: 1614594495000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: da2beb7
 
 v-no 使用 [Day.js](https://github.com/iamkun/dayjs) 处理时间和日期。
 

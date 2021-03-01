@@ -1,0 +1,1 @@
+(()=>{"use strict";vno.callAndListen((function(){twemoji.parse(document.body)}),vno.EEvent.htmlChanged)})();

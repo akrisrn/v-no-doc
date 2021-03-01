@@ -1,10 +1,10 @@
 # 外部依赖
 
 @tags: 开发
-@updated: 1609602412000, 1612404980000
+@updated: 1609602412000, 1614594495000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: d25e6ff
+@commit: da2beb7
 
 v-no 使用 Vue.js（+ vue-router + vue-class-component）+ TypeScript + Sass 进行开发。
 
