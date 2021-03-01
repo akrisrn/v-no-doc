@@ -16,7 +16,13 @@ v-no 丰富的 [](/zh/api/index.md "#")（所有 Vue 实例、`export` 的变量
 [$](/uploads/custom.js)
 ```
 
-如果你在引用时使用多于一个的 `$` 标记，v-no 就会将它挂载为一个驻留脚本，不再自动销毁。
+v-no 会将 `title` 部分的字符串放到 [`vno.utils.waitFor`](/zh/api/utils.md "#h2-16") 中 `eval`，它会尝试无限次数，直到成功执行才引入这个脚本。因为多条$$: title $$的执行顺序并不稳定，你可以通过等待前一个脚本暴露的对象，间接控制它们的加载顺序。
+
+```markdown
+[$](/uploads/custom.js "wait for some object")
+```
+
+另外，如果你在引用时使用多于一个的 `$` 标记，v-no 就会将它挂载为一个驻留脚本，不再自动销毁。
 
 建议将你的脚本代码包裹在下面的代码块中，以避免污染全局环境。
 
