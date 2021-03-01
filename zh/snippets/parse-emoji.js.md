@@ -8,12 +8,12 @@
 
 ```js
 (() => {
-  vno.callAndListen(() => vno.waitFor(() => {
+  vno.callAndListen(() => {
     twemoji.parse(document.body);
-  }), vno.EEvent.htmlChanged);
-  // 非驻留
-  // vno.callAndListen(() => vno.waitFor(() => {
+  }, vno.EEvent.htmlChanged);
+  // // 驻留
+  // vno.callAndListen(() => {
   //   twemoji.parse(document.body);
-  // }), vno.EEvent.htmlChanged, document, false);
+  // }, vno.EEvent.htmlChanged, document, true);
 })();
 ```
