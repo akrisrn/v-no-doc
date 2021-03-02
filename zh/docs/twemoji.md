@@ -1,6 +1,10 @@
 # Twemoji
 
 @tags: 外部插件
+@updated: 1614661230000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: aa4e379
 
 ## Markdown
 

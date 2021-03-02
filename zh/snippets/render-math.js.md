@@ -1,10 +1,10 @@
 # render-math.js
 
 @tags: 自定义/脚本代码，snippet/code
-@updated: 1614595075000
+@updated: 1614595075000, 1614661845000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 7dc469d
+@commit: 178ca9a
 
 ```js
 (() => {

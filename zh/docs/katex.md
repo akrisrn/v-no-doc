@@ -1,10 +1,10 @@
 # KaTeX
 
 @tags: 外部插件
-@updated: 1614594974000
+@updated: 1614594974000, 1614661862000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 1091af4
+@commit: d1f1aab
 
 引入 $$: title $$ 和转换 [](/zh/docs/emoji.md "#") 的方法非常相似，不多赘述了。
 
