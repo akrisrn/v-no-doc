@@ -1,6 +1,6 @@
 # KaTeX
 
-@tags: 杂项
+@tags: 外部插件
 @updated: 1614594974000
 @creator: AkrISrn
 @updater: AkrISrn
@@ -20,9 +20,7 @@
 - `auto-render.js` 会在 `katex.min.js` 加载完成后引入。
 - `render-math.js` 会在 `auto-render.js` 加载完成后引入。
 
-## JavaScript
-
-[+](/zh/snippets/render-math.js.md)
+## [+](/zh/snippets/render-math.js.md)
 
 $$: title $$ 默认的一组块级标记是两个 `$`，它和[](/zh/docs/custom-script.md "#")冲突了，这里把它调整为了 `${ }`。
 
