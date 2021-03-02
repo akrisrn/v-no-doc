@@ -1,6 +1,6 @@
 # render-math.js
 
-@tags: 自定义/脚本，snippet/code
+@tags: 自定义/脚本代码，snippet/code
 @updated: 1614595075000
 @creator: AkrISrn
 @updater: AkrISrn
@@ -18,5 +18,7 @@
       ],
     });
   }, vno.EEvent.htmlChanged);
+  // // 驻留
+  // }, vno.EEvent.htmlChanged, document, true);
 })();
 ```
