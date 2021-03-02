@@ -8,7 +8,7 @@
 
 $$: title $$是由 `.md` 文件动态引入的代码文件，它们通常会随着页面的切换而挂载 / 销毁。
 
-v-no 丰富的 [](/zh/api/index.md "#")（所有 Vue 实例、`export` 的变量和方法、使用的依赖库……当然还有 Vue 函数和 vue-property-decorator）是支撑它的基石，通过调用它们，$$: title $$可以和 v-no 核心代码高度集成，就像是 v-no 自身的延展。
+v-no 丰富的 [](/zh/api/index.md "#")（所有 Vue 实例、`export` 的变量和方法、使用的依赖库……当然还有 Vue 函数和 vue-property-decorator）是支撑它的基石，通过调用它们，$$: title $$可以和 v-no 核心代码高度集成，就像是 v-no 自身的延展，各类[](/zh/docs/external-plugins.md "#")也是通过这种方式集成到页面中。
 
 你可以像这样引入一个$$: title $$（它是一个[](/zh/docs/links.md "#")扩展）：
 
