@@ -11,3 +11,5 @@
 ## [+](/zh/docs/twemoji.md)
 
 ## [+](/zh/docs/katex.md)
+
+## [+](/zh/docs/mermaid.md)
