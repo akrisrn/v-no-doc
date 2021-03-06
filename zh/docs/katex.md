@@ -1,10 +1,10 @@
 # KaTeX
 
 @tags: 外部插件
-@updated: 1614594974000, 1614661862000
+@updated: 1614594974000, 1614990964000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: d1f1aab
+@commit: 5653475
 
 ## Markdown
 

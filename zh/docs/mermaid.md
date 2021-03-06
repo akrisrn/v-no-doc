@@ -1,6 +1,10 @@
 # Mermaid
 
 @tags: 外部插件
+@updated: 1614991065000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 53d0fad
 
 ## Markdown
 

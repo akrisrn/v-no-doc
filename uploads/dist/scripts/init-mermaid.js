@@ -1,0 +1,1 @@
+(()=>{"use strict";vno.callAndListen((function(){mermaid.init()}),vno.EEvent.htmlChanged)})();
