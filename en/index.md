@@ -17,8 +17,8 @@ This site is powered by [v-no](https://github.com/akrisrn/v-no) itself, and host
 - You can go to [](/en/README.md "#") if you don't know what is v-no (Spoiler: It is yet another static site generator).
 - All pages are listed in [](/en/archives.md "#") and [](/en/categories.md "#").
 - There is a [](/en/search.md "#") page where you can query something.
-- Other useful links are fixed at the top of page.
-- And the backlinks at the page bottom will take you to roam around there also.
+- Other useful links and them are all fixed at the top of page.
+- The backlinks at the bottom of page will take you to roam around there also.
 - Oh, [](/common.md "#") will be added to every file.
 
 Enjoy it.
