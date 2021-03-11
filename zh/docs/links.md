@@ -1,10 +1,10 @@
 # 链接语法
 
 @tags: 语法/扩展
-@updated: 1610024443000, 1613115194000
+@updated: 1610024443000, 1615450067000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: b2345cc
+@commit: f1c8cde
 
 因为$$: title $$是 Markdown 引用文件的关键，它是 v-no 主要进行扩展的目标。
 
