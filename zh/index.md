@@ -50,7 +50,7 @@ vno.path.enableCDN();
 <button class="btn danger" onclick="vno.path.disableCDN();">disableCDN</button> <button class="btn success" onclick="vno.path.enableCDN();">enableCDN</button>
 :::
 
-::: .success.bold 最新版本更新记录
+::: .success.bold 最新版本更新记录$$ const date = (await vno.file.getFile(`/zh/releases/v${vno.version}.md`)).flags.startDate; return date ? `（${date}）` : '' $$
 [+#slice=1](/zh/releases/index.md)
 :::
 
