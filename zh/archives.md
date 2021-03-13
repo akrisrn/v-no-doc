@@ -35,6 +35,7 @@
 ## 自定义
 
 - [](/zh/docs/custom-script.md "#")
+- [](/zh/docs/custom-style.md "#")
 - [](/zh/docs/custom-input-bind.md "#")
 
 ## 杂项
