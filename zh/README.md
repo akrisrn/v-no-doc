@@ -17,7 +17,7 @@ v-no 是我非常喜欢的工具，我在这里将它推荐给你，希望它不
 - 可切换的[](/zh/docs/multi-conf.md "#")组（以及借此实现的 l10n 和 i18n）。
 - 可嵌入的[文件片段和模板](/zh/docs/snippets.md "#")（支持传递参数和切分文件）。
 - 可执行的[](/zh/docs/inline-script.md "#")（执行结果会作为 Markdown 的一部分被渲染，支持 `await` 异步函数）。
-- 动态引入的[](/zh/docs/custom-script.md "#")和样式（可选择暂留或者常驻）。
+- 动态引入的[](/zh/docs/custom-script.md "#")和[](/zh/docs/custom-style.md "#")（可选择暂留或者常驻）。
 - 大量服务行内 / 自定义脚本的 [](/zh/api/index.md "#")（200+，不过还不太稳定）。
 - Markdown 文件之间的[双向链接](/zh/docs/backlinks.md "#")（[可视化网状链接关系图](/graph.md "#")）。
 - 扩展了部分 [Markdown 语法](/zh/docs/syntax.md "#")（自动填充链接文本、在图像链接中追加样式、折叠标题等）。

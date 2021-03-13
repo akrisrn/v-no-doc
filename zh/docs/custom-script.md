@@ -38,7 +38,7 @@ v-no 会将 `title` 部分的字符串放到 [`vno.utils.waitFor`](/zh/api/utils
 
 ## 页面组件
 
-使用 v-no 导出的 Vue 函数编写的 Vue 单文件组件，经由$$: title $$ / 样式引入到 `.md` 文件后，通过挂载在 Markdown 渲染的 HTML 元素上，就构成了一个 v-no 页面组件。
+使用 v-no 导出的 Vue 函数编写的 Vue 单文件组件，经由$$: title $$ / [](/zh/docs/custom-style.md "#")引入到 `.md` 文件后，通过挂载在 Markdown 渲染的 HTML 元素上，就构成了一个 v-no 页面组件。
 
 这里是它的几个应用：
 

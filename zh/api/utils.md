@@ -110,10 +110,10 @@
 - 参数：
   - `href: string`：链接地址。
   - `reside: boolean`：是否在页面重载时保留元素。
-  - `isScript: boolean`：是[](/zh/docs/custom-script.md "#")还是样式。
+  - `isScript: boolean`：是[](/zh/docs/custom-script.md "#")还是[](/zh/docs/custom-style.md "#")。
 - 返回值：`boolean`
 
-将指定链接地址添加为[](/zh/docs/custom-script.md "#") / 样式。如果已经存在相同链接，则返回 `false`。
+将指定链接地址添加为[](/zh/docs/custom-script.md "#") / [](/zh/docs/custom-style.md "#")。如果已经存在相同链接，则返回 `false`。
 
 ## stringifyAny(value)
 
