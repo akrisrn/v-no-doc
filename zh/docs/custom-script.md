@@ -47,3 +47,12 @@ v-no 会将 `title` 部分的字符串放到 [`vno.utils.waitFor`](/zh/api/utils
 - [](/graph.md "#")：`.md` 文件之间的网状链接关系图。
 
 它们位于 [v-no-page-component](https://github.com/akrisrn/v-no-page-component) 仓库，那边也是一个收集箱，欢迎提出你的想法或是贡献代码！
+
+## 清理副作用
+
+有时你的$$: title $$会产生一些副作用，它们在脚本被销毁后依然可以作用在页面上，你需要手动清理它们。你可以将用于清理副作用的函数 `push` 进 [`vno.destructors`](/zh/api/vno.md "#h2-13")，它们会在页面重载前执行。
+
+仅对于下面两种副作用，v-no 会自动清理：
+
+- 通过 [`vno.addEventListener`](/zh/api/vno.md "#h2-18") 添加的事件监听器：它同时会将移除监听器的函数 `push` 进 [`vno.destructors`](/zh/api/vno.md "#h2-13")。
+- 含有 `custom` 类的元素：它们会在页面重载前全部移除。
