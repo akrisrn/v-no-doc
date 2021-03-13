@@ -14,6 +14,8 @@
 
 ## [+](/zh/docs/details.md)
 
+## [+](/zh/docs/deflist.md)
+
 ## [+](/zh/docs/fold-heading.md)
 
 ## [+](/zh/docs/inline-script.md)
