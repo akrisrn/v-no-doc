@@ -40,6 +40,7 @@
 
 ## 杂项
 
+- [](/zh/docs/render-md.md "#")
 - [](/zh/docs/backlinks.md "#")
 - [](/zh/docs/gadget.md "#")
 - [](/zh/docs/typography.md "#")
