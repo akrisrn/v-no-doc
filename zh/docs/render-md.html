@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta content="#ffffff" name="theme-color"><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="width=device-width,initial-scale=1" name="viewport"><title>渲染 Markdown - v-no</title><style>body{background-color:#f1f1f1}body.dark{background-color:#2b2b2b}</style><link href="/v-no-doc/uploads/images/favicon.png" rel="icon"><link href="/v-no-doc/assets/cacheKey.js" rel="preload" as="script"><link href="/v-no-doc/assets/config.js" rel="preload" as="script"><link href="/v-no-doc/assets/css/main.cba03500.css" rel="prefetch"><link href="/v-no-doc/assets/css/prismjs.fb887072.css" rel="prefetch"><link href="/v-no-doc/assets/js/file.709c0776.js" rel="prefetch"><link href="/v-no-doc/assets/js/main.cdd96756.js" rel="prefetch"><link href="/v-no-doc/assets/js/markdown.253cdf21.js" rel="prefetch"><link href="/v-no-doc/assets/js/prismjs.8c3b9ce2.js" rel="prefetch"><link href="/v-no-doc/assets/css/app.a9097615.css" rel="preload" as="style"><link href="/v-no-doc/assets/js/app.a9d585d8.js" rel="modulepreload" as="script"><link href="/v-no-doc/assets/js/chunk-vendors.f1f54f41.js" rel="modulepreload" as="script"><link href="/v-no-doc/assets/css/app.a9097615.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/v-no-doc/assets/css/main.cba03500.css"><script charset="utf-8" src="/v-no-doc/assets/js/main.cdd96756.js"></script><script charset="utf-8" src="/v-no-doc/assets/js/file.709c0776.js"></script><script charset="utf-8" src="/v-no-doc/assets/js/markdown.253cdf21.js"></script><link rel="stylesheet" type="text/css" href="/v-no-doc/uploads/dist/styles/common.css"><link rel="stylesheet" type="text/css" href="/v-no-doc/uploads/dist/styles/provider.css"></head><body id="prerender"><noscript><strong>We're sorry but this application doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"><div id="top"><div><img src="/v-no-doc/uploads/images/favicon.png" alt="favicon"><a href="/v-no-doc/">v-no</a><span class="filler"></span><a href="/v-no-doc/en/README.html">README</a><span class="separator">|</span><a href="/v-no-doc/en/archives.html">ARCHIVES</a><span class="separator">|</span><a href="/v-no-doc/en/categories.html">CATEGORIES</a><span class="separator">|</span><a href="/v-no-doc/en/search.html">SEARCH</a><span class="separator">|</span></div></div><main><div id="bar" class="bar"><code class="item-home"><a href="/v-no-doc/">«</a></code><code class="item-date">Sat Mar 13 2021</code><code class="item-creator">AkrISrn</code><code class="item-tag"><a href="/v-no-doc/en/search.html?content=%40tags%3A%20%E6%9D%82%E9%A1%B9">杂项</a></code><code class="item-commit">59bcff8</code><code class="item-raw"><a href="/v-no-doc/zh/docs/render-md.md" target="_blank">Raw</a></code></div><header>渲染 Markdown</header><article><details class="readonly danger bold"><summary>The documentation is a work in progress, and English edition is just an empty shell for now. I will translate it when Chinese edition has done.</summary></details><p>v-no 用于渲染 Markdown 的 <a href="/v-no-doc/zh/api/index.html">API</a> 有三个，它们分别对应三种不同的场景，最后都会将数据交由 <a href="/v-no-doc/zh/docs/markdown-it.html">markdown-it</a> 的 <code>render</code> 函数渲染（<a href="https://github.com/akrisrn/v-no/blob/master/src/ts/async/markdown.ts" rel="noopener noreferrer" target="_blank">重写了部分核心语法的渲染规则</a>）。</p><div id="toc"><ul><li><a href="#h2-1">vno.markdown.renderMD</a></li><li><a href="#h2-2">vno.articleSelf.renderMD</a></li><li><a href="#h2-3">vno.renderMD</a></li></ul></div><h2 id="h2-1"><a href="/v-no-doc/zh/api/markdown.html"><code>vno.markdown.renderMD</code></a></h2><p>这个函数最接近 <a href="/v-no-doc/zh/docs/markdown-it.html">markdown-it</a> 的 <code>render</code> 函数，它基本上只是预处理了<a href="/v-no-doc/zh/docs/slice.html">文件切片</a>和<a href="/v-no-doc/zh/docs/toc.html">内容目录</a>这两个语法标记，下面两个函数最后也是通过调用它来取得渲染数据。</p><p>如果你只是想简单渲染一个 Markdown 字符串，它最适合不过了。</p><h2 id="h2-2"><a href="/v-no-doc/zh/api/articleSelf.html"><code>vno.articleSelf.renderMD</code></a></h2><p>它是 v-no 最核心的渲染函数，渲染结果会直接展示在页面上，你可以调用它来用指定字符串渲染页面。</p><p>这里简单描述一下它的渲染逻辑：</p><div class="mermaid" style="text-align: center">
+graph TD
+    classDef key fill:#f96;
+    classDef key2 fill:#f69;
+    A[执行行内脚本]:::key --&gt; B{是否为空}
+    B --&gt; |是| C[渲染 Markdown]:::key2
+    D --&gt; |是| E[重定向页面]
+    B --&gt; |否| D{是否为重定向}
+    D --&gt; |否| F[预处理异步语法标记]
+    F --&gt; G[渲染 Markdown]:::key2
+    G --&gt; H[拼接嵌入文件]:::key
+    H --&gt; I{是否为空}
+    I --&gt; |是| C
+    I --&gt; |否| J[更新生成列表]:::key
+    J --&gt; K{是否为空}
+    K --&gt; |是| C
+    K --&gt; |否| L{是否为搜索页}
+    L --&gt; |否| C
+    L --&gt; |是| M[预处理搜索页语法标记]
+    M --&gt; C
+</div><h2 id="h2-3"><a href="/v-no-doc/zh/api/vno.html"><code>vno.renderMD</code></a></h2><p>它是上面那个函数的逻辑简化版，只保留了必要的处理，可以脱离页面得到渲染数据。</p><p>这里简单描述一下它的渲染逻辑：</p><div class="mermaid" style="text-align: center">
+graph TD
+    classDef key fill:#f96;
+    classDef key2 fill:#f69;
+    A[trim 数据] --&gt; B{是否为空}
+    B --&gt; |是| C[返回数据]
+    B --&gt; |否| D[执行行内脚本]:::key
+    D --&gt; E{是否为空}
+    E --&gt; |是| C
+    E --&gt; |否| F[拼接嵌入文件]:::key
+    F --&gt; G{是否为空}
+    G --&gt; |是| C
+    G --&gt; |否| H[更新生成列表]:::key
+    H --&gt; I{是否为空}
+    I --&gt; |是| C
+    I --&gt; |否| J[渲染 Markdown]:::key2
+    J --&gt; C
+</div><dl><dd>流程图由 <a href="/v-no-doc/zh/docs/mermaid.html">Mermaid</a> 绘制。</dd></dl><dl class="center"><dt><img src="/v-no-doc/uploads/images/github.png" alt="" width="16"></dt><dd>This page is open source, <a href="https://github.com/akrisrn/v-no-doc/edit/master/zh/docs/render-md.md" rel="noopener noreferrer" target="_blank">improve it</a></dd></dl></article><div id="backlinks"><a>Show backlinks</a></div><footer><a href="/v-no-doc/" class="home">Return to home</a><span class="filler"></span><span class="date">Sat Mar 13 2021</span></footer></main><div><span id="toggle-dark">★</span><span id="toggle-zen">▣</span><span id="to-top">と</span></div></div><script>!function(){var e="v-no/v-no-doc/",t=localStorage.getItem(e+"dark"),n=localStorage.getItem(e+"zen"),o=t?n?"#2b2b2b":"#3b3b3b":n?"#efefef":"#ffffff";document.querySelector("meta[name=theme-color]").setAttribute("content",o);var a=document.body.classList;t?a.add("dark"):a.remove("dark"),n?a.add("zen"):a.remove("zen")}()</script><script src="/v-no-doc/assets/cacheKey.js"></script><script src="/v-no-doc/assets/config.js"></script><script type="module" src="/v-no-doc/assets/js/chunk-vendors.f1f54f41.js"></script><script type="module" src="/v-no-doc/assets/js/app.a9d585d8.js"></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src="/v-no-doc/assets/js/chunk-vendors-legacy.f1f54f41.js" nomodule=""></script><script src="/v-no-doc/assets/js/app-legacy.81ce64fd.js" nomodule=""></script></body></html>

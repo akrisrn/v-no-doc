@@ -1,10 +1,10 @@
 # 语法扩展
 
 @tags: 语法/扩展
-@updated: 1613492161000
+@updated: 1613492161000, 1615656274000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: d64c9be
+@commit: 2f02f41
 
 [toc]
 

@@ -1,6 +1,10 @@
 # 自定义样式
 
 @tags: 自定义
+@updated: 1615643155000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: b72eab7
 
 $$: title $$和[](/zh/docs/custom-script.md "#")的机制非常相似。
 

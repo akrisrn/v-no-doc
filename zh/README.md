@@ -1,10 +1,10 @@
 # README
 
 @tags: root
-@updated: 1607595626000, 1614240502000
+@updated: 1607595626000, 1615656775000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 645e804
+@commit: facbd1d
 
 [v-no](https://github.com/akrisrn/v-no) 是一个为 Markdown 准备的轻量级静态网站渲染 / 生成器，也是一个由 Vue.js 驱动的纯静态单页面应用。它主要通过识别 URL 的 Hash 部分记录的路径，异步请求 Markdown 文件对页面进行渲染。你可以只把它当作一个 Markdown 渲染器使用，也可以用它的子项目 [v-no-script](https://github.com/akrisrn/v-no-script) 生成预渲染 HTML 文件，或者启动一个支持热重载的 Web 服务。
 

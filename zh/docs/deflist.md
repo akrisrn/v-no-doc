@@ -1,6 +1,10 @@
 # dl 语法
 
 @tags: 语法/扩展
+@updated: 1615656274000
+@creator: AkrISrn
+@updater: AkrISrn
+@commit: 2f02f41
 
 $$: title $$是以 `:` 开头的块级语法，它可以帮助你生成 `<dl>` 标签。
 
