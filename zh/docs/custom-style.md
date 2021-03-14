@@ -49,7 +49,26 @@ $$: title $$和[](/zh/docs/custom-script.md "#")的机制非常相似。
 
 ## 预定义的按钮和输入框样式
 
+```html
+<button class="btn">Button</button>
+<button class="btn bold">Button</button>
+<button class="btn success">Button</button>
+<button class="btn warning">Button</button>
+<button class="btn danger">Button</button>
+<button class="btn dark">Button</button>
+<button class="btn" disabled>Button</button>
+```
+
 <button class="btn">Button</button> <button class="btn bold">Button</button> <button class="btn success">Button</button> <button class="btn warning">Button</button> <button class="btn danger">Button</button> <button class="btn dark">Button</button> <button class="btn" disabled>Button</button>
+
+```html
+<input class="ipt" placeholder="Input"/>
+<input class="ipt success" placeholder="Input"/>
+<input class="ipt warning" placeholder="Input"/>
+<input class="ipt danger" placeholder="Input"/>
+<input class="ipt dark" placeholder="Input"/>
+<input class="ipt" disabled placeholder="Input"/>
+```
 
 <input class="ipt" placeholder="Input"/>
 <input class="ipt success" placeholder="Input"/>
@@ -57,6 +76,15 @@ $$: title $$和[](/zh/docs/custom-script.md "#")的机制非常相似。
 <input class="ipt danger" placeholder="Input"/>
 <input class="ipt dark" placeholder="Input"/>
 <input class="ipt" disabled placeholder="Input"/>
+
+```html
+<textarea class="ipt" placeholder="Textarea"></textarea>
+<textarea class="ipt success" placeholder="Textarea"></textarea>
+<textarea class="ipt warning" placeholder="Textarea"></textarea>
+<textarea class="ipt danger" placeholder="Textarea"></textarea>
+<textarea class="ipt dark" placeholder="Textarea"></textarea>
+<textarea class="ipt" disabled placeholder="Textarea"></textarea>
+```
 
 <textarea class="ipt" placeholder="Textarea"></textarea>
 
