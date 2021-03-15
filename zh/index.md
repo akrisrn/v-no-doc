@@ -54,8 +54,4 @@ vno.path.enableCDN();
 [+#slice=1](/zh/releases/index.md)
 :::
 
-: 因为很喜欢这幅[网状链接关系图](/graph.md "#")，请允许我在首页也放上一份。
-
-[+](/snippets/graph.md)
-
 [+](/snippets/badges.md)

@@ -41,8 +41,4 @@ If there's no way to open console, you can click this two buttons to perform the
 <button class="btn danger" onclick="vno.path.disableCDN();">disableCDN</button> <button class="btn success" onclick="vno.path.enableCDN();">enableCDN</button>
 :::
 
-: Network graph of this site.
-
-[+](/snippets/graph.md)
-
 [+](/snippets/badges.md)

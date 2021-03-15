@@ -73,8 +73,12 @@ vnoConfig = {
           console: 'There is a [console page component]({{ 0 }}), the input value will be executed as inline script.',
           sandbox: 'There is a [sandbox page component]({{ 0 }}), the input value will be rendered like `.md` files.',
           graph: {
+            name: 'Graph',
             text: 'There is a [force-directed graph page component]({{ 0 }}). It\'s based on [D3.js](https://github.com/d3/d3).',
             error: 'D3.js load failed.',
+            contextMenu: {
+              redirect: 'Redirect to',
+            },
           },
           provider: 'Powered by {{ 0 }} itself, hosted on {{ 1 }}',
         },
@@ -115,6 +119,7 @@ vnoConfig = {
 
 字符串会保存在 \`localStorage\`，无法保证不会丢失，请留意备份重要数据。`,
           graph: {
+            name: '网状链接关系图',
             text: `这里有一个[力导图页面组件]({{ 0 }})，使用 [D3.js](https://github.com/d3/d3) 绘制，展示了 \`.md\` 文件之间的网状链接关系。
 
 （在非 Chromium 系浏览器中可能存在一些性能问题）
@@ -123,6 +128,9 @@ vnoConfig = {
 
 它算是某个被我搁浅的未公开项目的部分代码遗产，在大量删减改造之后，终于有机会在这里重见天日。`,
             error: 'D3.js 加载失败。',
+            contextMenu: {
+              redirect: '重定向到页面',
+            },
           },
           provider: '该文档由 {{ 0 }} 自身驱动，源文件部署在 {{ 1 }}',
         },
