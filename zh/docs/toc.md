@@ -44,4 +44,4 @@ v-no 会在页面宽度允许的情况下，自动将过长的 ToC 尽可能均�
 
 需要注意的是，预分配的三组并不会总是被填充。只要移除示例数组最后两项，它就会被分成 17 + 17 的两组。
 
-[](/zh/api/index.md "#") 有着文档最长的 ToC（两百多个 `<li>`），我很满意它在这个算法下的呈现效果。当然，如果你有更好的想法，欢迎改进它！它位于 [updateHeading](https://github.com/akrisrn/v-no/blob/master/src/ts/async/update.ts) 函数的最后一部分。
+如果你有更好的想法，欢迎改进它！它位于 [updateHeading](https://github.com/akrisrn/v-no/blob/master/src/ts/async/update.ts) 函数的最后一部分。
