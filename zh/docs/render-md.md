@@ -10,13 +10,13 @@ v-no 用于$$: title $$ 的 [](/zh/api/index.md "#") 有三个，它们分别对
 
 [toc]
 
-## [`vno.markdown.renderMD`](/zh/api/markdown.md "#")
+## [`vno.markdown.renderMD`](/zh/api/markdown.md "#h2-3")
 
 这个函数最接近 [](/zh/docs/markdown-it.md "#") 的 `render` 函数，它基本上只是预处理了[](/zh/docs/slice.md "#")和[](/zh/docs/toc.md "#")这两个语法标记，下面两个函数最后也是通过调用它来取得渲染数据。
 
 如果你只是想简单渲染一个 Markdown 字符串，它最适合不过了。
 
-## [`vno.articleSelf.renderMD`](/zh/api/articleSelf.md "#")
+## [`vno.articleSelf.renderMD`](/zh/api/articleSelf.md "#h2-17")
 
 它是 v-no 最核心的渲染函数，渲染结果会直接展示在页面上，你可以调用它来用指定字符串渲染页面。
 
@@ -44,7 +44,7 @@ graph TD
     M --> C
 </div>
 
-## [`vno.renderMD`](/zh/api/vno.md "#")
+## [`vno.renderMD`](/zh/api/vno.md "#h2-7")
 
 它是上面那个函数的逻辑简化版，只保留了必要的处理，可以脱离页面得到渲染数据。
 
