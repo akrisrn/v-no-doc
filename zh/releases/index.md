@@ -10,6 +10,10 @@
 
 [slice]
 
+## [+](/zh/releases/v1.2.14.md)
+
+[slice]
+
 ## [+](/zh/releases/v1.2.13.md)
 
 [slice]
