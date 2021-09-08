@@ -8,6 +8,14 @@
 
 [toc]
 
+## axios
+
+[+#1.2.14](/snippets/latest-version.md)
+
+- 类型：`axios`
+
+`axios` 函数。
+
 ## createErrorFile(path)
 
 [+#1.2.2](/snippets/latest-version.md)

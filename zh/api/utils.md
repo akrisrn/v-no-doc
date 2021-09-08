@@ -8,14 +8,6 @@
 
 [toc]
 
-## axios
-
-[+#1.2.0](/snippets/latest-version.md)
-
-- 类型：`axios`
-
-`axios` 函数。
-
 ## dayjs
 
 [+#1.2.0](/snippets/latest-version.md)
@@ -207,7 +199,7 @@ vno.utils.replaceByRegExp(vno.regexp.getParamRegExp(), '{{ 0 }}llo Wo{{ 1 }}', (
     - `listener: EventListenerOrEventListenerObject`：监听器函数。
 - 返回值：无
 
-为元素添加事件监听器。它同时也会将移除监听器的函数 `push` 进 [`vno.utils.destructors`](/zh/api/utils.md "#h2-4")。
+为元素添加事件监听器。它同时也会将移除监听器的函数 `push` 进 [`vno.utils.destructors`](/zh/api/utils.md "#h2-3")。
 
 ## callAndListen(callback, event, element?, reside?)
 
