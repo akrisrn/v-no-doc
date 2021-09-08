@@ -1,1 +1,1 @@
-(()=>{"use strict";var e;null===(e=document.querySelector("#top > div > select"))||void 0===e||e.remove(),vno.mainSelf.tags=vno.mainSelf.tags.reverse()})();
+(()=>{"use strict";var e=document.querySelector("#top > div > select");e&&(e.previousElementSibling.remove(),e.remove()),document.querySelector("#top > div > a:first-of-type").innerText="HOME",vno.mainSelf.tags=vno.mainSelf.tags.reverse()})();
