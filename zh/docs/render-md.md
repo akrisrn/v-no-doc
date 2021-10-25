@@ -1,10 +1,10 @@
 # 渲染 Markdown
 
 @tags: 杂项
-@updated: 1615656274000, 1615880319000
+@updated: 1615656274000, 1635144796000
 @creator: AkrISrn
 @updater: AkrISrn
-@commit: 6accca5
+@commit: 64efd16
 
 v-no 用于$$: title $$ 的 [](/zh/api/index.md "#") 有三个，它们分别对应三种不同的场景，最后都会将数据交由 [](/zh/docs/markdown-it.md "#") 的 `render` 函数渲染（[重写了部分核心语法的渲染规则](https://github.com/akrisrn/v-no/blob/master/src/ts/async/markdown.ts)）。
 
