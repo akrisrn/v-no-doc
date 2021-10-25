@@ -232,9 +232,9 @@
 
 [`vno.mainSelf.queryStr`](/zh/api/mainSelf.md "#") 转换后的对象。
 
-## <mark>get</mark> config()
+## <mark>get</mark> conf()
 
-[+#1.2.0](/snippets/latest-version.md)
+[+#1.2.15](/snippets/latest-version.md)
 
 - 类型：`typeof config.config`
 

@@ -194,6 +194,14 @@ v-no 版本号。
 
 同 [`vno.utils.formatDate`](/zh/api/utils.md "#")。
 
+## conf
+
+[+#1.2.15](/snippets/latest-version.md)
+
+- 类型：`typeof config.config`
+
+同 [`vno.config.config`](/zh/api/config.md "#")。
+
 ## selectConf
 
 [+#1.2.5](/snippets/latest-version.md)
