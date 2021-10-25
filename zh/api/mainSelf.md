@@ -182,7 +182,7 @@
 
 - 类型：`typeof store.state.homePath`
 
-同 [`vno.store.state.homePath`](/zh/api/store.md "#h2-1")。
+同 [`vno.store.state.homePath`](/zh/api/store.md "#")。
 
 ## <mark>get</mark> filePath()
 
@@ -190,7 +190,7 @@
 
 - 类型：`typeof store.state.filePath`
 
-同 [`vno.store.state.filePath`](/zh/api/store.md "#h2-1")。
+同 [`vno.store.state.filePath`](/zh/api/store.md "#")。
 
 ## <mark>get</mark> anchor()
 
@@ -198,7 +198,7 @@
 
 - 类型：`typeof store.state.anchor`
 
-同 [`vno.store.state.anchor`](/zh/api/store.md "#h2-1")。
+同 [`vno.store.state.anchor`](/zh/api/store.md "#")。
 
 ## <mark>get</mark> queryStr()
 
@@ -206,7 +206,7 @@
 
 - 类型：`typeof store.state.queryStr`
 
-同 [`vno.store.state.queryStr`](/zh/api/store.md "#h2-1")。
+同 [`vno.store.state.queryStr`](/zh/api/store.md "#")。
 
 ## <mark>get</mark> shortFilePath()
 
@@ -230,7 +230,7 @@
 
 - 类型：`TQuery`
 
-[`vno.mainSelf.queryStr`](/zh/api/mainSelf.md "#h2-25") 转换后的对象。
+[`vno.mainSelf.queryStr`](/zh/api/mainSelf.md "#") 转换后的对象。
 
 ## <mark>get</mark> config()
 
@@ -238,7 +238,7 @@
 
 - 类型：`typeof config.config`
 
-同 [`vno.config.config`](/zh/api/config.md "#h2-2")。
+同 [`vno.config.config`](/zh/api/config.md "#")。
 
 ## <mark>get</mark> isIndexFile()
 
@@ -320,7 +320,7 @@ Sync 图标元素字符串。
     - `value: string`：Flag 值。
 - 返回值：`TFlag`
 
-将指定 Flag 添加到[非预定义 Flag 列表](/zh/api/mainSelf.md "#h2-10")，返回被添加的 Flag 对象。
+将指定 Flag 添加到[非预定义 Flag 列表](/zh/api/mainSelf.md "#")，返回被添加的 Flag 对象。
 
 ## removeFlag(key)
 
@@ -330,7 +330,7 @@ Sync 图标元素字符串。
     - `key: string`：Flag 键。
 - 返回值：`number`
 
-从[非预定义 Flag 列表](/zh/api/mainSelf.md "#h2-10")中移除 Flag，返回被移除的 Flag 索引。
+从[非预定义 Flag 列表](/zh/api/mainSelf.md "#")中移除 Flag，返回被移除的 Flag 索引。
 
 ## redirectTo(path, anchor?, query?)
 
@@ -361,7 +361,7 @@ Sync 图标元素字符串。
     - `file: ISimpleFile`：文件对象。
 - 返回值：`string`
 
-同 [`vno.element.createList`](/zh/api/element.md "#h2-9") 的 `innerHTML`。
+同 [`vno.element.createList`](/zh/api/element.md "#") 的 `innerHTML`。
 
 ## getQueryTagLinks(tag)
 
@@ -371,7 +371,7 @@ Sync 图标元素字符串。
     - `tag: string`：标签名。
 - 返回值：`TAnchor[]`
 
-同 [`vno.element.getQueryTagLinks`](/zh/api/element.md "#h2-8")。
+同 [`vno.element.getQueryTagLinks`](/zh/api/element.md "#")。
 
 ## returnHome()
 
@@ -380,4 +380,4 @@ Sync 图标元素字符串。
 - 参数：无
 - 返回值：无
 
-同 [`vno.path.returnHome`](/zh/api/path.md "#h2-22")。
+同 [`vno.path.returnHome`](/zh/api/path.md "#")。

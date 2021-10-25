@@ -28,4 +28,4 @@
 - `filePath`：当前页面文件的路径。
 - `anchor`：当前页面 URL 的 Hash 锚点。
 - `queryStr`：当前页面 URL 的查询字符串。
-- `homePath`：同 [`vno.path.homePath`](/zh/api/path.md "#h2-8")。
+- `homePath`：同 [`vno.path.homePath`](/zh/api/path.md "#")。

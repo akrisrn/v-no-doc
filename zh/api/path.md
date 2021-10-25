@@ -45,7 +45,7 @@
 
 - 类型：`string`
 
-URL 前缀。如果生产环境下的 [`cdnUrl`](/zh/api/path.md "#h2-7") 不为空，它就是 `cdnUrl`，否则为 [`publicPath`](/zh/api/path.md "#h2-5")。
+URL 前缀。如果生产环境下的 [`cdnUrl`](/zh/api/path.md "#") 不为空，它就是 `cdnUrl`，否则为 [`publicPath`](/zh/api/path.md "#")。
 
 ## publicPath
 

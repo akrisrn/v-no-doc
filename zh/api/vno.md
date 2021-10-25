@@ -30,7 +30,7 @@ Vue 函数。
 
 - 类型：`typeof file.axios`
 
-同 [`vno.file.axios`](/zh/api/file.md "#h2-1")。
+同 [`vno.file.axios`](/zh/api/file.md "#")。
 
 ## markdownIt
 
@@ -38,7 +38,7 @@ Vue 函数。
 
 - 类型：`typeof markdown.markdownIt`
 
-同 [`vno.markdown.markdownIt`](/zh/api/markdown.md "#h2-1")。
+同 [`vno.markdown.markdownIt`](/zh/api/markdown.md "#")。
 
 ## dayjs
 
@@ -46,7 +46,7 @@ Vue 函数。
 
 - 类型：`typeof utils.dayjs`
 
-同 [`vno.utils.dayjs`](/zh/api/utils.md "#h2-1")。
+同 [`vno.utils.dayjs`](/zh/api/utils.md "#")。
 
 ## version
 
@@ -80,7 +80,7 @@ v-no 版本号。
 
 - 类型：`typeof markdown.updateDom`
 
-同 [`vno.markdown.updateDom`](/zh/api/markdown.md "#h2-11")。
+同 [`vno.markdown.updateDom`](/zh/api/markdown.md "#")。
 
 ## EFlag
 
@@ -112,7 +112,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.destructors`
 
-同 [`vno.utils.destructors`](/zh/api/utils.md "#h2-3")。
+同 [`vno.utils.destructors`](/zh/api/utils.md "#")。
 
 ## addInputBinds
 
@@ -120,7 +120,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.addInputBinds`
 
-同 [`vno.utils.addInputBinds`](/zh/api/utils.md "#h2-5")。
+同 [`vno.utils.addInputBinds`](/zh/api/utils.md "#")。
 
 ## sleep
 
@@ -128,7 +128,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.sleep`
 
-同 [`vno.utils.sleep`](/zh/api/utils.md "#h2-7")。
+同 [`vno.utils.sleep`](/zh/api/utils.md "#")。
 
 ## waitFor
 
@@ -136,7 +136,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.waitFor`
 
-同 [`vno.utils.waitFor`](/zh/api/utils.md "#h2-15")。
+同 [`vno.utils.waitFor`](/zh/api/utils.md "#")。
 
 ## waitForEvent
 
@@ -144,7 +144,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.waitForEvent`
 
-同 [`vno.utils.waitForEvent`](/zh/api/utils.md "#h2-16")。
+同 [`vno.utils.waitForEvent`](/zh/api/utils.md "#")。
 
 ## addEventListener
 
@@ -152,7 +152,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.addEventListener`
 
-同 [`vno.utils.addEventListener`](/zh/api/utils.md "#h2-17")。
+同 [`vno.utils.addEventListener`](/zh/api/utils.md "#")。
 
 ## callAndListen
 
@@ -160,7 +160,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.callAndListen`
 
-同 [`vno.utils.callAndListen`](/zh/api/utils.md "#h2-18")。
+同 [`vno.utils.callAndListen`](/zh/api/utils.md "#")。
 
 ## encodeParam
 
@@ -168,7 +168,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.encodeParam`
 
-同 [`vno.utils.encodeParam`](/zh/api/utils.md "#h2-19")。
+同 [`vno.utils.encodeParam`](/zh/api/utils.md "#")。
 
 ## getMessage
 
@@ -176,7 +176,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.getMessage`
 
-同 [`vno.utils.getMessage`](/zh/api/utils.md "#h2-20")。
+同 [`vno.utils.getMessage`](/zh/api/utils.md "#")。
 
 ## parseDate
 
@@ -184,7 +184,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.parseDate`
 
-同 [`vno.utils.parseDate`](/zh/api/utils.md "#h2-21")。
+同 [`vno.utils.parseDate`](/zh/api/utils.md "#")。
 
 ## formatDate
 
@@ -192,7 +192,7 @@ v-no 版本号。
 
 - 类型：`typeof utils.formatDate`
 
-同 [`vno.utils.formatDate`](/zh/api/utils.md "#h2-22")。
+同 [`vno.utils.formatDate`](/zh/api/utils.md "#")。
 
 ## selectConf
 
@@ -200,7 +200,7 @@ v-no 版本号。
 
 - 类型：`typeof appSelf.selectConf`
 
-同 [`vno.appSelf.selectConf`](/zh/api/appSelf.md "#h2-2")。
+同 [`vno.appSelf.selectConf`](/zh/api/appSelf.md "#")。
 
 ## title
 
@@ -208,7 +208,7 @@ v-no 版本号。
 
 - 类型：`typeof mainSelf.title`
 
-同 [`vno.mainSelf.title`](/zh/api/mainSelf.md "#h2-3")。
+同 [`vno.mainSelf.title`](/zh/api/mainSelf.md "#")。
 
 ## filePath
 
@@ -216,7 +216,7 @@ v-no 版本号。
 
 - 类型：`typeof mainSelf.filePath`
 
-同 [`vno.mainSelf.filePath`](/zh/api/mainSelf.md "#h2-23")。
+同 [`vno.mainSelf.filePath`](/zh/api/mainSelf.md "#")。
 
 ## isIndexFile
 
@@ -224,7 +224,7 @@ v-no 版本号。
 
 - 类型：`typeof mainSelf.isIndexFile`
 
-同 [`vno.mainSelf.isIndexFile`](/zh/api/mainSelf.md "#h2-30")。
+同 [`vno.mainSelf.isIndexFile`](/zh/api/mainSelf.md "#")。
 
 ## reload
 
@@ -232,7 +232,7 @@ v-no 版本号。
 
 - 类型：`typeof mainSelf.reload`
 
-同 [`vno.mainSelf.reload`](/zh/api/mainSelf.md "#h2-34")。
+同 [`vno.mainSelf.reload`](/zh/api/mainSelf.md "#")。
 
 ## isSearchFile
 
@@ -240,7 +240,7 @@ v-no 版本号。
 
 - 类型：`typeof articleSelf.isSearchFile`
 
-同 [`vno.articleSelf.isSearchFile`](/zh/api/articleSelf.md "#h2-15")。
+同 [`vno.articleSelf.isSearchFile`](/zh/api/articleSelf.md "#")。
 
 ## toggleDark
 
@@ -248,7 +248,7 @@ v-no 版本号。
 
 - 类型：`typeof gadgetSelf.toggleDark`
 
-同 [`vno.gadgetSelf.toggleDark`](/zh/api/gadgetSelf.md "#h2-10")。
+同 [`vno.gadgetSelf.toggleDark`](/zh/api/gadgetSelf.md "#")。
 
 ## toggleZen
 
@@ -256,7 +256,7 @@ v-no 版本号。
 
 - 类型：`typeof gadgetSelf.toggleZen`
 
-同 [`vno.gadgetSelf.toggleZen`](/zh/api/gadgetSelf.md "#h2-11")。
+同 [`vno.gadgetSelf.toggleZen`](/zh/api/gadgetSelf.md "#")。
 
 ## toTop
 
@@ -264,7 +264,7 @@ v-no 版本号。
 
 - 类型：`typeof gadgetSelf.toTop`
 
-同 [`vno.gadgetSelf.toTop`](/zh/api/gadgetSelf.md "#h2-12")。
+同 [`vno.gadgetSelf.toTop`](/zh/api/gadgetSelf.md "#")。
 
 ## toBottom
 
@@ -272,4 +272,4 @@ v-no 版本号。
 
 - 类型：`typeof gadgetSelf.toBottom`
 
-同 [`vno.gadgetSelf.toBottom`](/zh/api/gadgetSelf.md "#h2-13")。
+同 [`vno.gadgetSelf.toBottom`](/zh/api/gadgetSelf.md "#")。

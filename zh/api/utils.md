@@ -199,7 +199,7 @@ vno.utils.replaceByRegExp(vno.regexp.getParamRegExp(), '{{ 0 }}llo Wo{{ 1 }}', (
     - `listener: EventListenerOrEventListenerObject`：监听器函数。
 - 返回值：无
 
-为元素添加事件监听器。它同时也会将移除监听器的函数 `push` 进 [`vno.utils.destructors`](/zh/api/utils.md "#h2-3")。
+为元素添加事件监听器。它同时也会将移除监听器的函数 `push` 进 [`vno.utils.destructors`](/zh/api/utils.md "#")。
 
 ## callAndListen(callback, event, element?, reside?)
 
@@ -233,7 +233,7 @@ vno.utils.replaceByRegExp(vno.regexp.getParamRegExp(), '{{ 0 }}llo Wo{{ 1 }}', (
     - `params?: TMessage`：需要嵌入的参数列表或字典。如果列表长度为 1，可以直接传入列表项。
 - 返回值：`string`
 
-根据索引键从当前[配置对象](/zh/api/config.md "#h2-2")的 [](/zh/docs/conf-messages.md "#")取出对应的字符串，支持使用[嵌入参数](/zh/docs/snippets.md "#h2-1")语法占位。
+根据索引键从当前[配置对象](/zh/api/config.md "#")的 [](/zh/docs/conf-messages.md "#")取出对应的字符串，支持使用[嵌入参数](/zh/docs/snippets.md "#h2-1")语法占位。
 
 ## parseDate(date)
 

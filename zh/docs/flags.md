@@ -16,4 +16,4 @@ $$: title $$ 是形如 `@tags: a, b, c` 的一组标记（注意使用英文冒�
 - `@cover`：页面头图，可以直接填入图片地址，也可以使用无 `alt` 的 Markdown 图片语法（`![](src)`，这主要是为了便于编辑器关联文件）。
 - `@creator`：文件创建者，不支持多项。
 - `@updater`：文件更新者，不支持多项。
-- 自定义 Flag：[预定义 Flag](/zh/api/enums.md "#h2-1")（$$:: utils.definedFlags.map(flag => `\`${flag}\``).join('、') $$，请避免和其中任何一项重名）之外的所有 Flag 标记都是自定义 Flag，不支持多项。
+- 自定义 Flag：[预定义 Flag](/zh/api/enums.md "#")（$$:: utils.definedFlags.map(flag => `\`${flag}\``).join('、') $$，请避免和其中任何一项重名）之外的所有 Flag 标记都是自定义 Flag，不支持多项。

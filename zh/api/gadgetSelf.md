@@ -14,7 +14,7 @@
 
 - 类型：`(key: string) => void`
 
-往 [`keyInput`](/zh/api/appSelf.md "#h2-1") 追加字符串的函数。
+往 [`keyInput`](/zh/api/appSelf.md "#") 追加字符串的函数。
 
 ## metaTheme
 
